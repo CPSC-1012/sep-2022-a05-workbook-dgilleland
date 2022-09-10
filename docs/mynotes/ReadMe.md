@@ -12,6 +12,9 @@
 - [**Recipies**](./Recipies.md)
 - [**Homework Notes**](./Homework.md)
 - [**Questions for Dan**](./Help.md)
+- [**Simplified C# Grammar**](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html) :arrow_upper_right:
+
+> I like using [GitHub Emojis](https://github.com/ikatyang/emoji-cheat-sheet)  :arrow_upper_right:.
 
 ----
 
