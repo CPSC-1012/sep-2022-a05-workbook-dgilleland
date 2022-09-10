@@ -6,7 +6,12 @@
 
 ## Table of Contents
 
-> *Create an un-ordered list here for your own table of contents, and add links to additional Markdown pages in this folder.*
+- [**Computer Setup**](./Setup.md)
+- [**Common Terminal Commands**](./TerminalCommands.md)
+- [**Using VS Code**](./VSCode.md)
+- [**Recipies**](./Recipies.md)
+- [**Homework Notes**](./Homework.md)
+- [**Questions for Dan**](./Help.md)
 
 ----
 
