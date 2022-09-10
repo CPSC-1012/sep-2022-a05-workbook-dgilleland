@@ -10,7 +10,8 @@
         "analytic-signal.preview-pdf",
         "ms-mssql.mssql",
         "bierner.markdown-emoji",
-        "ms-dotnettools.csharp"
+        "ms-dotnettools.csharp",
+        "donjayamanne.git-extension-pack"
     ],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
