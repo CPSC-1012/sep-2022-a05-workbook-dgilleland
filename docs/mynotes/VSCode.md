@@ -1,5 +1,7 @@
 # Using VS Code
 
+Visual Studio Code is an IDE that is highly keyboard-focused, which is great for developers who like to minimize the use of the mouse (like me).
+
 ## Side Panel Controls
 
 ### ![Explorer Icon](./images/VSCode-SidePanel-Explorer.png) Explorer
