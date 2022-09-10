@@ -1,10 +1,10 @@
-# CPSC-1012 - **Student Workbook** (Sep 2022)
+# CPSC-1012 - **Instructor Workbook** (Sep 2022 | A05)
 
 [C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
 
-> **STUDENT_NAME**
+> **Dan Gilleland**
 
-This repository is a **Student Workbook** containing [**demos**, **tutorials** and **practice materials**](./src/ReadMe.md). Learning Outcomes ([**LOGs**](./docs/learning_outcomes/ReadMe.md)) and other useful notes can be found in the [**docs** folder](./docs). Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes) folder for journaling what you are learning throughout this course.
+This repository is based off of the **Student Workbook** containing [**demos**, **tutorials** and **practice materials**](./src/ReadMe.md). Learning Outcomes ([**LOGs**](./docs/learning_outcomes/ReadMe.md)) and other useful notes can be found in the [**docs** folder](./docs). Also, you are encouraged to use the [**docs/mynotes**](./docs/mynotes) folder for journaling what you are learning throughout this course.
 
 > :warning: **Do *NOT*** use this repository for any assignments that are worth marks. :warning:
 
