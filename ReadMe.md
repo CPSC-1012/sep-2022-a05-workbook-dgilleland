@@ -17,7 +17,7 @@ Additionally, you can find online notes at the [MS Teams Site](https://www.micro
 Required tools for this course include:
 
 - [Visual Studio Code](https://code.visualstudio.com) (see [Notes]() on VS Code extensions)
-  - Alternativly, you can use [Visual Studio 2022, Community Edition](https://visualstudio.microsoft.com/) (see [Notes](#vs-2022-community) on the minimum version)
+  - Alternatively, you can use [Visual Studio 2022, Community Edition](https://visualstudio.microsoft.com/) (see [Notes](#vs-2022-community) on the minimum version)
 - [Git for Windows/macOS/Linux](https://git-scm.com/downloads)
 - [GitHub CLI](https://cli.github.com/) (*Command-Line Interface*)
 
@@ -29,6 +29,24 @@ Other recommended resources include:
 Advanced resources outside the scope of this course include:
 
 - [Azure Developer Tools](https://azureforeducation.microsoft.com/devtools) - Sign in with your school-issued email address to get access to the free resources offered by Microsoft.
+
+----
+
+### VS Code
+
+This term, I will be focusing on using **Visual Studio Code** as the primary editor. Notice how in your workbook, you will have *recommended extensions*; I've also added a few more extensions. Here's the list that I will be using this term.
+
+![](./docs/images/vs-code-extensions.png)
+
+- [CodeTour](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour)
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+- [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
+- [PDF Preview](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
+- [SQL Server (mssql)](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+- [Markdown Emoji](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-emoji)
+- [**C#**](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- [**Git Extension Pack**](https://marketplace.visualstudio.com/items?itemName=donjayamanne.git-extension-pack)
+- [**Git Graph**](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ----
 
