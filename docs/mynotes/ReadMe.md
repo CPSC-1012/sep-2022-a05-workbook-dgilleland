@@ -1,5 +1,7 @@
 # My Notes - A Journal of Discovery
 
+These are my notes, but feel free to copy information from here into your own workbook. I recommend doing so by TYPING, not copy/paste, but you are still on your own.
+
 [![Scuba](./images/stick_figure_scuba.gif)](#credits)
 
 > Your first learning adventure should begin with [**Mastering Markdown**](https://guides.github.com/features/mastering-markdown/). Learning how to use Markdown now will really help you focus on capturing **content** in this journal. :sunglasses:
