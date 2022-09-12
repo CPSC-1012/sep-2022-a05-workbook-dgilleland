@@ -15,6 +15,8 @@ Here I will be making notes about what I will be teaching in class.
 > - Use the `Math` class functions for common formulas and values
 > - Perform arithmetic operations and calculations on numeric values
 
+> :memo: **Side-Note:** The [Markdown Guide](https://www.markdownguide.org/) is another great resource I would recommend.
+
 - **Demos:**
   - [Square](https://programming-0101.github.io/TheBook/Topic/E/Examples/Square.html) calculations - given the $side$
     - $\text{area} = side^{2}$
