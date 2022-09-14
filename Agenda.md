@@ -11,11 +11,23 @@ Here I will be making notes about what I will be teaching in class.
 > - Access your student workbook from school and from home
 > - Create and manage projects in your student workbook
 > - Perform version control operations in VS Code
+
+> :memo: **Side-Note:** The [Markdown Guide](https://www.markdownguide.org/) is another great resource I would recommend.
+
+----
+
+## Wednesday, Sep 14
+
+
+> *At the end of this topic/class, you should be able to:*
+> 
 > - Apply `use static` statements for simplifying the use of static members of common classes (such as the `Console` class)
 > - Use the `Math` class functions for common formulas and values
 > - Perform arithmetic operations and calculations on numeric values
-
-> :memo: **Side-Note:** The [Markdown Guide](https://www.markdownguide.org/) is another great resource I would recommend.
+> - Perform User I/O
+> - Convert textual information into numeric information (where possible)
+> - Describe how to access and submit marked assignments in this course
+> - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
 
 - **Demos:**
   - [Square](https://programming-0101.github.io/TheBook/Topic/E/Examples/Square.html) calculations - given the $side$
@@ -32,15 +44,4 @@ Here I will be making notes about what I will be teaching in class.
   - [Cone](https://programming-0101.github.io/TheBook/Topic/E/Practice/Cone.html) calculations - given the base radius ($r$) and the height ($h$)
     - $\text{Volume of a Cylinder} = \frac{1}{3} \cdot pi \cdot r^2 \cdot h$
     - $\text{Surface Area of a Cylinder} = 2 \cdot pi \cdot r^2 + 2 \cdot pi \cdot r \cdot h$
-
-----
-
-## Wednesday, Sep 14
-
-
-> *At the end of this topic/class, you should be able to:*
-> 
-> - Describe how to access and submit marked assignments in this course
-> - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
-> - *TBD*
  
