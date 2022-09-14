@@ -41,7 +41,7 @@ Here I will be making notes about what I will be teaching in class.
   - [Cylinder](https://programming-0101.github.io/TheBook/Topic/E/Practice/Cylinder.html) calculations - given the $radius$ and the $height$
     - $\text{Volume of a Cylinder} = pi \cdot r^2 \cdot h$
     - $\text{Surface Area of a Cylinder} = 2 \cdot pi \cdot r^2 + 2 \cdot pi \cdot r \cdot h$
-  - [Cone](https://programming-0101.github.io/TheBook/Topic/E/Practice/Cone.html) calculations - given the base radius ($r$) and the height ($h$)
+  - [Cone](https://programming-0101.github.io/TheBook/Topic/E/Practice/Cone.html) calculations - given the base radius $r$ and the height $h$, the formulas are:
     - $\text{Volume of a Cylinder} = \frac{1}{3} \cdot pi \cdot r^2 \cdot h$
     - $\text{Surface Area of a Cylinder} = 2 \cdot pi \cdot r^2 + 2 \cdot pi \cdot r \cdot h$
  
