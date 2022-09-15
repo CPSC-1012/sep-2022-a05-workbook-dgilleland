@@ -1,6 +1,8 @@
 # CPSC-1012 - **Instructor Workbook** (Sep 2022 | A05)
 
-[C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
+- [C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
+- [Learn C# BASICS in 10 MINUTES!](https://youtu.be/IFayQioG71A)
+- [Top 10 C# Best Practices (plus bonuses)](https://youtu.be/-9b8NRqjUFM)
 
 > **Dan Gilleland**
 
