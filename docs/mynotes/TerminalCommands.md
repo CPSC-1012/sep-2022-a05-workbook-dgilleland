@@ -36,7 +36,7 @@ mkdir "My Sandbox"
 
 ## `DotNet` Commands
 
-You can find help on all the `dotnet` commands by using the `--help` flag. For example, to find help on the `new` command, you would type
+For reference, see the [official documentation on the .NET CLI](https://docs.microsoft.com/en-us/dotnet/core/tools/). You can find help on all the `dotnet` commands by using the `--help` flag. For example, to find help on the `new` command, you would type
 
 ```shell
 dotnet new --help
