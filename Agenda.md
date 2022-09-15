@@ -45,3 +45,8 @@ Here I will be making notes about what I will be teaching in class.
     - $\text{Volume of a Cylinder} = \frac{1}{3} \cdot pi \cdot r^2 \cdot h$
     - $\text{Surface Area of a Cylinder} = 2 \cdot pi \cdot r^2 + 2 \cdot pi \cdot r \cdot h$
  
+----
+
+## Friday, Sep 16
+
+
