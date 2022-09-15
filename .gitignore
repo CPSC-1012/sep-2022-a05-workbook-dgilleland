@@ -21,6 +21,7 @@
 
 [Ww]orkbook*.patch
 .snag  # Snag-It files
+__Class_Pull_Requests/
 
 # VuePress
 .vuepress/dist/
