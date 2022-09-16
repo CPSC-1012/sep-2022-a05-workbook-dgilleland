@@ -69,3 +69,13 @@ Here I will be making notes about what I will be teaching in class.
 $$
 x = \frac{-b \plusmn \sqrt{b^{2} - 4ac}}{2a}
 $$
+
+
+### Homework - Official Git Videos
+
+- Watch the following videos
+  - [ ] [What is Version Control?](https://git-scm.com/video/what-is-version-control) Length: 05:59
+  - [ ] [Get Going with Git](https://git-scm.com/video/what-is-git) Length: 04:26
+  - [ ] [What is Git?](https://git-scm.com/video/get-going) Length: 08:15
+  - [ ] [Quick Wins with Git](https://git-scm.com/video/quick-wins) Length: 05:06
+- Check out additional recommended tutorials, books, videos, and courses from their [External Links](https://git-scm.com/doc/ext)
