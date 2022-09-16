@@ -60,3 +60,11 @@ Here I will be making notes about what I will be teaching in class.
 > - Describe the algorithm used to prompt for user input
 > - Describe how to access and submit marked assignments in this course
 > - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
+
+- **Demos:**
+  - Re-write the [Cylinder](./src/005/Program.cs) and [Cone](./src/006/Program.cs) examples to `use static System.Console`
+  - [Quadratic Equation](https://programming-0101.github.io/TheBook/Topic/E/Examples/QuadraticEquation.html)
+
+$$
+x = \frac{-b \plusmn \sqrt{b^{2} - 4ac}}{2a}
+$$
