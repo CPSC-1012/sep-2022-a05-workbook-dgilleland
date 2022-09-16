@@ -58,7 +58,6 @@ Here I will be making notes about what I will be teaching in class.
 > - Perform special arithmetic tasks using the Math class
 >   - Rounding, Power, etc.
 > - Format output as currency
-> - Describe the algorithm used to prompt for user input
 > - Describe how to access and submit marked assignments in this course
 > - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
 
