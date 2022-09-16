@@ -51,9 +51,11 @@ Here I will be making notes about what I will be teaching in class.
 > 
 > - Select your active project for OmniSharp in Visual Studio Code
 > - Apply `use static` statements to simplify the use of static members of common classes (such as the `Console` class)
+> - Explain how and why constants in our programs are a better alternative to "ad-hoc" literal values
 > - Perform special arithmetic tasks using the Math class
 >   - Rounding, Power, etc.
 > - Format output as currency
 > - Describe the algorithm used to prompt for user input
+> - Follow proper standards for code
 > - Describe how to access and submit marked assignments in this course
 > - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
