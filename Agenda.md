@@ -52,6 +52,7 @@ Here I will be making notes about what I will be teaching in class.
 > - Select your active project for OmniSharp in Visual Studio Code
 > - Apply `use static` statements to simplify the use of static members of common classes (such as the `Console` class)
 > - Follow proper coding standards for C#
+>   - e.g.: `thisIsAVariable`, `ThisIsATypeOrClassMember` and `THIS_IS_A_CONSTANT`
 > - Explain how and why constants in our programs are a better alternative to "ad-hoc" literal values
 > - Perform special arithmetic tasks using the Math class
 >   - Rounding, Power, etc.
