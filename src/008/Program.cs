@@ -15,6 +15,6 @@ WriteLine($"The value of {status} is {statusValue}");
 // Integer division
 int firstNumber = 5, secondNumber = 3;
 WriteLine($" 5 / 3 is {firstNumber / secondNumber}"); // Notice the expression
-
+WriteLine($" 5 % 3 is {firstNumber % secondNumber}"); // Modulus
 
 
