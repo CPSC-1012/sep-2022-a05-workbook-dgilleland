@@ -19,5 +19,5 @@ WriteLine($" 5 % 3 is {firstNumber % secondNumber}"); // Modulus
 
 firstNumber = firstNumber + 7; // Can you predict the result??
 WriteLine($"The new value for firstNumber is {firstNumber}");
-firstNumber += 9; // Can you predict the result??
+firstNumber += 9 * 2 + 1; // Can you predict the result??
 WriteLine($"Now the value of firstNumber is {firstNumber}");
