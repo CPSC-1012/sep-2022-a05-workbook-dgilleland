@@ -9,6 +9,6 @@ WriteLine($"Basic tuition is {tuition:C}"); // format the tuition as Currency
 int torpedoCount = 10;
 char status = 'a'; // for "Armed"
 bool hitTarget;
-int statusValue = status;
+int statusValue = status; //btw, don't do this - treating chars as ints is poor programming....
 WriteLine($"The value of {status} is {statusValue}");
 
