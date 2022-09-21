@@ -102,3 +102,6 @@ $$
 > 
 > - Format output as currency
 
+- Practice Calculations
+  - Look at [Calculator.net](https://www.calculator.net/) for various ideas
+
