@@ -12,3 +12,9 @@ bool hitTarget;
 int statusValue = status; //btw, don't do this - treating chars as ints is poor programming....
 WriteLine($"The value of {status} is {statusValue}");
 
+// Integer division
+int firstNumber = 5, secondNumber = 3;
+WriteLine($" 5 / 3 is {firstNumber / secondNumber}"); // Notice the expression
+
+
+
