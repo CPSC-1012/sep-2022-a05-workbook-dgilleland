@@ -84,6 +84,7 @@ $$
 
 > *At the end of this topic/class, you should be able to:*
 > 
+> - ??
 > - Describe how to access and submit marked assignments in this course
 > - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
 
@@ -93,6 +94,7 @@ $$
 
 > *At the end of this topic/class, you should be able to:*
 > 
+> - Create constants in C#
 
 ----
 
@@ -101,6 +103,23 @@ $$
 > *At the end of this topic/class, you should be able to:*
 > 
 > - Format output as currency
+> - Describe and use the following intrinsic data types in a computer program: `char`, `int`, `long`, `short`, `byte`, `double`, `float`, `bool`
+> - Describe and use the following data types from the `System` namespace: `DateTime`, `TimeSpan`, `DateOnly`, `TimeOnly`
+> - Describe what is meant by the term "expression"
+> - Explain the difference between program statements and expressions as well as how the two relate to each other
+> - List the four general sets of operators in C#
+> - Describe the two basic rules of using arithmetic operators that every compiler must follow.
+> - Explain what is meant by "integer division" and how that can be useful in solving particular problems regarding numbers.
+> - Explain the purpose of the modulus (%) operator
+> - List and describe how to use the various assignment operators in C#
+> - Explain the difference between binary and unary operators
+> - Demonstrate understanding of operator precedence and how to override the default precedence of the arithmetic operators
+> - Summarize and distinguish the rules for automatic type conversion involving arithmetic operators and the assignment operator
+> - Determine the final data type for expressions involving mixed data types and type conversion
+> - Describe "type casting" and explain how to use it appropriately.
+> - Use Math rounding methods with arithmetic expressions to round real numbers to a specific precision
+
+(src: [The Book](https://programming-0101.github.io/TheBook/About/log-summary.html))
 
 - Practice Calculations
   - Look at [Calculator.net](https://www.calculator.net/) for various ideas
