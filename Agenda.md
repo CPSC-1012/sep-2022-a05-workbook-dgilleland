@@ -57,9 +57,6 @@ Here I will be making notes about what I will be teaching in class.
 > - Explain how and why constants in our programs are a better alternative to "ad-hoc" literal values
 > - Perform special arithmetic tasks using the Math class
 >   - Rounding, Power, etc.
-> - Format output as currency
-> - Describe how to access and submit marked assignments in this course
-> - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
 
 - **Demos:**
   - Re-write the [Cylinder](./src/005/Program.cs) and [Cone](./src/006/Program.cs) examples to `use static System.Console`
@@ -78,3 +75,30 @@ $$
   - [ ] [What is Git?](https://git-scm.com/video/get-going) Length: 08:15
   - [ ] [Quick Wins with Git](https://git-scm.com/video/quick-wins) Length: 05:06
 - Check out additional recommended tutorials, books, videos, and courses from their [External Links](https://git-scm.com/doc/ext)
+
+
+----
+
+## Friday, Sep 16
+
+
+> *At the end of this topic/class, you should be able to:*
+> 
+> - Describe how to access and submit marked assignments in this course
+> - Enable/Disable auto-committing using the the [GitDoc]() extension appropriately for marked assignments
+
+----
+
+## Monday, Sep 19
+
+> *At the end of this topic/class, you should be able to:*
+> 
+
+----
+
+## Wednesday, Sep 21
+
+> *At the end of this topic/class, you should be able to:*
+> 
+> - Format output as currency
+
