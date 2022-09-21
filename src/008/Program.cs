@@ -7,7 +7,7 @@ WriteLine($"Basic tuition is {tuition:C}"); // format the tuition as Currency
 
 // Demo some basic data types.
 int torpedoCount = 10;
-char status = 'A'; // for "Armed"
+char status = 'a'; // for "Armed"
 bool hitTarget;
 int statusValue = status;
 WriteLine($"The value of {status} is {statusValue}");
