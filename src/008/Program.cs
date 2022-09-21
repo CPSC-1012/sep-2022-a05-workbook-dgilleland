@@ -23,3 +23,4 @@ firstNumber += 9 * 2 + 1; // Can you predict the result??
 WriteLine($"Now the value of firstNumber is {firstNumber}");
 secondNumber++; // Increment the value of secondNumber by 1
 WriteLine($"The value of secondNumber is {secondNumber}");
+WriteLine($"What happens with post-fix increment? {secondNumber++}");
