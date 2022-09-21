@@ -25,3 +25,4 @@ secondNumber++; // Increment the value of secondNumber by 1
 WriteLine($"The value of secondNumber is {secondNumber}");
 WriteLine($"What happens with post-fix increment? {secondNumber++}");
 WriteLine($"But the value actually is {secondNumber}");
+WriteLine($"Using prefix notation: {++secondNumber}");
