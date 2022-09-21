@@ -123,4 +123,5 @@ $$
 
 - Practice Calculations
   - Look at [Calculator.net](https://www.calculator.net/) for various ideas
-
+- Homework:
+  - Study the [Learning Outcome Guide Review](https://programming-0101.github.io/TheBook/About/log-summary.html) from The Book
