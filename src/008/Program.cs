@@ -36,3 +36,15 @@ WriteLine("B) Launch more than one torpedo");
 Write("\n\tSelect an option: ");
 string userInput = ReadLine();
 
+var rnd = new Random(); // let's add some randomness to our program.. :)
+if(userInput == "A")
+{
+    if(rnd.Next(1, 10) > 8)
+        WriteLine("\tYou scored a HIT!");
+    else
+        WriteLine("\tToo bad. Now they are hunting for you....");
+    torpedoCount--;
+}
+
+WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
+
