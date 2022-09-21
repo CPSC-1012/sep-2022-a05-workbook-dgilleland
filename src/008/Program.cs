@@ -39,7 +39,7 @@ string userInput = ReadLine();
 Random rnd = new Random(); // let's add some randomness to our program.. :)
 if(userInput == "A")
 {
-    if(rnd.Next(1, 10) > 8)
+    if(rnd.Next(1, 10) >= 8)
         WriteLine("\tYou scored a HIT!");
     else
         WriteLine("\tToo bad. Now they are hunting for you....");
