@@ -2,6 +2,32 @@
 
 Here I will be making notes about what I will be teaching in class.
 
+----
+
+## *Early Days*
+
+> *At the end of this topic/class, you should be able to:*
+> 
+> - Answer the question "What is a computer program?"
+> - List the three categories of simple information
+> - Compare and contrast simple (primitive) information with complex information
+> - List the three ways of organizing the "flow" of instructions in a computer program
+> - Define the term "keyword" as it applies to programming languages
+> - Define the concepts of "syntax" and "grammar" as they apply to programming languages
+> - Explain what is meant by a "case-sensitive" programming language
+> - Explain what is meant by a "type-safe" or "strongly-typed" programming language
+> - Explain what is meant by an "extensible" programming language
+> - Define the term "identifier" as it applies to programming languages
+> - Define the term "program statement" and identify how the computer recognizes a program statement
+> - Identify the entry point for every computer program
+> - Define the term "intrinsic data type"
+
+> - Define the term "IDE" as it relates to software development tools
+> - Create a new project in the IDE for this course
+> - Perform simple output to the console using System.Console
+
+
+----
 
 ## Monday, Sep 12
 
