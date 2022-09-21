@@ -26,3 +26,7 @@ WriteLine($"The value of secondNumber is {secondNumber}");
 WriteLine($"What happens with post-fix increment? {secondNumber++}");
 WriteLine($"But the value actually is {secondNumber}");
 WriteLine($"Using prefix notation: {++secondNumber}");
+
+
+WriteLine("===================");
+// Let's play with if statements
