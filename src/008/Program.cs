@@ -30,3 +30,9 @@ WriteLine($"Using prefix notation: {++secondNumber}");
 
 WriteLine("===================");
 // Let's play with if statements
+WriteLine("\nSubmarine Game\n");
+WriteLine("A) Launch a torpedo");
+WriteLine("B) Launch more than one torpedo");
+Write("\n\tSelect an option: ");
+string userInput = ReadLine();
+
