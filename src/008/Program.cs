@@ -2,6 +2,12 @@
 using static System.Console;
 using static System.Math;
 double tuition = 5500;
-WriteLine($"Basic tuition is {tuition:C}");
+// string interpolation for my output
+WriteLine($"Basic tuition is {tuition:C}"); // format the tuition as Currency
+
+// Demo some basic data types.
+int torpedoCount = 10;
+char status = 'A'; // for "Armed"
+bool hitTarget;
 
 
