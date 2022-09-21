@@ -21,3 +21,4 @@ firstNumber = firstNumber + 7; // Can you predict the result??
 WriteLine($"The new value for firstNumber is {firstNumber}");
 firstNumber += 9 * 2 + 1; // Can you predict the result??
 WriteLine($"Now the value of firstNumber is {firstNumber}");
+secondNumber++; // Increment the value of secondNumber by 1
