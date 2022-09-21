@@ -24,3 +24,4 @@ WriteLine($"Now the value of firstNumber is {firstNumber}");
 secondNumber++; // Increment the value of secondNumber by 1
 WriteLine($"The value of secondNumber is {secondNumber}");
 WriteLine($"What happens with post-fix increment? {secondNumber++}");
+WriteLine($"But the value actually is {secondNumber}");
