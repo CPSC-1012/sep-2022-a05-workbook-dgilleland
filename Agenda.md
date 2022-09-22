@@ -144,6 +144,9 @@ $$
 > - Determine the final data type for expressions involving mixed data types and type conversion
 > - Describe "type casting" and explain how to use it appropriately.
 > - Use Math rounding methods with arithmetic expressions to round real numbers to a specific precision
+> - Define the terms Reference Type and Value Type as they apply to data types in C#
+> - **Introduction to `if`/`else`**
+> - **List the relational operators**
 
 (src: [The Book](https://programming-0101.github.io/TheBook/About/log-summary.html))
 
@@ -152,4 +155,28 @@ $$
 - Homework:
   - Study the [Learning Outcome Guide Review](https://programming-0101.github.io/TheBook/About/log-summary.html) from The Book
 
+## Friday, Sep 23
 
+> *At the end of this topic/class, you should be able to:*
+> 
+> - List and describe some of the commonly used fields and methods of the String class
+> - List the logical operators
+> - Use relational, logical, and arithmetic operators to construct conditional expressions
+> - Demonstrate an understanding of operator precedence in conditional expressions
+> - Use statement blocks to allow nesting program statements into control structures
+> - Define the term "boundary condition" as it relates to if-else statements and testing
+> - Identify the correct way to compare or check the contents of strings in conditional expressions
+> - List and describe the commonly used fields and methods of the String class that would be used in if-else statements
+
+
+## Monday, Sep 26
+
+> *At the end of this topic/class, you should be able to:*
+> 
+> - Describe the "DRY" principle as it relates to writing code
+> - Define the term "method" and give an example
+> - Describe the syntax of a method declaration (aka, method implementation)
+> - Describe the syntax of a method call
+> - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
+> - Define and distinguish the terms "argument" and "parameter"
+> - Create methods in a Top Level Program to assist in keeping your code "DRY"
