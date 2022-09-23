@@ -56,6 +56,10 @@ else // We are assuming the user entered "B"
     //      \       2nd       /
     //   <== \      3rd      /
 }
+if(rnd.Next(1, 11) >= chance - count)
+    WriteLine("\tYou scored a HIT!");
+else
+    WriteLine("\tToo bad. Now they are hunting for you....");
 
 
 WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
