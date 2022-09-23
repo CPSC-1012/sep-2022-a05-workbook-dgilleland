@@ -33,6 +33,8 @@ bool hitTarget;
 WriteLine("\nSubmarine Game\n");
 WriteLine("A) Launch a torpedo");
 WriteLine("B) Launch more than one torpedo");
+WriteLine("C) Run and hide");
+
 Write("\n\tSelect an option: ");
 string userInput = ReadLine().ToUpper();
 //                 \ string /
@@ -43,20 +45,27 @@ string userInput = ReadLine().ToUpper();
 int chance = 10;
 int count;
 Random rnd = new Random(); // let's add some randomness to our program.. :)
-if(userInput == "A")
+
+switch(userInput)
 {
-    count = 1;
-    torpedoCount--;
+    case "A":
+        count = 1;
+        torpedoCount--;
+        break;
+    case "B":
+        Write("How many torpeodoes (max 10)? ");
+        count = int.Parse(ReadLine());
+        //                \   1st  /
+        //      \       2nd       /
+        //   <== \      3rd      /
+        torpedoCount -= count;
+        break;
+    default:
+        Write("\n\tDIVE, DIVE, DIVE");
+        count = 0;
+        break;
 }
-else // We are assuming the user entered "B"
-{
-    Write("How many torpeodoes (max 10)? ");
-    count = int.Parse(ReadLine());
-    //                \   1st  /
-    //      \       2nd       /
-    //   <== \      3rd      /
-}
-if(rnd.Next(1, 11) >= chance - count)
+if(rnd.Next(1, 11) > chance - count)
     WriteLine("\tYou scored a HIT!");
 else
     WriteLine("\tToo bad. Now they are hunting for you....");
