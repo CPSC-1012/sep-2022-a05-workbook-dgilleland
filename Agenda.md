@@ -157,6 +157,8 @@ $$
 
 ## Friday, Sep 23
 
+- :bulb: [Install Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
 > *At the end of this topic/class, you should be able to:*
 > 
 > - List and describe some of the commonly used fields and methods of the String class
@@ -167,6 +169,9 @@ $$
 > - Define the term "boundary condition" as it relates to if-else statements and testing
 > - Identify the correct way to compare or check the contents of strings in conditional expressions
 > - List and describe the commonly used fields and methods of the String class that would be used in if-else statements
+> - Identify how to get the exit code for the last executed program
+>   - `$?` returns `True` if the last operation succeeded, `False` if it did not
+>   - `$LASTEXITCODE` returns the exit code of the last Win32 program that was run
 
 
 ## Monday, Sep 26
