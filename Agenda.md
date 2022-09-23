@@ -159,6 +159,9 @@ $$
 
 - :bulb: [Install Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 - :100: Note the [**Additional Resources** list](./docs/AdditionalResources.md).
+- Slideshows:
+  - [**C# Programming** - Foundational Concepts for Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/00-FoundationalConcepts.html)
+  - [**A Simplified C# Grammar**](https://programming-0101.github.io/slides/OOP-Ramp-Up/01-Grammar.html)
 
 ![](./docs/images/MathGenius.jpg)
 
