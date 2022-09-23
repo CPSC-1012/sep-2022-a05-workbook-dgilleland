@@ -40,16 +40,23 @@ string userInput = ReadLine().ToUpper();
 //                   \      string     /
 //                    \      "A"      /
 //     userInput <= store a string
-
+int chance = 10;
+int count;
 Random rnd = new Random(); // let's add some randomness to our program.. :)
 if(userInput == "A")
 {
-    if(rnd.Next(1, 10) >= 8)
-        WriteLine("\tYou scored a HIT!");
-    else
-        WriteLine("\tToo bad. Now they are hunting for you....");
+    count = 1;
     torpedoCount--;
 }
+else // We are assuming the user entered "B"
+{
+    Write("How many torpeodoes (max 10)? ");
+    count = int.Parse(ReadLine());
+    //                \   1st  /
+    //      \       2nd       /
+    //   <== \      3rd      /
+}
+
 
 WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
 
