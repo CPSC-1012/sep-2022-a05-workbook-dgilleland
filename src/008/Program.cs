@@ -6,9 +6,7 @@ using static System.Math;
 // WriteLine($"Basic tuition is {tuition:C}"); // format the tuition as Currency
 
 // Demo some basic data types.
-int torpedoCount = 10;
 // char status = 'a'; // for "Armed"
-bool hitTarget;
 // int statusValue = status; //btw, don't do this - treating chars as ints is poor programming....
 // WriteLine($"The value of {status} is {statusValue}");
 
@@ -29,6 +27,8 @@ bool hitTarget;
 
 
 WriteLine("===================");
+int torpedoCount = 10;
+bool hitTarget;
 // Let's play with if statements
 WriteLine("\nSubmarine Game\n");
 WriteLine("A) Launch a torpedo");
