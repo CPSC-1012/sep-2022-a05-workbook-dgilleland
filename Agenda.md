@@ -188,7 +188,7 @@ $$
 - [**ParkingCounter**](./src/015/ReadMe.md) - This program represents a simple counter to monitor whether a parking lot is full or not; it tracks vehicles entering and leaving the parking lot and allows the counter to be reset when the lot is full or empty. This program illustrates increment and decrement operators and/or the assignment increment or assignment decrement operators. *(Adapted from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/ParkingCounter.html))*
 - [**MemoryAddress**](./src/016/ReadMe.md) - This program represents a single memory address in both its base 10 and hexadecimal value. *(Adapted from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/MemoryAddress.html))*
 - [**Color**](./src/017/ReadMe.md) - This program represents a color as three base-10 RGB values and as a single hexadecimal value. *(Adapted from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/Color.html))*
-- [**Base16**]](./src/018/ReadMe.md) - This program represents an integer value as a base-16 hexadecimal number. *(Adapted from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/Base16.html))*
+- [**Base16**](./src/018/ReadMe.md) - This program represents an integer value as a base-16 hexadecimal number. *(Adapted from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/Base16.html))*
 
 ## Monday, Sep 26
 
