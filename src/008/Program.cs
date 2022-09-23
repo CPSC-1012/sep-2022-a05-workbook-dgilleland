@@ -34,7 +34,12 @@ WriteLine("\nSubmarine Game\n");
 WriteLine("A) Launch a torpedo");
 WriteLine("B) Launch more than one torpedo");
 Write("\n\tSelect an option: ");
-string userInput = ReadLine();
+string userInput = ReadLine().ToUpper();
+//                 \ string /
+//                  \  "a"   .ToUpper() /
+//                   \      string     /
+//                    \      "A"      /
+//     userInput <= store a string
 
 Random rnd = new Random(); // let's add some randomness to our program.. :)
 if(userInput == "A")
