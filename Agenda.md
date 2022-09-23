@@ -158,6 +158,7 @@ $$
 ## Friday, Sep 23
 
 - :bulb: [Install Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+- :100: Note the [**Additional Resources** list](./docs/AdditionalResources.md).
 
 > *At the end of this topic/class, you should be able to:*
 > 
