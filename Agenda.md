@@ -181,10 +181,6 @@ $$
 > - Identify the correct way to compare or check the contents of strings in conditional expressions
 > - List and describe some of the commonly used fields and methods of the String class
 > - Identify commonly used fields and methods of the String class that would typically be used in if-else statements
-> - **Explain the purpose of exit codes for console applications**
-> - **Identify how to get the exit code for the last executed program**
->   - `$?` returns `True` if the last operation succeeded, `False` if it did not
->   - `$LASTEXITCODE` returns the exit code of the last Win32 program that was run
 
 ### Homework/Practice
 
@@ -202,6 +198,10 @@ $$
 
 > *At the end of this topic/class, you should be able to:*
 > 
+> - **Explain the purpose of exit codes for console applications**
+> - **Identify how to get the exit code for the last executed program**
+>   - `$?` returns `True` if the last operation succeeded, `False` if it did not
+>   - `$LASTEXITCODE` returns the exit code of the last Win32 program that was run
 > - Describe the "DRY" principle as it relates to writing code
 > - Define the term "method" and give an example
 > - Describe the syntax of a method declaration (aka, method implementation)
@@ -209,3 +209,4 @@ $$
 > - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
 > - Define and distinguish the terms "argument" and "parameter"
 > - Create methods in a Top Level Program to assist in keeping your code "DRY"
+
