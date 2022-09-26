@@ -17,17 +17,10 @@ WriteLine("A) Launch a torpedo");
 WriteLine("B) Launch more than one torpedo");
 WriteLine("C) Run and hide");
 
-Write("\n\tSelect an option: ");
-string userInput = ReadLine().ToUpper();
-//                 \ string /
-//                  \  "a"   .ToUpper() /
-//                   \      string     /
-//                    \      "A"      /
-//     userInput <= store a string
 int chance = 10;
-int count;
+int count = 0; // Initialize to nothing
 Random rnd = new Random(); // let's add some randomness to our program.. :)
-
+string userInput = Prompt("\n\tSelect an option: ").ToUpper();
 switch(userInput)
 {
     case "A":
@@ -41,16 +34,9 @@ switch(userInput)
         //      \       2nd       /
         //   <== \      3rd      /
         if(count < 1)
-        {
-            Error.WriteLine($"You cannot fire {count} torpedoes - pick a number above zero");
-            return NUMBER_TOO_LOW;
-        }
+            QuitProgram($"You cannot fire {count} torpedoes - pick a number above zero", NUMBER_TOO_LOW);
         if(count > torpedoCount)
-        {
-            Error.WriteLine($"Not enought torpedoes - cannot fire {count} torpedoes");
-            return NUMBER_TOO_HIGH;
-        }
-
+            QuitProgram($"Not enought torpedoes - cannot fire {count} torpedoes", NUMBER_TOO_HIGH);
         torpedoCount -= count;
         break;
     case "C":
@@ -58,10 +44,8 @@ switch(userInput)
         count = 0;
         break;
     default:
-        // Tell the user about the problem
-        Error.WriteLine($"\"{userInput}\" is not a valid menu choice");
-        // Exit my program (because I haven't learned loops yet to get a better input)
-        return BAD_MENU_CHOICE;
+        QuitProgram($"\"{userInput}\" is not a valid menu choice", BAD_MENU_CHOICE);
+        break;
 }
 if(rnd.Next(1, 11) > chance - count)
     WriteLine("\tYou scored a HIT!");
@@ -71,3 +55,18 @@ else
 WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
 
 return FINISHED;
+
+/******* Methods in my Program Class *******/
+static void QuitProgram(string message, int errorCode)
+{
+    Error.WriteLine(message);
+    Environment.Exit(errorCode);
+}
+
+static string Prompt(string message)
+{
+    Write(message);
+    string userInput;
+    userInput = ReadLine();
+    return userInput;
+}
