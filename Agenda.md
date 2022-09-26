@@ -204,9 +204,11 @@ $$
 >   - `$LASTEXITCODE` returns the exit code of the last Win32 program that was run
 > - Describe the "DRY" principle as it relates to writing code
 > - Define the term "method" and give an example
-> - Describe the syntax of a method declaration (aka, method implementation)
-> - Describe the syntax of a method call
+> - Describe the [syntax of a method declaration](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#classes-and-class-members) (aka, method implementation)
+> - Describe the [syntax of a method call](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#method-calls)
 > - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
 > - Define and distinguish the terms "argument" and "parameter"
 > - Create methods in a Top Level Program to assist in keeping your code "DRY"
+
+----
 
