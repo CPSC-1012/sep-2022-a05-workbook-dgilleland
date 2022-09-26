@@ -1,30 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using static System.Console;
-using static System.Math;
-// double tuition = 5500;
-// // string interpolation for my output
-// WriteLine($"Basic tuition is {tuition:C}"); // format the tuition as Currency
 
-// Demo some basic data types.
-// char status = 'a'; // for "Armed"
-// int statusValue = status; //btw, don't do this - treating chars as ints is poor programming....
-// WriteLine($"The value of {status} is {statusValue}");
-
-// // Integer division
-// int firstNumber = 5, secondNumber = 3;
-// WriteLine($" 5 / 3 is {firstNumber / secondNumber}"); // Notice the expression
-// WriteLine($" 5 % 3 is {firstNumber % secondNumber}"); // Modulus
-
-// firstNumber = firstNumber + 7; // Can you predict the result??
-// WriteLine($"The new value for firstNumber is {firstNumber}");
-// firstNumber += 9 * 2 + 1; // Can you predict the result??
-// WriteLine($"Now the value of firstNumber is {firstNumber}");
-// secondNumber++; // Increment the value of secondNumber by 1
-// WriteLine($"The value of secondNumber is {secondNumber}");
-// WriteLine($"What happens with post-fix increment? {secondNumber++}");
-// WriteLine($"But the value actually is {secondNumber}");
-// WriteLine($"Using prefix notation: {++secondNumber}");
-
+// Let's make some constants
+const int FINISHED = 0;
+const int BAD_MENU_CHOICE = 1;
+const int NUMBER_TOO_LOW = 2;
+const int NUMBER_TOO_HIGH = 3;
+const int NOT_A_NUMBER = 4;
 
 WriteLine("===================");
 int torpedoCount = 10;
@@ -61,12 +43,12 @@ switch(userInput)
         if(count < 1)
         {
             Error.WriteLine($"You cannot fire {count} torpedoes - pick a number above zero");
-            return 2; // 2 will be the error code for number too low
+            return NUMBER_TOO_LOW;
         }
         if(count > torpedoCount)
         {
             Error.WriteLine($"Not enought torpedoes - cannot fire {count} torpedoes");
-            return 3; // 3 will be the error code for number too hight
+            return NUMBER_TOO_HIGH;
         }
 
         torpedoCount -= count;
@@ -79,7 +61,7 @@ switch(userInput)
         // Tell the user about the problem
         Error.WriteLine($"\"{userInput}\" is not a valid menu choice");
         // Exit my program (because I haven't learned loops yet to get a better input)
-        return 1; // HACK - PREMATURE RETURN
+        return BAD_MENU_CHOICE;
 }
 if(rnd.Next(1, 11) > chance - count)
     WriteLine("\tYou scored a HIT!");
@@ -88,4 +70,4 @@ else
 
 WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
 
-return 0; // Everything is fine
+return FINISHED;
