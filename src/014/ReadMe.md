@@ -2,14 +2,13 @@
 
 Requirements:
 
-- Should get and set the angle's value (in degrees)
+- Should get the angle's value (in degrees) from the user
 - Should calculate the equivalent angle in Radians and Grads, using the following formulas:
   - Radians = Degrees * (π / 180)
   - Grads = Radians * (200 / π)
-- Should override the toString() method to return the angle in degrees, in the following format:
-  - degrees°
-  - The Unicode character for the degrees symbol (°) is `'\u00B0'`
-- Should get the type of angle, based on the following table
+- Should display the angle in degrees, in the following format:
+  - `degrees°`, where the Unicode character for the degrees symbol (°) is `'\u00B0'`
+- Should display the type of angle, based on the following table
 
 | Angle Range | Angle Type |
 |--|--|
