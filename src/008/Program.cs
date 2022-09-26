@@ -58,18 +58,34 @@ switch(userInput)
         //                \   1st  /
         //      \       2nd       /
         //   <== \      3rd      /
+        if(count < 1)
+        {
+            Error.WriteLine($"You cannot fire {count} torpedoes - pick a number above zero");
+            return 2; // 2 will be the error code for number too low
+        }
+        if(count > torpedoCount)
+        {
+            Error.WriteLine($"Not enought torpedoes - cannot fire {count} torpedoes");
+            return 3; // 3 will be the error code for number too hight
+        }
+
         torpedoCount -= count;
         break;
-    default:
+    case "C":
         Write("\n\tDIVE, DIVE, DIVE");
         count = 0;
         break;
+    default:
+        // Tell the user about the problem
+        Error.WriteLine($"\"{userInput}\" is not a valid menu choice");
+        // Exit my program (because I haven't learned loops yet to get a better input)
+        return 1; // HACK - PREMATURE RETURN
 }
 if(rnd.Next(1, 11) > chance - count)
     WriteLine("\tYou scored a HIT!");
 else
     WriteLine("\tToo bad. Now they are hunting for you....");
 
-
 WriteLine($"\n+++++++++\n{torpedoCount} torpedoes left");
 
+return 0; // Everything is fine
