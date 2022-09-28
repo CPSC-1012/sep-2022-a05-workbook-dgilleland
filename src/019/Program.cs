@@ -10,6 +10,12 @@ if(minCrewCount <= crewCount)
 {
     ForegroundColor = ConsoleColor.DarkGreen;
     WriteLine($"You can sail with {crewCount} crew and {torpedoCount} torpedoes.");
+    double longitude = PromptDouble("Enter the destination longitude: ");
+    double latitude = PromptDouble("Enter the destination latitude: ");
+    WriteLine($"\nSetting sail for");
+    // Every object has a .ToString() method that converts its content to text
+    WriteLabel("\tLatitude:  ", latitude.ToString());
+    WriteLabel("\tLongitude: ", longitude.ToString());
     ResetColor();
 }
 else
@@ -20,6 +26,15 @@ else
 }
 
 // ---- The following are reusable methods ---
+static void WriteLabel(string label, string value)
+{
+    ForegroundColor = ConsoleColor.Cyan;
+    Write(label);
+    ForegroundColor = ConsoleColor.DarkYellow;
+    WriteLine(value);
+    ResetColor();
+}
+
 static int PromptInt(string message)
 {
     // these are the steps that will execute/run when the method is called
@@ -34,6 +49,27 @@ static int PromptInt(string message)
     {
         ForegroundColor = ConsoleColor.DarkRed;
         WriteLine("\tThat is  not a whole number. Try again.");
+        ResetColor();
+        Write(message);
+        userInput = ReadLine();
+    }
+    return value;
+}
+
+static double PromptDouble(string message)
+{
+    // these are the steps that will execute/run when the method is called
+    // Asking the user for a number
+    string userInput;
+    double value;
+    // Prompt
+    Write(message);
+    userInput = ReadLine();
+    // Now we want to validate the input
+    while(! double.TryParse(userInput, out value))
+    {
+        ForegroundColor = ConsoleColor.DarkRed;
+        WriteLine("\tThat is not a real number. Try again.");
         ResetColor();
         Write(message);
         userInput = ReadLine();
