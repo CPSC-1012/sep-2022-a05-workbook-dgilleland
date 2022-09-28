@@ -212,7 +212,10 @@ $$
 ## Wednesday, Sep 28
 
 > *At the end of this topic/class, you should be able to:*
-> 
+>
+> - Describe how to get help information from a console (CLI) application like `git` and `dotnet`
+> - Describe how to create a traditional console application (Program.cs with a main method)
+>   - `dotnet new console --use-program-main`
 > - Describe the [syntax of the `while` and `do-while` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#while-and-do-while)
 > - Describe the [syntax of the `for` and `foreach` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#for-and-for-each)
 > - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
