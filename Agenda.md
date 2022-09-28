@@ -212,3 +212,10 @@ $$
 
 ----
 
+## Wednesday, Sep 28
+
+> *At the end of this topic/class, you should be able to:*
+> 
+> - Describe the [syntax of the `while` and `do-while` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#while-and-do-while)
+> - Describe the [syntax of the `for` and `foreach` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#for-and-for-each)
+
