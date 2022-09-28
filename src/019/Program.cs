@@ -6,7 +6,7 @@ int torpedoCount = PromptInt("How many torpedoes to load? ");
 crewPrompt = "What is the minimum number of crew to man this vessel? ";
 int minCrewCount = PromptInt(crewPrompt);
 
-if(minCrewCount < crewCount)
+if(minCrewCount <= crewCount)
 {
     ForegroundColor = ConsoleColor.DarkGreen;
     WriteLine($"You can sail with {crewCount} crew and {torpedoCount} torpedoes.");
