@@ -206,9 +206,6 @@ $$
 > - Define the term "method" and give an example
 > - Describe the [syntax of a method declaration](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#classes-and-class-members) (aka, method implementation)
 > - Describe the [syntax of a method call](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#method-calls)
-> - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
-> - Define and distinguish the terms "argument" and "parameter"
-> - Create methods in a Top Level Program to assist in keeping your code "DRY"
 
 ----
 
@@ -218,4 +215,7 @@ $$
 > 
 > - Describe the [syntax of the `while` and `do-while` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#while-and-do-while)
 > - Describe the [syntax of the `for` and `foreach` statements](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#for-and-for-each)
-
+> - Explain the benfits of the `.TryParse()` methods for converting textual values to numeric values
+> - Define and distinguish the terms "argument" and "parameter"
+> - Create methods in a Top Level Program to assist in keeping your code "DRY"
+> - Code [Demo 019](./src/019/ReadMe.md)
