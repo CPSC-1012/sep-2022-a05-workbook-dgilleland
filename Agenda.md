@@ -224,3 +224,9 @@ $$
 > - Add some "bling" to your console application by changing the `ForgroundColor` and calling `ResetColor()`
 > - Code [Demo 019](./src/019/ReadMe.md)
 > - Code [Demo 020](./src/020/ReadMe.md)
+
+
+## Monday, Oct 3
+
+- 🎥 [40 Windows Commands You NEED To Know (in 10 minutes)](https://youtu.be/Jfvg3CS1X3A) by *Network Chuck*
+
