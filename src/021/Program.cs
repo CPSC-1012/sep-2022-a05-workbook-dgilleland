@@ -20,6 +20,7 @@ char choice;
 do
 {
     choice = GetMenuChoice();
+    choice = char.ToUpper(choice); // convert to upper character
     switch(choice)
     {
         case 'A':
