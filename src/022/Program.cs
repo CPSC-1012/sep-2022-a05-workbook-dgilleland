@@ -8,6 +8,19 @@ int position = PromptForIndexPosition();
 WriteLine($"Position: {position}"); // QnD
 
 // Display sequence
+int current = 1, previous = 1, beforePrevious = 0;
+Write($"{current}, ");
+if(position > 1)
+{
+    Write($"{current}, ");
+    for (int counter = 3; counter <= position; counter++)
+    {
+        beforePrevious = previous;
+        previous = current;
+        current = beforePrevious + previous;
+        Write($"{current}, ");
+    }
+}
 
 // Methods
 static int PromptForIndexPosition()
