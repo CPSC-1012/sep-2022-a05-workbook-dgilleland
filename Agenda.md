@@ -230,10 +230,13 @@ $$
 
 - 🎥 [40 Windows Commands You NEED To Know (in 10 minutes)](https://youtu.be/Jfvg3CS1X3A) by *Network Chuck*
 
+**TODO:** - Ensure GitDoc is enabled for student repositories
+
 > *At the end of this topic/class, you should be able to:*
 >
+> - Follow a "Labeled Output" pattern for displaying results to the user
 > - Reproduce common looping algorithms such as:
 >   - [**021**](./src/021/ReadMe.md) Calculate count, total and average
->   - [**022**](./src/022/ReadMe.md) Fibbonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+>   - [**022**](./src/022/ReadMe.md) Fibonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
 >   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
->   - [**024**](./src/024/ReadMe.md) 2x2 grid patterns (dots -> box, X, \\, and /) using nested loops
+>   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
