@@ -23,12 +23,16 @@ do
     switch(choice)
     {
         case 'A':
+            WriteLine($"Count: {count}");
             break;
         case 'B':
+            WriteLine($"Total: {total}");
             break;
         case 'C':
+            WriteLine($"Average: {total / count}");
             break;
         case 'D':
+            WriteLine("\n\nGoodbye");
             break;
         default:
             WriteLine($"INVALID INPUT: You entered '{choice}'"); // QnD output
