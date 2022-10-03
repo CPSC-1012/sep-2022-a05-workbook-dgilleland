@@ -31,6 +31,7 @@ static char GetMenuChoice()
     WriteLine("\tB) Total");
     WriteLine("\tC) Average");
     WriteLine("\tD) Exit");
+    Write("\nYour choice: ");
     // Get the user input
     string userInput = ReadLine();
     // Return the user input
