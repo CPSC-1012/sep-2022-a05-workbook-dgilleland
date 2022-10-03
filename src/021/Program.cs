@@ -14,6 +14,7 @@ do
     total += value;
     count++;
 }while(value != 0);
+count--; // to correct the count for a zero value (exits the loop)
 
 // QnD output
 WriteLine($"The count is {count} and the total is {total}");
