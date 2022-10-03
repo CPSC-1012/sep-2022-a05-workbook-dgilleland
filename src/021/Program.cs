@@ -20,6 +20,16 @@ count--; // to correct the count for a zero value (exits the loop)
 WriteLine($"The count is {count} and the total is {total}");
 
 // Methods
+static char GetMenuChoice()
+{
+    // Display the menu: A) Count, B) Total, C) Average, D) exit, (anything else is "invalid")
+    
+    // Get the user input
+    string userInput = ReadLine();
+    // Return the user input
+
+}
+
 static double PromptForNumber()
 {
     // With simple validation
