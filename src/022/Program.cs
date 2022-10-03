@@ -7,6 +7,7 @@ WriteLine("=========\n");
 int position = PromptForIndexPosition();
 WriteLine($"Position: {position}"); // QnD
 
+// Display sequence
 
 // Methods
 static int PromptForIndexPosition()
