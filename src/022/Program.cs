@@ -14,7 +14,7 @@ static int PromptForIndexPosition()
 {
     int position;
     Write("How many positions in the sequence? ");
-    while(!int.TryParse(ReadLine(), out position) && position <= 0)
+    while(!int.TryParse(ReadLine(), out position) || position <= 0)
     {
         ForegroundColor = ConsoleColor.DarkRed;
         WriteLine("Invalid position! Must be 1 or greater.");
