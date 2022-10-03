@@ -17,17 +17,25 @@ do
 count--; // to correct the count for a zero value (exits the loop)
 
 // QnD output
-WriteLine($"The count is {count} and the total is {total}");
+//WriteLine($"The count is {count} and the total is {total}");
 
-// Methods
+char choice = GetMenuChoice();
+WriteLine($"You chose {choice}"); // QnD output
+
+// Methods ============================================
 static char GetMenuChoice()
 {
     // Display the menu: A) Count, B) Total, C) Average, D) exit, (anything else is "invalid")
-    
+    WriteLine("\nChoose your calculation");
+    WriteLine("\tA) Count");
+    WriteLine("\tB) Total");
+    WriteLine("\tC) Average");
+    WriteLine("\tD) Exit");
     // Get the user input
     string userInput = ReadLine();
     // Return the user input
-
+    char choice = userInput.First();
+    return choice;
 }
 
 static double PromptForNumber()
