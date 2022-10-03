@@ -4,4 +4,7 @@ using static System.Console;
 WriteLine("Fibonacci");
 WriteLine("=========\n");
 
+int position = PromptForIndexPosition();
+
+// Methods
 
