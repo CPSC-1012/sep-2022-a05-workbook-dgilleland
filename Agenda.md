@@ -233,7 +233,7 @@ $$
 > *At the end of this topic/class, you should be able to:*
 >
 > - Reproduce common looping algorithms such as:
->   - Calculate count, total and average
->   - Fibbonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
->   - Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
->   - 2x2 grid patterns (dots -> box, X, \\, and /) using nested loops
+>   - [**021**](./src/021/ReadMe.md) Calculate count, total and average
+>   - [**022**](./src/022/ReadMe.md) Fibbonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+>   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+>   - [**024**](./src/024/ReadMe.md) 2x2 grid patterns (dots -> box, X, \\, and /) using nested loops
