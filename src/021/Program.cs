@@ -16,11 +16,25 @@ do
 }while(value != 0);
 count--; // to correct the count for a zero value (exits the loop)
 
-// QnD output
-//WriteLine($"The count is {count} and the total is {total}");
-
-char choice = GetMenuChoice();
-WriteLine($"You chose {choice}"); // QnD output
+char choice;
+do
+{
+    choice = GetMenuChoice();
+    switch(choice)
+    {
+        case 'A':
+            break;
+        case 'B':
+            break;
+        case 'C':
+            break;
+        case 'D':
+            break;
+        default:
+            WriteLine($"INVALID INPUT: You entered '{choice}'"); // QnD output
+            break;
+    }
+} while(choice != 'D');
 
 // Methods ============================================
 static char GetMenuChoice()
