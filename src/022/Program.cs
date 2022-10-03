@@ -5,6 +5,7 @@ WriteLine("Fibonacci");
 WriteLine("=========\n");
 
 int position = PromptForIndexPosition();
+WriteLine($"Position: {position}"); // QnD
 
 
 // Methods
