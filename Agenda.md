@@ -230,3 +230,10 @@ $$
 
 - 🎥 [40 Windows Commands You NEED To Know (in 10 minutes)](https://youtu.be/Jfvg3CS1X3A) by *Network Chuck*
 
+> *At the end of this topic/class, you should be able to:*
+>
+> - Reproduce common looping algorithms such as:
+>   - Calculate count, total and average
+>   - Fibbonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+>   - Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+>   - 2x2 grid patterns (dots -> box, X, \\, and /) using nested loops
