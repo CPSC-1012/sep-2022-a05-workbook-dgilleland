@@ -35,7 +35,11 @@ static char GetMenuChoice()
     // Get the user input
     string userInput = ReadLine();
     // Return the user input
-    char choice = userInput.First();
+    char choice;
+    if(userInput.Length > 0)
+        choice = userInput.First();
+    else
+        choice = 'X';
     return choice;
 }
 
