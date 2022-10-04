@@ -1,6 +1,10 @@
 # Memory Address
 
-The following explanation of converting from base 10 to base 16 is taken from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/MemoryAddress.html) (used with permission).
+For our purposes, we will assume the user's input value to a) be positive and b) not exceed 65535. The upper limit is so that we know it will "fit" as a 4-digix hexadecimal value. You can check your program by calculating your test data using the [**Decimal to Hexadecimal Converter**](https://www.binaryhexconverter.com/decimal-to-hex-converter).
+
+----
+
+The following explanation of converting from base 10 to base 16 is taken from [TheBook](https://programming-0101.github.io/TheBook/Topic/F/Examples/MemoryAddress.html) (used with permission). You can also learn more about the conversion process at [**Decimal to Hex**](https://decimaltohex.com/).
 
 > **Base ten** is the common number system that we use in every day life. Base ten uses the digits 0-9 and the concept of the position of a digit occupying some multiple of ten. Thus, for the number 129 there is a hundreds-position ($10^2$), a tens-position ($10^1$) and a ones-position ($10^0$).
 >
