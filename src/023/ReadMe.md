@@ -4,5 +4,5 @@
 
 - Factorial is the product of the whole numbers
 - User enters a number for a factorial
+  - Use a `long` data type
 - Indicate if the factorial can be computed
-- Use a `long` data type
