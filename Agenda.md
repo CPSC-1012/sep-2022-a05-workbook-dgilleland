@@ -247,6 +247,7 @@ $$
 >
 > - Follow a "Labeled Output" pattern for displaying results to the user
 > - Add a little console "bling"
+>   - [**025**](./src/025/ReadMe.md) Console Explorations
 > - Reproduce common looping algorithms such as:
 >   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
