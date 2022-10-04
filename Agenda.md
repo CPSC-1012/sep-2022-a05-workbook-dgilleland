@@ -238,5 +238,15 @@ $$
 > - Reproduce common looping algorithms such as:
 >   - [**021**](./src/021/ReadMe.md) Calculate count, total and average
 >   - [**022**](./src/022/ReadMe.md) Fibonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
+
+## Wednesday, Oct 5
+
+**TODO:** Explore the terminal in an external window with <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd>
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Follow a "Labeled Output" pattern for displaying results to the user
+> - Add a little console "bling"
+> - Reproduce common looping algorithms such as:
 >   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
