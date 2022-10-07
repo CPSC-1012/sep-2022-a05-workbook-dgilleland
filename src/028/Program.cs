@@ -45,7 +45,7 @@ else
 // Methods:
 int Prompt(string message)
 {
-    Write(message);
+    Write($"{message}: ");
     string userInput = ReadLine();
     int result;
     while(!int.TryParse(userInput, out result))
