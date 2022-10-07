@@ -259,6 +259,8 @@ Extra Resources:
 > *At the end of this topic/class, you should be able to:*
 >
 > - Follow a "Labeled Output" pattern for displaying results to the user
+>   - [**027**](./src/027/ReadMe.md)
+>   - :mortar_board: - Copy into your own workbook
 > - Add a little console "bling"
 >   - [**025**](./src/025/ReadMe.md) Console Explorations
 >   - :mortar_board: - Copy into your own workbook
