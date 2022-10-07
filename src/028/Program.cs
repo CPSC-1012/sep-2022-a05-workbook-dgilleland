@@ -8,9 +8,9 @@ double area;
 
 WriteLine(@"Pick from the following shapes:
 
-\tT) Triangle
-\tS) Square
-\tR) Rectangle");
+    T) Triangle
+    S) Square
+    R) Rectangle");
 // Laziness, thy name is Dan
 Write("Choose a shape: ");
 shape = ReadLine(); // We'll assume correct user input.
