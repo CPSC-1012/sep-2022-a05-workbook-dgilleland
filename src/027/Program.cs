@@ -4,10 +4,10 @@ using static System.Console;
 WriteLine("Labelled Console I/O");
 WriteLine("====================");
 
-WriteLabelLine("PI", Math.PI);
-WriteLabelLine("User Name", Environment.UserName);
-WriteLabelLine("Computer Name", Environment.MachineName);
-WriteLabelLine("Current Directory", Environment.CurrentDirectory);
+WriteLabelLine("PI", Math.PI);  // Math.PI is a double
+WriteLabelLine("User Name", Environment.UserName); // UserName is a string
+WriteLabelLine("Computer Name", Environment.MachineName); // MachineName is a string
+WriteLabelLine("Current Directory", Environment.CurrentDirectory); // CurrentDirectory is a string
 
 
 
