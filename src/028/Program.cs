@@ -24,15 +24,23 @@ switch(choice)
         break;
     case 'S':
         // TODO: Get the side length, then calculate the area
-        
+        int length = Prompt("Enter the side length of the square");
+        area = length * length;
         break;
     case 'R':
         // TODO: Get the width and height, then calculate the area
+        area = Prompt("Enter the width") * Prompt("Enter the height");
         break;
     default:
         area = 0;
         break;
 }
+if(area == 0)
+    WriteLine("\nNo area for the shape");
+else
+    WriteLine($"Area: {area}");
+
+
 
 // Methods:
 int Prompt(string message)
