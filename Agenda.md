@@ -239,9 +239,22 @@ $$
 >   - [**021**](./src/021/ReadMe.md) Calculate count, total and average
 >   - [**022**](./src/022/ReadMe.md) Fibonacci Sequence ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
 
-## Wednesday, Oct 5
+## Friday, Oct 5
 
 **TODO:** Explore the terminal in an external window with <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd>
+
+Extra Resources:
+
+- [String Interpolation Tutorial](https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings) (20 minutes)
+- C# Reference Material
+  - [`$` - String Interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
+  - [`@` - Verbatim Identifier](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/verbatim)
+  - [How to format numbers, dates, enums, and other types in .NET](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)
+  - [Alignment Formatting](https://learn.microsoft.com/en-us/dotnet/standard/base-types/composite-formatting#alignment-component)
+- C# Slideshows
+  - [Foundational Concepts](https://programming-0101.github.io/slides/OOP-Ramp-Up/00-FoundationalConcepts.html) (good to review once again :+1:)
+  - [Grammar](https://programming-0101.github.io/slides/OOP-Ramp-Up/01-Grammar.html)
+  - [Arrays](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html)
 
 > *At the end of this topic/class, you should be able to:*
 >
@@ -251,3 +264,14 @@ $$
 > - Reproduce common looping algorithms such as:
 >   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
+> - [An Intro to Arrays](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html)
+>   - [**026**](./src/026/ReadMe.md) Formatting Output (with array data)
+> 
+
+----
+
+## Future Topics...
+
+- C# Slideshows
+  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
+  - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
