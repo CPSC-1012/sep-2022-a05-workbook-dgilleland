@@ -32,4 +32,17 @@ switch(choice)
         break;
 }
 
-
+// Methods:
+int Prompt(string message)
+{
+    Write(message);
+    string userInput = ReadLine();
+    int result;
+    while(!int.TryParse(userInput, out result))
+    {
+        WriteLine("\tThat is not a whole number.");
+        Write(message);
+        userInput = ReadLine();
+    }
+    return result;
+}
