@@ -3,7 +3,7 @@
 WriteLine("Exploring...");
 int width = WindowWidth;
 int height = WindowHeight;
-WriteLine($"The window's size is {width} characters wide and {height} characters tall.");
+WriteLine($"The window's size is {width} characters wide and {height} lines tall.");
 Write("The cursor's position is ");
 var position = GetCursorPosition();
 WriteLine(position);
