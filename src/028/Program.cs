@@ -20,9 +20,11 @@ switch(choice)
 {
     case 'T':
         // TODO: Get the base and vertical height, then calculate the area
+        area = 0.5 * Prompt("Enter the base length") * Prompt("Enter the height of the triangle");
         break;
     case 'S':
         // TODO: Get the side length, then calculate the area
+        
         break;
     case 'R':
         // TODO: Get the width and height, then calculate the area
