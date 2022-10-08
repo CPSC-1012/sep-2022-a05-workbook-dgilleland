@@ -277,6 +277,20 @@ Extra Resources:
 
 ## Future Topics...
 
+- :bulb: VS Code Keyboard Shortcuts <!-- <kbd></kbd> +  -->
+  - **Search Keyboard Shortcuts** - <kbd>Ctrl</kbd> + <kbd>k</kbd>, <kbd>Ctrl</kbd> + <kbd>s</kbd>
+  - **Save File** - <kbd>Ctrl</kbd> + <kbd>s</kbd>
+  - **Save File As** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>s</kbd>
+  - **Save All Files** - <kbd>Ctrl</kbd> + <kbd>k</kbd>, <kbd>s</kbd>
+  - **Comment selected line(s)** - <kbd>Ctrl</kbd> + <kbd>k</kbd>, <kbd>Ctrl</kbd> + <kbd>c</kbd>
+  - **Uncomment selected line(s)** - <kbd>Ctrl</kbd> + <kbd>k</kbd>, <kbd>Ctrl</kbd> + <kbd>u</kbd>
+  - **Switch Editor Tab** - <kbd>Ctrl</kbd> + <kbd>tab</kbd>
+  - **Toggle Internal Terminal Window** - <kbd>Ctrl</kbd> + <kbd>`</kbd>
+  - **Open External Terminal Window** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>c</kbd>
+  - **Fold Code Block** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
+  - **Unfold Code Block** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - C# Slideshows
   - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
   - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
+- Writing Unit Tests
+
