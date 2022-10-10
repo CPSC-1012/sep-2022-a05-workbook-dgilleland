@@ -260,18 +260,25 @@ Extra Resources:
 >
 > - Follow a "Labeled Output" pattern for displaying results to the user
 >   - [**027**](./src/027/ReadMe.md) - Labels and Environment Variables
->   - :mortar_board: - Copy into your own workbook
+>     - :mortar_board: - Copy into your own workbook
 > - Add a little console "bling"
 >   - [**025**](./src/025/ReadMe.md) Console Explorations
->   - :mortar_board: - Copy into your own workbook
+>     - :mortar_board: - Copy into your own workbook
+> - [*An Intro to Arrays*](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html) Slideshow
+>   - [**026**](./src/026/ReadMe.md) Formatting Output (with array data)
+>     - :mortar_board: - Copy into your own workbook
+
+## Wednesday Oct 12
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Understand the [`for` loop](./src/019/ReadMe.md#comparing-for-and-while-loops) syntax
 > - Reproduce common looping algorithms such as:
 >   - [**023**](./src/023/ReadMe.md) Factorial value ([without overflow](https://www.gocomics.com/calvinandhobbes/1986/11/26))
->   - :book: Code with me
+>     - :book: Code with me
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
->   - :book: Code with me
-> - [An Intro to Arrays](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html)
->   - [**026**](./src/026/ReadMe.md) Formatting Output (with array data)
->   - :mortar_board: - Copy into your own workbook
+>     - :book: Code with me
+
 
 ----
 
