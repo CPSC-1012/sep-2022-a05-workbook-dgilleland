@@ -280,6 +280,7 @@ Extra Resources:
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
 >     - :book: Code with me
 
+**Homework:** Read the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
 
 ----
 
@@ -301,4 +302,6 @@ Extra Resources:
   - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
   - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
 - Writing Unit Tests
+- OOP
+  - *Homework*: Read [Default values of C# types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values)
 
