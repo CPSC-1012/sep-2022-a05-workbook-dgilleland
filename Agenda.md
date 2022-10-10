@@ -264,6 +264,7 @@ Extra Resources:
 > - Add a little console "bling"
 >   - [**025**](./src/025/ReadMe.md) Console Explorations
 >     - :mortar_board: - Copy into your own workbook
+>     - *Topic Note:* the data type returned from the `.GetPosition()` method is a [Tuple](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples).
 > - [*An Intro to Arrays*](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html) Slideshow
 >   - [**026**](./src/026/ReadMe.md) Formatting Output (with array data)
 >     - :mortar_board: - Copy into your own workbook
