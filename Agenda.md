@@ -279,6 +279,7 @@ Extra Resources:
 >     - :book: Code with me
 >   - [**024**](./src/024/ReadMe.md) 2D grid patterns (dots -> box, X, \\, and /) using nested loops
 >     - :book: Code with me
+> - Parsing currency values.
 
 **Homework:** Read the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
 
