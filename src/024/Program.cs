@@ -1,5 +1,6 @@
 ﻿using static System.Console;
 
+Clear(); // Start with a clean terminal
 WriteLine("Simple Grid");
 
 for(int row = 0; row < 5; row++)
