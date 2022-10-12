@@ -14,4 +14,8 @@ while(!int.TryParse(temp, out number) || number <= 0)
 }
 
 // Calculate the factorial
+int result = 1;
+for(int count = 1; count <= number; count++)
+    result = result * count;
 
+WriteLine($"The result of {number}! is {result}");
