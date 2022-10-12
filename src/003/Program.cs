@@ -13,4 +13,6 @@ Console.WriteLine("The area of a square with length of " + sideLength + " is " +
 // Example of string interpolation
 Console.WriteLine($"The perimeter of a square with length of {sideLength} is {perimeter}");
 
-
+int radius = 10;
+double circleArea = Math.PI * radius * radius;
+Console.WriteLine($"The area of a circle with radius {radius} centimeters is {circleArea} square centimeters.");
