@@ -1,7 +1,10 @@
 ﻿using static System.Console;
 Clear();
 WriteLine("Learn Math\n");
-
+Write("   *");
+for(int column = 1; column <= 5; column++)
+    WriteColor(column);
+WriteLine();
 for(int row = 1; row <= 5; row++)
 {
     WriteColor(row);
