@@ -14,17 +14,17 @@ while(!int.TryParse(temp, out number) || number <= 0)
 }
 
 // Calculate the factorial
-bool isToBig = false;
+bool isTooBig = false;
 int result = 1;
-for(int count = 1; count <= number && !isToBig; count++)
+for(int count = 1; count <= number && !isTooBig; count++)
 {
     if(result <= int.MaxValue / count)
         result = result * count; // do the math
     else
-        isToBig = true;
+        isTooBig = true;
 }
 
-if(isToBig)
+if(isTooBig)
     WriteLine("That factorial result is too big to calculate");
 else
     WriteLine($"The result of {number}! is {result}");
