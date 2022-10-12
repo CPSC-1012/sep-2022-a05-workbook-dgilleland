@@ -2,7 +2,7 @@
 
 Clear(); // Start with a clean terminal
 WriteLine("Simple Grid");
-WriteLine("\n\tA Box");
+WriteLine("\n\tA Box\n");
 int maxColumn = 10, maxRow = 5;
 for(int row = 0; row < maxRow; row++)
 {
@@ -16,7 +16,17 @@ for(int row = 0; row < maxRow; row++)
     }
     WriteLine(); // blank line
 }
-WriteLine("\n\tBack-slash");
-// TODO:
-WriteLine("\n\tForward-slash");
+WriteLine("\n\tBack-slash\n");
+for(int row = 0; row < maxRow; row++)
+{
+    for(int column = 0; column < maxColumn; column++)
+    {
+        if(row == column)
+            Write("X");
+        else
+            Write(" ");
+    }
+    WriteLine(); // blank line
+}
+WriteLine("\n\tForward-slash\n");
 // TODO:
