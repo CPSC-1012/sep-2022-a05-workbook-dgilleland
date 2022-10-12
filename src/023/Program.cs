@@ -19,3 +19,4 @@ for(int count = 1; count <= number; count++)
     result = result * count;
 
 WriteLine($"The result of {number}! is {result}");
+WriteLine($"By the way, the maximum integer value is {int.MaxValue}");
