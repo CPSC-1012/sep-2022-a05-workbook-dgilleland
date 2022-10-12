@@ -2,12 +2,13 @@
 
 Clear(); // Start with a clean terminal
 WriteLine("Simple Grid");
-
-for(int row = 0; row < 5; row++)
+int maxColumn = 10, maxRow = 5;
+for(int row = 0; row < maxRow; row++)
 {
-    for(int column = 0; column < 5; column++)
+    for(int column = 0; column < maxColumn; column++)
     {
-        if(row == 0 || row == 4 || column == 0 || column == 4)
+        if(row == 0    || row == maxRow - 1       || 
+           column == 0 || column == maxColumn - 1)
             Write("X");
         else
             Write(".");
