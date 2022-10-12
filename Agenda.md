@@ -89,7 +89,7 @@ Here I will be making notes about what I will be teaching in class.
   - [Quadratic Equation](https://programming-0101.github.io/TheBook/Topic/E/Examples/QuadraticEquation.html)
 
 $$
-x = \frac{-b \plusmn \sqrt{b^{2} - 4ac}}{2a}
+x = \frac{-b \pm \sqrt{b^{2} - 4ac}}{2a}
 $$
 
 
