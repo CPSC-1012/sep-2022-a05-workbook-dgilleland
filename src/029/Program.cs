@@ -4,6 +4,7 @@ WriteLine("Learn Math\n");
 
 for(int row = 1; row <= 5; row++)
 {
+    WriteColor(row);
     for(int column = 1; column <=5; column++)
     {
         int product = row * column;
@@ -12,4 +13,12 @@ for(int row = 1; row <= 5; row++)
         Write(text);
     }
     WriteLine();
+}
+
+void WriteColor(int number)
+{
+    ForegroundColor = ConsoleColor.DarkCyan;
+    string text = number.ToString().PadLeft(4);
+    Write(text);
+    ResetColor();
 }
