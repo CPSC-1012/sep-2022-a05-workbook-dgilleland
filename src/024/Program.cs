@@ -30,3 +30,4 @@ for(int row = 0; row < maxRow; row++)
 }
 WriteLine("\n\tForward-slash\n");
 // TODO:
+WriteLine("Available in the pro version for a low price of $5.95");
