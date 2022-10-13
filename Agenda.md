@@ -285,7 +285,10 @@ Extra Resources:
 
 ## Friday, Oct 15
 
-**Homework:** Read the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+**Homework:** 
+
+- ***Read*** the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+- ***Preview*** my slideshow on [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
 
 <details>
   <summary>Where we are going now...</summary>
@@ -303,6 +306,12 @@ Extra Resources:
 >   - Add the console project to the solution
 >   - Add the [Humanizer](https://github.com/Humanizr/Humanizer) package to the console app, loop and output number as ordinal or as words, then output the time as words.
 >     - `dotnet add package Humanizer.Core`
+> - [**031**](./src/031/ReadMe.md) Similar to 030, but with these goals
+>   - solution with three projects
+>     - console named `Driver.csproj`
+>     - class library named `GameWorld.csproj`
+>     - xunit named `GameWorld.Specs.csproj`
+>   - Simple game object - A player with a First Name, Last Name, and Date of Birth
 > - Follow prescribed steps to open project subfolders in separate VS Code instances
 >   - *Why?* - It can make development a bit easier because 
 >       1. Omnisharp can more readily make "assumptions" about the project/solution it needs to load for our intellisense, and
