@@ -281,7 +281,27 @@ Extra Resources:
 >     - :book: Code with me
 > - Parsing currency values.
 
+----
+
+## Friday, Oct 15
+
 **Homework:** Read the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Get help from CLI apps using the `--help` flag
+>   - `dotnet new console --help`
+>   - `dotnet run --help`
+>   - `dotnet --help`
+>   - `gh --help`
+>   - `gh issue --help`
+> - Describe the concepts of Projects, Solutions, and NuGet packages
+>   - [Humanizer](https://github.com/Humanizr/Humanizer), loop and output number as ordinal or as words
+>     - `dotnet add package Humanizer.Core`
+> - Explain how to assemble/connect projects, solutions and package depdendencies using the DotNet CLI
+>   - `dotnet new sln --help`
+>   - `dotnet sln --help`
+>   - `dotnet add --help`
 
 ----
 
