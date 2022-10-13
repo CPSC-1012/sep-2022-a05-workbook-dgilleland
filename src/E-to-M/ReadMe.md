@@ -1,4 +1,4 @@
-# Topics D-to-M
+# Topics E-to-M
 
 This solution/project covers the topics [**E** through **M** (C# in Context)](https://programming-0101.github.io/TheBook/Topic/#c-in-context) of [Programming Fundamentals](https://programming-0101.github.io/TheBook).
 
@@ -9,7 +9,7 @@ To get started in VS Code, open the terminal at the root of this workbook. Then 
 ```sh
 # Open the Topic folder in VS Code
 cd src\E-to-M\Topic
-code -r .
+code -n .
 # Do a preliminary build to make sure it's working
 dotnet build
 # Run the program to see what it does
