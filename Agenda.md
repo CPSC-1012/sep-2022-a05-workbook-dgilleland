@@ -287,21 +287,40 @@ Extra Resources:
 
 **Homework:** Read the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
 
+<details>
+  <summary>Where we are going now...</summary>
+  - Embracing clean OOP modularization
+  - Abandoning the "brute force" approach of *procedural programming* or *scripting*
+    - Spaghetti code leads to increased developer insecurity as the code base grows. Nobody wants to touch the spaghetti, and then it becomes smelly and brittle as it dries and hardens over time...
+</details>
+
+
 > *At the end of this topic/class, you should be able to:*
 >
+> - [**030**](./src/030/ReadMe.md) Describe the concepts of Projects, Solutions, and NuGet packages
+>   - Create the 030 folder, then `cd` into it and enter `code -n .` to launch an new VS Code window
+>   - Create a console app (`dotnet new console`) and a solution file (`dotnet new sln`)
+>   - Add the console project to the solution
+>   - Add the [Humanizer](https://github.com/Humanizr/Humanizer) package to the console app, loop and output number as ordinal or as words
+>     - `dotnet add package Humanizer.Core`
+> - Follow prescribed steps to open project subfolders in separate VS Code instances
+>   - *Why?* - It can make development a bit easier because 
+>       1. Omnisharp can more readily make "assumptions" about the project/solution it needs to load for our intellisense, and
+>       1. We can more easily configure the project settings for debugging (`launch.json` and `tasks.json` in the .vscode folder) and we only need to do it once.
+>   - **First,** launch a new VS Code window that will open a project subfolder for "easier" development
+>     - E.g.: `code -n src\001` *(Note the importance of the slash being in the correct direction - a backslash)
+>   - **Second,** create the projects you need (e.g.: console driver, class library, xunit project, etc.) along with a solution file (`.sln`)
+>   - **Third,** configure your project in the *"run and debug"* view of the [Activity Bar](https://code.visualstudio.com/docs/getstarted/userinterface#_activity-bar)
+> - Explain how to assemble/connect projects, solutions and package depdendencies using the DotNet CLI
+>   - `dotnet new sln --help`
+>   - `dotnet sln --help`
+>   - `dotnet add --help`
 > - Get help from CLI apps using the `--help` flag
 >   - `dotnet new console --help`
 >   - `dotnet run --help`
 >   - `dotnet --help`
 >   - `gh --help`
 >   - `gh issue --help`
-> - [**030**](./src/030/ReadMe.md) Describe the concepts of Projects, Solutions, and NuGet packages
->   - [Humanizer](https://github.com/Humanizr/Humanizer), loop and output number as ordinal or as words
->     - `dotnet add package Humanizer.Core`
-> - Explain how to assemble/connect projects, solutions and package depdendencies using the DotNet CLI
->   - `dotnet new sln --help`
->   - `dotnet sln --help`
->   - `dotnet add --help`
 > - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
 
 ----
