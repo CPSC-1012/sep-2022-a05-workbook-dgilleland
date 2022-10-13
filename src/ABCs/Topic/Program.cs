@@ -44,6 +44,7 @@ namespace Topic
         Dictionary<string, MethodInfo> Drivers = new ();
         public void Run()
         {
+            Clear();
             ForegroundColor = ConsoleColor.Yellow;
             WriteLine($"There are {Drivers.Count} drivers:");
             ResetColor();
