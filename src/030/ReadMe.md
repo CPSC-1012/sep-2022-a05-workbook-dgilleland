@@ -1,0 +1,1 @@
+# Projects, Solutions, and NuGet packages

@@ -295,13 +295,14 @@ Extra Resources:
 >   - `dotnet --help`
 >   - `gh --help`
 >   - `gh issue --help`
-> - Describe the concepts of Projects, Solutions, and NuGet packages
+> - [**030**](./src/030/ReadMe.md) Describe the concepts of Projects, Solutions, and NuGet packages
 >   - [Humanizer](https://github.com/Humanizr/Humanizer), loop and output number as ordinal or as words
 >     - `dotnet add package Humanizer.Core`
 > - Explain how to assemble/connect projects, solutions and package depdendencies using the DotNet CLI
 >   - `dotnet new sln --help`
 >   - `dotnet sln --help`
 >   - `dotnet add --help`
+> - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
 
 ----
 
@@ -325,4 +326,6 @@ Extra Resources:
 - Writing Unit Tests
 - OOP
   - *Homework*: Read [Default values of C# types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values)
+  - [**D-Bugging**](./src/D-Bugging/ReadMe.md)
+  - [**E-to-M**](./src/E-to-M/ReadMe.md)
 
