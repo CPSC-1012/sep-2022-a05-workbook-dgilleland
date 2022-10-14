@@ -285,6 +285,14 @@ Extra Resources:
 
 ## Friday, Oct 15
 
+> Lab Time
+
+Are you wanting a good step-by-step refresher that starts at the beginning? Then try the [**Learn C#**](https://learn.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07) tutorials which will walk you through all of the basics beginning with the "Hello World".
+
+----
+
+## Monday, Oct 18
+
 **Homework:** 
 
 - ***Read*** the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
