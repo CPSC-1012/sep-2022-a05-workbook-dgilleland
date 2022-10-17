@@ -3,6 +3,7 @@
 - [C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
 - [Learn C# BASICS in 10 MINUTES!](https://youtu.be/IFayQioG71A)
 - [Top 10 C# Best Practices (plus bonuses)](https://youtu.be/-9b8NRqjUFM)
+- :bulb: [Learn C#](https://learn.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07) by Microsoft
 
 > **Dan Gilleland**
 
