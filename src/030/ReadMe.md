@@ -11,3 +11,27 @@ Create a program that prompts the user for a number between 5 and 25. Then, loop
 - Add the console project to the solution
 - Add the [Humanizer](https://github.com/Humanizr/Humanizer) package to the console app.
   - `dotnet add package Humanizer.Core`
+
+The console app was created with this command:
+
+```ps
+dotnet new console --use-program-main -n Tutor -o MyApp
+```
+
+This created the files `Program.cs` and `Tutor.csproj` in a folder called `MyApp`. Also,
+the `Program.cs` is using the traditional `Main()` method rather than a top-level program.
+
+To create a solution file, we can type the following.
+
+```ps
+dotnet new sln
+```
+
+This will create a file called `030.sln` that currently does not have any projects associated with it. To add our **Tutor** project, we would type.
+
+```ps
+dotnet sln add MyApp/Tutor.csproj
+```
+
+
+
