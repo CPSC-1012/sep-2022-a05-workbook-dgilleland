@@ -295,7 +295,10 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 **Homework:** 
 
-- ***Read*** the overview of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+- ***Read***
+  - The overviews of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+  - [The ABCs of Classes and Objects](https://programming-0101.github.io/TheBook/Teach/chapter2.html)
+  - [Starting With Classes](https://programming-0101.github.io/TheBook/Topic/A/)
 - ***Preview*** my slideshow on [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
 
 <details>
@@ -309,12 +312,9 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**030**](./src/030/ReadMe.md) Describe the concepts of Projects, Solutions, and NuGet packages
->   - Create the 030 folder, then `cd` into it and enter `code -n .` to launch an new VS Code window
->   - Create a console app (`dotnet new console`) and a solution file (`dotnet new sln`)
->   - Add the console project to the solution
->   - Add the [Humanizer](https://github.com/Humanizr/Humanizer) package to the console app, loop and output number as ordinal or as words, then output the time as words.
->     - `dotnet add package Humanizer.Core`
-> - [**031**](./src/031/ReadMe.md) Similar to 030, but with these goals
+>   - Create the 030 folder, then `cd` into it
+> - [**031**](./src/031/ReadMe.md) Similar to 030, but exploring OOP
+> - [**GameLibrary**](./src/GameLibrary/ReadMe.md) 
 >   - solution with three projects
 >     - console named `Driver.csproj`
 >     - class library named `GameWorld.csproj`
