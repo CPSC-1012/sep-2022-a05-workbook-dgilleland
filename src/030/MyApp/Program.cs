@@ -18,7 +18,7 @@ class Program
         WriteLine($"Here are the numbers from 1 to {number}: ");
         for(int count = 1; count <= number; count++)
         {
-            WriteLine($"\t{count.ToOrdinalWords()}:   \t{count.ToWords()}");
+            WriteLine($"\t{count.ToOrdinalWords(),25}: {count.ToWords(),-25}");
         }
         WriteLine($"I paid {3800.ToWords()} (CAD) to learn how to do this.");
 
