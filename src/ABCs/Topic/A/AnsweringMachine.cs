@@ -6,14 +6,12 @@ namespace Topic.A
     {
         public static string Answer()
         {
-            // TODO: Student work here
-            throw new NotImplementedException();
+            return "Please leave a message after the beep.";
         }
 
         public static string Answer(string name)
         {
-            // TODO: Student work here
-            throw new NotImplementedException();
+            return $"Hi, this is {name}. Please leave a message after the beep.";
         }
         
     }
