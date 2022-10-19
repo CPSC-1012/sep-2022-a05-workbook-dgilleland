@@ -1,6 +1,6 @@
 # Starting with Classes - Part B
 
-> As you move through each of the code examples and practice problems, be sure to **commit** your edits **frequently**.
+> As you move through each of the [code examples](#demos) and [practice problems](#practice), be sure to **commit** your edits **frequently**.
 
 ## Demos
 
@@ -107,7 +107,7 @@ namespace Topic.B.Examples
 
 ### `Student` Class
 
-> This class introduces a slightly more complex class by offering more fields. This example includes a driver illustrating how a single class can be used to instantiate multiple, distinct objects.
+> This class introduces a slightly more complex class by offering more fields of varying data types. This example includes a driver illustrating how a single class can be used to instantiate multiple, distinct objects. It also demonstrates how a class can be a data type for a parameter in some method.
 
 * Data Attributes of the Student class:
   * Name : String
@@ -118,9 +118,10 @@ namespace Topic.B.Examples
   * FullTime : Boolean
 
 This example also includes two drivers. By using two drivers, this illustrates that separate "programs" can share/use the same class definition.
-The first driver is a simple "test driver" to ensure that the class is "working". This introduces the student to the idea that it is necessary to "test" or prove that the code we are creating is valid.
 
-The second driver illustrates how the a single class can act as the basis for creating many distinct objects.
+The first driver ([`DemoSimpleStudentDriver.cs`](./Topic/B/DemoSimpleStudentDriver.cs)) is a simple "test driver" to ensure that the class is "working". This introduces the idea that it is necessary to "test" or prove that the code we are creating is valid, even if our test is just a "throw-away" driver.
+
+The second driver ([`DemoStudentDriver.cs`](./Topic/B/DemoStudentDriver.cs)) illustrates how a single class can act as the basis (or **data type**) for creating many distinct variables (or **objects**). It includes a method on the driver to display the `Student` object that is passed in to the method.
 
 ```csharp
 /**
@@ -341,13 +342,27 @@ Integrate these practice problems into the code under the `B` folder. Some of th
 
 ### `Account` Modifications
 
-Extend the Account class from the example to include more information.
+Extend the **`Account`** class from the example to include more information.
 
 **Problem Statement:**
 
-Extend the Account class from the example to include more information. Specifically, include an AccountType:String, BankName:String, BranchNumber:Integer, and InstitutionNumber:Integer.
+Extend the `Account` class from the example to include more information. Specifically, include the following data members of the class:
 
-Also modify the driver to make use of the added information.
+- `AccountType` as a string,
+- `BankName` as a string,
+- `BranchNumber` as an integer, and
+- `InstitutionNumber` as an integer
+
+Also modify the [driver](./Topic/B/DemoAccountDriver.cs) to make use of the added information. For example, you can add the following to the end of that driver's `Main()` method.
+
+```csharp
+    myAccount.AccountType = "Chequing";
+    myAccount.BankName = "Bank of Wishful Thinking";
+    myAccount.BranchNumber = 112;
+    myAccount.InstitutionNumber = 987243;
+
+    WriteLine($"And it's a {myAccount.AccountType} at {myAccount.BankName} ({myAccount.BranchNumber}-{myAccount.InstitutionNumber})");
+```
 
 > *Background Notes*
 >
@@ -376,6 +391,43 @@ Create the CanadianAddress class so that it can represent the majority of possib
 
 Also create a driver for testing this class; you may use any name for the driver as long as it is not already mentioned in this topic (we need it unique to avoid *naming collisions* in our namespace). In the driver, create instances of the CanadianAddress class that represents a fictional home address as well as the address of your school (use hard-coded data).
 
+#### `CanadianAddress` Solution
+
+- The class should look like this.
+
+    ```csharp
+    public class CanadianAddress
+    {
+        public string Street;
+        public string Unit;
+        public string City;
+        public string Province;
+        public string PostalCode;
+        public string RuralRoute;
+        public string BoxNumber;
+    }
+    ```
+
+- The driver's `Main()` method could contain something like the following. Notice how this example uses an initializer list when instantiating the `CanadianAddress` objects.
+
+    ```csharp
+    CanadianAddress home = new CanadianAddress();
+    home.BoxNumber = "24";
+    home.RuralRoute = "RR#42";
+    home.City = "Ferintosh";
+    home.Province = "AB";
+
+    // Set the values as part of an initializer list
+    CanadianAddress nait = new()
+    {
+        Street = "11762 - 106 Street NW",
+        City = "Edmonton",
+        Province = "AB",
+        PostalCode = "T5G 2R1"
+    };
+    WriteLine($"My school is at {nait.Street} in {nait.City}. That's a ways away from my (fictional) home in {home.City}.");
+    ```
+
 ----
 
 ### Course
@@ -394,6 +446,21 @@ Create the Course class so that it represents a post-secondary course. Design th
   * ClassHours : Integer
 
 Also create a driver for testing this class; you may use any name for your driver as long as it is not already mentioned in this package. In the driver, instantiate all of the first term classes you are taking and populate those objects with data (use hard-coded data).
+
+#### `Course` Solution
+
+- The class should look like:
+
+    ```csharp
+    public class Course
+    {
+        public string CourseName;
+        public string CourseNumber;
+        public int ExamCount;
+        public int LabCount;
+        public int ClassHours;
+    }
+    ```
 
 ----
 

@@ -16,6 +16,12 @@ namespace Topic
                 Program app = new(args); // Note the new C# 9.0 way to instantiate the class - much cleaner!
                 app.Run();
             }
+            catch(TopicDemosException ex)
+            {
+                ForegroundColor = ConsoleColor.DarkRed;
+                BackgroundColor = ConsoleColor.White;
+                WriteLine(ex.Message.PadRight(WindowWidth));
+            }
             finally // This block always runs, whether or not there is an exception. It gives us a place to do any "Clean Up"
             {
                 ResetColor(); // Resetting the color of the Console, so it doesn't look weird afterwards.
@@ -38,13 +44,14 @@ namespace Topic
                               type.FullName,
                               method
                           };
-            Drivers = methods.ToDictionary(a => a.FullName, b => b.method);
+            Drivers = methods.OrderBy(x => x.FullName).ToDictionary(a => a.FullName, b => b.method);
         }
         string[] Args;
         Dictionary<string, MethodInfo> Drivers = new ();
         public void Run()
         {
             Clear();
+            AssertTerminalSize();
             ForegroundColor = ConsoleColor.Yellow;
             WriteLine($"There are {Drivers.Count} drivers:");
             ResetColor();
@@ -64,6 +71,14 @@ namespace Topic
             WriteLine();
 
             selected.Value.Invoke(null, new object[] {Args});
+        }
+
+        private void AssertTerminalSize()
+        {
+            int bufferSize = 4;
+            int minHeight = Drivers.Count + bufferSize;
+            if(WindowHeight < minHeight)
+                throw new TopicDemosException($"Insufficient window height to display menu of {Drivers.Count} drivers. Please ensure your terminal window has a minimum height of {minHeight} lines before running this application.");
         }
 
         int GetSelection(int count)
@@ -106,5 +121,16 @@ namespace Topic
         }
 
         #endregion
+    }
+
+    [System.Serializable]
+    public class TopicDemosException : ApplicationException
+    {
+        public TopicDemosException() { }
+        public TopicDemosException(string message) : base(message) { }
+        public TopicDemosException(string message, System.Exception inner) : base(message, inner) { }
+        protected TopicDemosException(
+            System.Runtime.Serialization.SerializationInfo info,
+            System.Runtime.Serialization.StreamingContext context) : base(info, context) { }
     }
 }

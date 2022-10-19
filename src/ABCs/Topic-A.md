@@ -1,6 +1,6 @@
 # Starting with Classes - Part A
 
-> As you move through each of the code examples and practice problems, be sure to **commit** your edits **frequently**.
+> As you move through each of the [code examples](#reading-code) and [practice problems](#writing-code), be sure to **commit** your edits **frequently**.
 
 ## Reading Code
 
@@ -37,3 +37,17 @@ Use the following details to guide your solution.
   `name` - A String that is the name of the person being called.
   - **Returns:**
   A String that instructs the caller to leave a message for the person with the supplied name.
+
+#### Solution Guidance
+
+In the `string Answer()` method of the [AnsweringMachine](./Topic/A/AnsweringMachine.cs) class, replace the current body of the method with the following line of code.
+
+```csharp
+return "Please leave a message after the beep.";
+```
+
+In the `string Answer(string name)` method of the [AnsweringMachine](./Topic/A/AnsweringMachine.cs) class, replace the current body of the method with the following line of code.
+
+```csharp
+return $"Hi, this is {name}. Please leave a message after the beep.";
+```

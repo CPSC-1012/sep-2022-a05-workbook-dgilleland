@@ -23,7 +23,7 @@ namespace Topic.B
 
             fullName = someGirl.FirstName + " " + someGirl.LastName;
             System.Console.WriteLine("Hi " + someGuy.FirstName +
-                               ". My name is " + fullName);
+                                     ". My name is " + fullName);
         }
     }
 }

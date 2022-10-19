@@ -1,6 +1,6 @@
 # Starting with Classes - Part C
 
-> As you move through each of the code examples and practice problems, be sure to **commit** your edits **frequently**.
+> As you move through each of the [code examples](#demos) and [practice problems](#practice), be sure to **commit** your edits **frequently**.
 
 ## Demos
 
@@ -226,6 +226,19 @@ Extend the Person class from the example to include a constructor that takes in 
 
 ![Person Class Diagram](./images/C-Person-2.png)
 
+#### `Person` Solution
+
+Here's what the constructor should look like.
+
+```csharp
+    public Person(string firstName, string lastName, int age)
+    {
+        FirstName = firstName;
+        LastName = lastName;
+        Age = age;
+    }
+```
+
 ----
 
 ### `Account` Modifications
@@ -234,11 +247,81 @@ Extend the Account class from the example to include more information.
 
 **Problem Statement:**
 
-Extend the Account class from the example to include more information. Specifically, include an AccountType:String, BankName:String, BranchNumber:Integer, and InstitutionNumber:Integer. Base your solution on the following class diagram.
+Extend the Account class from the example to include more information. Specifically, include an
+
+- AccountType:String (make it `ReadOnly`),
+- BankName:String, 
+- BranchNumber:Integer, 
+- and InstitutionNumber:Integer.
+
+Base your solution on the following class diagram.
 
 ![Account Class Diagram](./images/C-Account-2.png)
 
 Also modify the driver to make use of the added information.
+
+#### `Account` Solution
+
+The `Account` class should now include the following:
+
+**Public ReadOnly Field**
+
+```csharp
+public readonly string AccountType;
+```
+
+**Private Fields**
+
+```csharp
+private string _BankName;
+private int _BranchNumber;
+private int _InstitutionNumber;
+```
+
+**Public Properties**
+
+```csharp
+public string BankName
+{
+    get { return _BankName;}
+    set { _BankName = value; }
+}
+
+public int BranchNumber
+{
+    get { return _BranchNumber;}
+    set { _BranchNumber = value; }
+}
+
+public int InstitutionNumber
+{
+    get { return _InstitutionNumber;}
+    set { _InstitutionNumber = value; }
+}
+```
+
+**Modified Constructor**
+
+```csharp
+public Account(string bankName, int branchNumber, int institutionNumber, int accountNumber, double balance, double overdraftLimit, string accountType)
+{
+    AccountNumber = accountNumber;
+    Balance = balance;
+    OverdraftLimit = overdraftLimit;
+
+    BankName = bankName;
+    BranchNumber = branchNumber;
+    InstitutionNumber = institutionNumber;
+    AccountType = accountType;
+}
+```
+
+Try using this modified code in your `Main()` method in [`DemoAccount.cs`](./Topic/C/DemoAccount.cs).
+
+```csharp
+Account savings = new Account("Bank of Mom & Dad", 123, 1234567 ,7654321, 100, 200, "Savings");
+Console.WriteLine($"Account # {savings.AccountNumber} has a balance of ${savings.Balance}");
+```
 
 ----
 
@@ -303,3 +386,88 @@ Here are some XML comments to describe the ToString( ) method.
 ```
 
 Also create a driver for testing this class; you may use any name for the driver as long as it is not already mentioned in this namespace. In the driver, instantiate all of the labs you have submitted to date in any course and populate those objects with data (use hard-coded data); if you haven't had any labs as of yet, then make up some data.
+
+----
+
+#### Solutions for `Course`, `ExamResult` and `LabResult`
+
+```csharp
+public class Course
+{
+    public string CourseName { get; private set; }
+    public string CourseNumber { get; private set; }
+    public int ExamCount { get; private set; }
+    public int LabCount { get; private set; }
+    public int ClassHours { get; private set; }
+
+    public Course(string courseName, string courseNumber, int examCount, int labCount, int classHours)
+    {
+        CourseName = courseName;
+        CourseNumber = courseNumber;
+        ExamCount = examCount;
+        LabCount = labCount;
+        ClassHours = classHours;
+    }
+}
+```
+
+```csharp
+public class ExamResult
+{
+    public string Name { get; private set; }
+    public int TotalMarks { get; private set; }
+    public double MarksEarned { get; private set; }
+    public int ExamWeight { get; private set; }
+    public int StudentId { get; private set; }
+
+    public ExamResult(string name, int totalMarks, double marksEarned, int examWeight, int studentId)
+    {
+        Name = name;
+        TotalMarks = totalMarks;
+        MarksEarned = marksEarned;
+        ExamWeight = examWeight;
+        StudentId = studentId;
+    }
+
+    public override string ToString()
+    {
+        return $"{Name} is worth {ExamWeight}% and Student {StudentId} earned {MarksEarned}/{TotalMarks}";
+    }
+}
+```
+
+```csharp
+public class LabResult
+{
+    public int LabNumber { get; private set; }
+    public int TotalMarks { get; private set; }
+    public double MarksEarned { get; private set; }
+    public int LabWeight { get; private set; }
+    public int StudentId { get; private set; }
+
+    public LabResult(int labNumber, int totalMarks, double marksEarned, int labWeight, int studentId)
+    {
+        LabNumber = labNumber;
+        TotalMarks = totalMarks;
+        MarksEarned = marksEarned;
+        LabWeight = labWeight;
+        StudentId = studentId;
+    }
+
+    /// <summary>
+    /// This method overrides the default ToString() method to display
+    /// more meaningful information about this object.
+    /// </summary>
+    /// <returns>A string displaying the StudentId, MarksEarned, and
+    /// TotalMarks.</returns>
+    /// <remarks>
+    /// A call to this method (such as <c>Lab4.ToString()</c>)
+    /// would produce the following result:
+    /// <code>The student (200702694) received 24.5/35 for this lab.</code>
+    /// </remarks>
+    public override string ToString()
+    {
+        return $"The student ({StudentId}) received {MarksEarned}/{TotalMarks} for this lab.";
+    }
+}
+```
