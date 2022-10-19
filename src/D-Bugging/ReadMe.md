@@ -29,7 +29,7 @@ Read [Debug an App](https://docs.microsoft.com/dotnet/core/tutorials/debugging-w
 - [ ] [Inspecting Variables](https://code.visualstudio.com/docs/editor/debugging#_data-inspection)
   - [ ] Locals and Watch
   - [ ] [Immediate Window (VS2019)](https://docs.microsoft.com/visualstudio/ide/reference/immediate-window?view=vs-2019) and [Debug Console REPL (VS Code)](https://code.visualstudio.com/docs/editor/debugging#_debug-console-repl)
-    - [ ] [5 Tricks You Should Know About Visual Studio's Immediate Window](https://oz-code.com/blog/visual-studio-extension/using-immediate-window-debug-code-design-time)
+    - [ ] [5 Tricks You Should Know About Visual Studio's Immediate Window](https://michaelscodingspot.com/visual-studio-immediate-window/)
 - [ ] Stack Trace
 
 ----
@@ -51,4 +51,4 @@ How can you write automated tests of your code if you're still just learning how
 
 ## The Joy of Testing Your Code As You Are Learning To Code
 
-How can you write automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You don't have to if *someone has written the tests for you*." You get to focus on learning how to code while the tests run in the background to let you know what's working and what isn't.
+How can you use automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You don't have to if *someone has written the tests for you*." You get to focus on learning how to code while the tests run in the background to let you know what's working and what isn't.
