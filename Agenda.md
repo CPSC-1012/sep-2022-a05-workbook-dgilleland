@@ -321,6 +321,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 > *At the end of this topic/class, you should be able to:*
 >
+> - Describe the [grammar for classes and members of a class](https://programming-0101.github.io/TheBook/Teach/chapter1-7.html#classes-and-class-members)
 > - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
 >   - **Follow along in class** as I take you on a guided tour of OOP in this mini-workbook.
 
