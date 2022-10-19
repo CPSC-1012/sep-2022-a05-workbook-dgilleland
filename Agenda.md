@@ -283,7 +283,7 @@ Extra Resources:
 
 ----
 
-## Friday, Oct 15
+## Friday, Oct 14
 
 > Lab Time
 
@@ -291,7 +291,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ----
 
-## Monday, Oct 18
+## Monday, Oct 17
 
 **Homework:** 
 
@@ -339,6 +339,9 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >   - `gh --help`
 >   - `gh issue --help`
 > - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
+
+
+## Wednesday, Oct 19
 
 ----
 
