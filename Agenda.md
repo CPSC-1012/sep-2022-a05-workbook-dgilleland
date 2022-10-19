@@ -314,6 +314,48 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > - [**030**](./src/030/ReadMe.md) Describe the concepts of Projects, Solutions, and NuGet packages
 >   - Create the 030 folder, then `cd` into it
 > - [**031**](./src/031/ReadMe.md) Similar to 030, but exploring OOP
+
+## Wednesday, Oct 19
+
+**NOTE:** Students should be sure to `git pull` their repos, as I've included the `src/ABCs/` demos/practice material.
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
+>   - **Follow along in class** as I take you on a guided tour of OOP in this mini-workbook.
+
+## Friday, Oct 21
+
+- C# Slideshows
+  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Explain (at least in a rudimentary way) the usefulness of Object-Oriented Programming
+> - List some tips for thinking in OOP
+> - Complete the ABCs demos over the weekend. :+1:
+
+### Tips for thinking in OOP
+
+- Design your classes to primarily work as **data types**. That means your class should act as a "template" for the "things" (objects, or instances) you want. **Avoid the use of static members** in your class, unless absolutely needed.
+- **Protect the data** in your objects. Don't expose data to "external" manipulation unless you are really sure that's what you want or need. That typically means using things like properties with non-public `set` methods instead of using fields.
+- Ask yourself what makes an *instance* of your class **valid** and plan your constructor(s) accordingly. One way to frame your question is to ask "What information is required to have **meaningful values** for my *`ClassName`* objects?"
+- Test your classes wherever they perform any kind of data manipulation. This may include testing how instances of your classes interact with other objects. For best results, create **automated tests** such as *unit tests*.
+
+## Monday, Oct 24
+
+- C# Slideshows
+  - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - [033](./src/033/ReadMe.md) Create a **Thermometer** class and see if we can make a useful driver....
+
+
+## Wednesday, Oct 26
+
+> *At the end of this topic/class, you should be able to:*
+>
 > - [**GameLibrary**](./src/GameLibrary/ReadMe.md) 
 >   - solution with three projects
 >     - console named `Driver.csproj`
@@ -338,10 +380,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >   - `dotnet --help`
 >   - `gh --help`
 >   - `gh issue --help`
-> - Begin exploring OOP by looking at the [**ABCs**](./src/ABCs/ReadMe.md)
 
-
-## Wednesday, Oct 19
 
 ----
 
@@ -359,9 +398,6 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
   - **Open External Terminal Window** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>c</kbd>
   - **Fold Code Block** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>
   - **Unfold Code Block** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
-- C# Slideshows
-  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
-  - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
 - Writing Unit Tests
 - OOP
   - *Homework*: Read [Default values of C# types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values)
