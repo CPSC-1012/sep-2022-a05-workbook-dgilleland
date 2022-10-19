@@ -51,4 +51,4 @@ How can you write automated tests of your code if you're still just learning how
 
 ## The Joy of Testing Your Code As You Are Learning To Code
 
-How can you use automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You don't have to if *someone has written the tests for you*." You get to focus on learning how to code while the tests run in the background to let you know what's working and what isn't.
+How can you use automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You don't have to create them yourself if you have *someone who can write the tests for you*." Because I'm providing you with automated tests as you learn C#, you get to focus on learning how to code. Meanwhile, the tests run in the background to let you know what's working and what isn't.
