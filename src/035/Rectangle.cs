@@ -13,4 +13,9 @@ public class Rectangle
             return Height * Width;
         }
     }
+
+    public override string ToString()
+    {
+        return $"{Height} high by {Width} wide";
+    }
 }
