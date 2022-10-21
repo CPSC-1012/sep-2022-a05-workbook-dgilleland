@@ -23,3 +23,5 @@ paintableArea = paintableArea - door.Area;
 
 WriteLine($"My front and back walls take up {paintableArea} square meters, because I have a door.");
 
+string aboutMyDoor = door.ToString();
+WriteLine(aboutMyDoor);
