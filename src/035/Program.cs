@@ -16,4 +16,10 @@ frontWall.Width = 20;
 
 int paintableArea = backWall.Area
                   + frontWall.Area;
+Rectangle door = new();
+door.Height = 3;
+door.Width = 1;
+paintableArea = paintableArea - door.Area;
+
+WriteLine($"My front and back walls take up {paintableArea} square meters, because I have a door.");
 
