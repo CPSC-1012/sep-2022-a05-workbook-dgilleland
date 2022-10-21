@@ -327,6 +327,8 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Friday, Oct 21
 
+- Resume ABCs with [**Topic B**](./src/ABCs/Topic-B.md)
+  - Homework: [**Topic C**](./src/ABCs/Topic-C.md)
 - C# Slideshows
   - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
 
