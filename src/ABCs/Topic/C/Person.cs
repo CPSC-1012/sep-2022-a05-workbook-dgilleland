@@ -2,9 +2,9 @@ namespace Topic.C
 {
     public class Person
     {
-        public string _FirstName;
-        public string _LastName;
-        public int _Age;
+        private string _FirstName;
+        private string _LastName;
+        private int _Age;
 
         public string FirstName
         {

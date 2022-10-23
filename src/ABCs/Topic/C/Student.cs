@@ -5,9 +5,9 @@ namespace Topic.C
         public readonly string Name;
         public readonly char Status;
         public readonly int StudentId;
-        public string _Program;
-        public double _GradePointAverage;
-        public bool _IsFullTime;
+        private string _Program;
+        private double _GradePointAverage;
+        private bool _IsFullTime;
 
         public string Program
         {

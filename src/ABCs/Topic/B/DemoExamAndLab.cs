@@ -6,16 +6,27 @@ namespace Topic.B
         {
             DemoExamAndLab app = new();
             System.Console.WriteLine("Uncomment the lines in this driver after you have coded the `ExamResult` and `LabResult` classes.");
-          // app.Run();
+            app.Run();
         }
 
-        // private void Run()
-        // {
-        //     ExamResult[] exams = new ExamResult[4];
-        //     LabResult[] labs = new LabResult[2];
+        private void Run()
+        {
+            // ExamResult exam;
+            // LabResult lab;
 
-        //     exams[0] = new ExamResult{ Name = "Quiz 1", ExamWeight = 10, MarksEarned = 15, TotalMarks = 20, StudentId = 202112345 };
-        //     // TODO: Finish demo drivers for Topic B
+            // exam = GetExamDetails();
+            // lab = GetLabDetails();
+            // // TODO: Finish demo drivers for Topic B
+        }
+
+        // private ExamResult GetExamDetails()
+        // {
+        //     // Get the exam values from the user
+        // }
+
+        // private LabResult GetLabDetails()
+        // {
+        //     // Get the lab values from the user
         // }
     }
 }

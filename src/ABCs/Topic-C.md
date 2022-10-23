@@ -13,9 +13,9 @@ This simple class illustrates and introduces the idea of encapsulation (private 
 ```csharp
 public class Person
 {
-    public string _FirstName;
-    public string _LastName;
-    public int _Age;
+    private string _FirstName;
+    private string _LastName;
+    private int _Age;
 
     public string FirstName
     {
@@ -32,6 +32,20 @@ public class Person
         get { return _Age; }
         set { _Age = value; }
     }
+}
+```
+
+```csharp
+public static void Main(string[] args)
+{
+    Person somebody = new Person();
+    WriteLine("Immediately after constructing a `Person` object, here are it's property values:");
+    WriteLine($"\t Age       : {somebody.Age}");
+    WriteLine($"\t FirstName : {somebody.FirstName}");
+    WriteLine($"\t LastName  : {somebody.LastName}");
+    // Why are the FirstName and LastName values not displaying anything?
+    // What is the initial value of FirstName and LastName? Is it an empty string "" or `null`?
+    WriteLine("Write your own code to play with the modified `Person` class.");
 }
 ```
 
@@ -89,9 +103,9 @@ public class Student
     public readonly string Name;
     public readonly char Status;
     public readonly int StudentId;
-    public string _Program;
-    public double _GradePointAverage;
-    public bool _IsFullTime;
+    private string _Program;
+    private double _GradePointAverage;
+    private bool _IsFullTime;
 
     public string Program
     {
