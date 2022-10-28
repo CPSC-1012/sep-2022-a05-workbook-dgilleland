@@ -1,6 +1,12 @@
-# Thermometer
+## Designing Classes
 
-Intro to enumbs, demo constants in classes (like `int.MaxValue`).
+The following are some ideas for data types representing the ability to measure items.
+
+## Thermometer
+
+- Another class example
+- `enum` types
+- constants in classes (like `int.MaxValue`)
 
 ```csharp
 public class Thermometer
@@ -18,3 +24,9 @@ public class Thermometer
     }
 }
 ```
+
+## Speedometer
+
+
+## Odometer
+
