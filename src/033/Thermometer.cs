@@ -9,4 +9,12 @@ public class Thermometer
 
     // Instance members of the class
     public double CurrentTemperature;
+
+
+    // In the following method, I change the default way
+    // my object instances get turned into "strings"
+    public override string ToString()
+    {
+        return $"{CurrentTemperature}{'\u00B0'} {Units.Celsius}";
+    }
 }
