@@ -329,8 +329,6 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 - Resume ABCs with [**Topic B**](./src/ABCs/Topic-B.md)
   - Homework: [**Topic C**](./src/ABCs/Topic-C.md)
-- C# Slideshows
-  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
 
 > *At the end of this topic/class, you should be able to:*
 >
@@ -350,21 +348,29 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 - C# Slideshows
   - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
 
+## Wednesday, Oct 26
+
+> ***Quiz 1***
+
+
+## Friday, Oct 28
+
+- C# Slideshows
+  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
+
 > *At the end of this topic/class, you should be able to:*
 >
 > - [033](./src/033/ReadMe.md) Create a **Thermometer** class and see if we can make a useful driver....
-
-
-## Wednesday, Oct 26
-
-> *At the end of this topic/class, you should be able to:*
->
+>   - Describe what is meant by an "Exception"
 > - [**GameLibrary**](./src/GameLibrary/ReadMe.md) 
 >   - solution with three projects
 >     - console named `Driver.csproj`
 >     - class library named `GameWorld.csproj`
 >     - xunit named `GameWorld.Specs.csproj`
->   - Simple game object - A player with a First Name, Last Name, and Date of Birth
+>   - Simple game object - A **`Player`** with a First Name, Last Name, and Date of Birth
+>     - Can we calculate the age of the player?
+>     - What would be an invalid date of birth?
+>     - What would be an invalid name?
 > - Follow prescribed steps to open project subfolders in separate VS Code instances
 >   - *Why?* - It can make development a bit easier because 
 >       1. Omnisharp can more readily make "assumptions" about the project/solution it needs to load for our intellisense, and
