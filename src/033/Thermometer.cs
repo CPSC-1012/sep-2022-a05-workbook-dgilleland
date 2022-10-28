@@ -7,7 +7,6 @@ public class Thermometer
     public const int FreezingPointOfWater = 0;
     public const double AbsoluteZero = -273.15;
 
-    
-
-
+    // Instance members of the class
+    public double CurrentTemperature;
 }
