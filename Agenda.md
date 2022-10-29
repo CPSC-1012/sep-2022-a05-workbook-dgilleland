@@ -348,6 +348,10 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 - C# Slideshows
   - [Enumerations](https://programming-0101.github.io/slides/OOP-Ramp-Up/02-Enum.html)
 
+> *At the end of this topic/class, you should be able to:*
+>
+> - [**036**](./src/036/ReadMe.md) Compare and contrast Java getters/setters with C# Properties
+
 ## Wednesday, Oct 26
 
 > ***Quiz 1***
@@ -361,12 +365,63 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > *At the end of this topic/class, you should be able to:*
 >
 > - [033](./src/033/ReadMe.md) Create a **Thermometer** class and see if we can make a useful driver....
->   - Describe what is meant by an "Exception"
-> - [**GameLibrary**](./src/GameLibrary/ReadMe.md) 
->   - solution with three projects
->     - console named `Driver.csproj`
->     - class library named `GameWorld.csproj`
->     - xunit named `GameWorld.Specs.csproj`
+> - Describe what is meant by an "Exception"
+
+
+## Monday, Oct 31
+
+- **Slideshow**
+  - [Arrays](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html) Revisiting and discussing
+    - Cross-ref with a [substitution class I did for another section](https://github.com/dgilleland/SubstituteClasses/tree/master/Shane-Oct-20-2022)
+- Bonus for Sys-Admin Students:
+  - [Learn and use PowerShell with just three commands](https://youtu.be/cDcS6iL1G4I); I especially like how he notes that PowerShell commands like `Get-TimeZone` will return information as **objects**!
+  - Check out other videos on [TechThoughts](https://www.youtube.com/c/TechthoughtsInfo2)
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Describe how an array works in memory
+> - Define the terms **element**, **subscript/index**, **physical size**, and **logical size** as they are applied to arrays
+> - Declare and initialize arrays
+> - Determine the physical size of an array
+> - Create arrays by splitting strings
+> - Process the `args` array in a console application to handle inputs from the command line
+
+## Wednesday, Nov 2
+
+- C# Slideshows
+  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - List the primary classes used for file input/output
+>   - [File](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-6.0) and [Directory](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory?view=net-6.0)
+> - Compare and contrast File I/O with console-based User I/O
+> - Read text files using `.ReadAllText()` and `.ReadAllLines()`
+>   - e.g.: reading the lines of your Program.cs file
+> - Write to text files using `.WriteLine()` and `.WriteAllText()`, `WriteAllLines()`, `.AppendAllText()`, and `AppendAllLines()`
+> - Separate UI concerns from application concerns (objects) in console applications
+ 
+
+
+## Friday, Nov 4
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Use manual debugging techniques in VS Code
+>   - `Console.WriteLine()` - Debugging like it's the '90s
+>   - Breakpoints and stepping through code with the debugger
+> - Explain how automated tests contribute to code reliability and developer productivity
+
+## Monday, Nov 7
+
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Begin your [**GameLibrary**](./src/GameLibrary/ReadMe.md) solution
+>   - .NET Solution with three projects
+>     - a **console app** named `Driver.csproj`
+>     - a **class library** named `GameWorld.csproj`
+>     - an **xunit project** named `GameWorld.Specs.csproj`
 >   - Simple game object - A **`Player`** with a First Name, Last Name, and Date of Birth
 >     - Can we calculate the age of the player?
 >     - What would be an invalid date of birth?
