@@ -13,7 +13,19 @@ someWords = new string[] {"To", "be", "or", "not", "2 bee"};
 // When I declare a string array with a set { } of values, the physical size will match the number of items in the set.
 Display(someWords);
 
+// Let's do some collecting of numbers from the user
+
+
 // Methods
+static int PromptWholeNumber()
+{
+    int value;
+    Write("Enter a whole number: ");
+    while(!int.TryParse(ReadLine(), out value))
+        Write(" Try again: \nEnter a whole number: ");
+    return value;
+}
+
 static void Display(string[] info)
 {
     if(info.Length > 0)
