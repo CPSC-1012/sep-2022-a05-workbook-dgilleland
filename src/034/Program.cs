@@ -1,7 +1,11 @@
 ﻿using static System.Console;
-Console.WriteLine("This is what was passed in:");
+WriteLine("This is what was passed in:");
 Display(args); // our string[] args
-
+WriteLine();
+Write("Tell me a story! ");
+string story = ReadLine();
+string[] words = story.Split(" ");
+Display(words);
 
 // Methods
 static void Display(string[] info)
