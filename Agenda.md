@@ -388,9 +388,6 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Wednesday, Nov 2
 
-- C# Slideshows
-  - [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
-
 > *At the end of this topic/class, you should be able to:*
 >
 > - List the primary classes used for file input/output
