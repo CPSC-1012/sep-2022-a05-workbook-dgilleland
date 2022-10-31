@@ -11,6 +11,7 @@ string[] someWords = {}; // Here I have initialized an empty array
 Display(someWords);
 someWords = new string[] {"To", "be", "or", "not", "2 bee"};
 // When I declare a string array with a set { } of values, the physical size will match the number of items in the set.
+Display(someWords);
 
 // Methods
 static void Display(string[] info)
