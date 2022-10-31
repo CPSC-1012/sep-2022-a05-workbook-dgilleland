@@ -5,6 +5,16 @@
   
     `dotnet run -- "Dan Gilleland" 2000 All values are space-delimeted`
 
+| args[] |
+|--------|
+| "Dan Gilleland" |
+| "2000" |
+| "All" |
+| "values" |
+| "are" |
+| "space-delimeted" |
+
+
 ```csharp
 public class Program
 {
