@@ -4,7 +4,7 @@ Display(args); // our string[] args
 WriteLine();
 Write("Tell me a story! ");
 string story = ReadLine();
-string[] words = story.Split(" ");
+string[] words = story.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 Display(words);
 
 // Methods
