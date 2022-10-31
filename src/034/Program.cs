@@ -14,6 +14,18 @@ someWords = new string[] {"To", "be", "or", "not", "2 bee"};
 Display(someWords);
 
 // Let's do some collecting of numbers from the user
+int[] numbers = new int[10]; // Make an array of 10 integers
+int logicalSize = 0; // There are zero "valid" numbers in the array
+while(logicalSize < numbers.Length) // while there is room in the array....
+{
+    numbers[logicalSize] = PromptWholeNumber();
+    logicalSize++;
+}
+
+int sum = 0;
+for(int subscript = 0; subscript < logicalSize; subscript ++)
+    sum += numbers[subscript];
+WriteLine($"The total is {sum}.");
 
 
 // Methods
