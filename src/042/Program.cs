@@ -10,7 +10,4 @@ Console.WriteLine("Hello, World!");
 // int roll = 0;
 // while(roll > 0 && roll < max)
 
-static int Roll(int max)
-{
-    return Random.
-}
+
