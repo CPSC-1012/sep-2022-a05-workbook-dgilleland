@@ -6,6 +6,19 @@ WriteLine("Objective: Display a list of files in a directory and determine wheth
 
 string path = Directory.GetCurrentDirectory();
 WriteLine($"The current directory is {path}");
+string[] parts = path.Split("\\"); // You might need to "escape" the backslash
+for(int index = 0; index < parts.Length; index++)
+    WriteLine($"\t{parts[index]}");
+string reassembled = string.Join("\\", parts); // give me the same path
+// imagine instead, I decided to loop to re-assemble the string
+reassembled = "";
+for(int index = 0; index < parts.Length - 1; index++)
+    reassembled += parts[index] + "\\";
+
+// There is also a class called Path that is used to create paths
+string parentFolder = Path.Combine(path, "..");
+WriteLine($"The parent of {path} is \n\t{parentFolder}");
+
 
 path = Directory.GetDirectoryRoot(path);
 WriteLine($"The directory root is {path}");

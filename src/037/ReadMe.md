@@ -6,3 +6,5 @@ The [File](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-
 
 - [ ] A) Write the code to programmatically create an empty folder in the current directory. Ask the user for the name of the folder and check if it already exists before attempting to create it.
 - [ ] B) How would you programmatically move a file named "Answers.log" from the current folder to the next folder?
+- [ ] C) Explore how you can use the [`Path.Combine()`](https://learn.microsoft.com/en-us/dotnet/api/system.io.path.combine?view=net-6.0) method to create new paths.
+
