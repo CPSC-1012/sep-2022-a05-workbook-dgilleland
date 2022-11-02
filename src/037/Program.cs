@@ -1,8 +1,10 @@
 ﻿using static System.Console;
 using System.IO;
 Clear();
+string title = "Objective: Display a list of files in a directory and determine whether or not a file exists.";
 
-WriteLine("Objective: Display a list of files in a directory and determine whether or not a file exists.\n");
+WriteLine(title);
+WriteLine("".PadRight(title.Length, '-'));
 
 string path = Directory.GetCurrentDirectory();
 WriteLine($"The current directory is {path}");

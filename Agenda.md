@@ -397,8 +397,6 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > - [**038**](./src/038/ReadMe.md) Read text files using `.ReadAllText()` and `.ReadAllLines()`
 >   - e.g.: reading the lines of your Program.cs file
 > - [**039**](./src/039/ReadMe.md) Write to text files using `.WriteAllText()`, `WriteAllLines()`, `.AppendAllText()`, and `AppendAllLines()`
-> - [**040**](./src/040/ReadMe.md) File I/O and Data Processing
-> - Separate UI concerns from application concerns (objects) in console applications
 
 
 ## Friday, Nov 4
@@ -411,13 +409,20 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > - [**042**](./src/042/ReadMe.md) Practice debugging in VS Code
 > - Explain how automated tests contribute to code reliability and developer productivity
 
-## Monday, Nov 8
+## Monday, Nov 7
 
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**041**](./src/041/ReadMe.md) Read and Write JSON data using File I/O.
 
 ## Wednesday, Nov 9
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - [**040**](./src/040/ReadMe.md) File I/O and Data Processing
+> - Separate UI concerns from application concerns (objects) in console applications
+
+## Monday, Nov 15
 
 > *At the end of this topic/class, you should be able to:*
 >
