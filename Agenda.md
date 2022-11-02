@@ -393,11 +393,12 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > - List the primary classes used for file input/output
 >   - [File](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-6.0) and [Directory](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory?view=net-6.0)
 > - Compare and contrast File I/O with console-based User I/O
-> - Read text files using `.ReadAllText()` and `.ReadAllLines()`
+> - [**037**](./src/037/ReadMe.md) Display a list of files in a directory and determine whether or not a file exists
+> - [**038**](./src/038/ReadMe.md) Read text files using `.ReadAllText()` and `.ReadAllLines()`
 >   - e.g.: reading the lines of your Program.cs file
-> - Write to text files using `.WriteLine()` and `.WriteAllText()`, `WriteAllLines()`, `.AppendAllText()`, and `AppendAllLines()`
+> - [**039**](./src/039/ReadMe.md) Write to text files using `.WriteLine()` and `.WriteAllText()`, `WriteAllLines()`, `.AppendAllText()`, and `AppendAllLines()`
+> - [**040**](./src/040/ReadMe.md) File I/O and Data Processing
 > - Separate UI concerns from application concerns (objects) in console applications
- 
 
 
 ## Friday, Nov 4
