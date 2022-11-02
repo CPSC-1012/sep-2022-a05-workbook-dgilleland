@@ -410,8 +410,13 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >   - Breakpoints and stepping through code with the debugger
 > - Explain how automated tests contribute to code reliability and developer productivity
 
-## Monday, Nov 7
+## Monday, Nov 8
 
+> *At the end of this topic/class, you should be able to:*
+>
+> - [**041**](./src/041/ReadMe.md) Read and Write JSON data using File I/O.
+
+## Wednesday, Nov 9
 
 > *At the end of this topic/class, you should be able to:*
 >
