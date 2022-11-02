@@ -408,6 +408,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > - Use manual debugging techniques in VS Code
 >   - `Console.WriteLine()` - Debugging like it's the '90s
 >   - Breakpoints and stepping through code with the debugger
+> - [**042**](./src/042/ReadMe.md) Practice debugging in VS Code
 > - Explain how automated tests contribute to code reliability and developer productivity
 
 ## Monday, Nov 8
