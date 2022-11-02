@@ -10,6 +10,7 @@ targetRoll = PromptNumber(1, 6);
 WriteLine("\nAttempting up to 10 rolls to get that number...");
 while(count > 0 && count < 10 || targetRoll != aDie.FaceValue)
 {
+    WriteLine($"Attempt: {count} \t\t{aDie.FaceValue} != {targetRoll}");
     aDie.Roll();
     count++;
 }
