@@ -2,7 +2,7 @@
 using System.IO;
 Clear();
 
-WriteLine("Objective: Display a list of files in a directory and determine whether or not a file exists.\n\n");
+WriteLine("Objective: Display a list of files in a directory and determine whether or not a file exists.\n");
 
 string path = Directory.GetCurrentDirectory();
 WriteLine($"The current directory is {path}");
