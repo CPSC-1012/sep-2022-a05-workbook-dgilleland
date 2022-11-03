@@ -7,6 +7,9 @@ namespace Topic_Specs
 {
     public class Fraction_Must
     {
+        // TODO: More tests
+        //       Test for Reciprocal
+        //       Test for double ToDouble()
         [Fact]
         public void Correctly_Store_Numerator()
         {
