@@ -37,6 +37,7 @@ Read [Debug an App](https://docs.microsoft.com/dotnet/core/tutorials/debugging-w
 ## A Peek Into Automated Testing
 
 - [ ] Fraction demo, with .ToString() and .Reciprocal
+- [ ] Read [Unit Tests, How to Write Testable Code, and Why It Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 - [ ] [xUnit and VS Code](https://xunit.net/docs/getting-started/netcore/cmdline)
 
 > For a side-bar visual look at your unit tests, you can try the [.Net Core Test Explorer](https://marketplace.visualstudio.com/items?itemName=derivitec-ltd.vscode-dotnet-adapter) extension.
@@ -49,6 +50,14 @@ Read [Debug an App](https://docs.microsoft.com/dotnet/core/tutorials/debugging-w
 
 How can you write automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You can't."
 
+At the very beginning of your coding journey, you can probably do well enough without any unit tests. There's a lot of "groundwork" you need to cover first (e.g.: grammar basics, data types and variables, coding simple math problems, etc.). You can do simple manual tests at this point to see if your code is working. (A manual test is just running your program and seeing if it produces the output you expected.)
+
+At some point, however, you're going to benefit from having automated tests, if only because manually testing your code is both error prone and fatiguing. One thing's for certain: the earlier you get exposed to automated testing, the better off you will be!
+
 ## The Joy of Testing Your Code As You Are Learning To Code
 
-How can you use automated tests of your code if you're still just learning how to code in the first place? The short answer is, "You don't have to create them yourself if you have *someone who can write the tests for you*." Because I'm providing you with automated tests as you learn C#, you get to focus on learning how to code. Meanwhile, the tests run in the background to let you know what's working and what isn't.
+How can you use automated tests of your code if you're still just learning how to code in the first place?
+
+The short answer (in the beginning) is, "You don't have to create them yourself if you have *someone who can write the tests for you*." Because I'm providing you with automated tests as you learn C#, you get to focus on learning how to code. Meanwhile, the tests run in the background to let you know what's working and what isn't.
+
+After a while though, you might find that writing your own unit tests will provide several benefits as you are learning how to program. One of the biggest benefits is simply the confidence that you will gain that you can change your code more freely as you explore better ways to get your program to do what you want it to do.
