@@ -39,7 +39,21 @@ The methods I came up with from my analysis are as follows:
 
 ![possible methods](./Images/Analyze-Proposed-Modularization.png)
 
-Now I just need to decide on the order in which to do those methods. 
+Now I just need to decide on the order in which to do those methods. For the sake of argument, I'll just start with a familiar one of prompting for a valid dimension - `double GetDimension(string promptMessage)`.
+
+```csharp
+double GetDimension(string promptMessage)
+{
+    Write(promptMessage);
+    double result;
+    while(! double.TryParse(ReadLine(), out result) || result <= 0)
+    {
+        WriteLine("\tThat was not a valid number. Enter a number larger than zero");
+        Write(promptMessage);
+    }
+    return result;
+}
+```
 
 
 ----
