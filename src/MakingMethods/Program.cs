@@ -10,3 +10,17 @@
 // - Validate all user input
 // - Handle all dimensions as double data types
 
+
+
+// Methods Begin Here:
+double GetDimension(string promptMessage)
+{
+    Write(promptMessage);
+    double result;
+    while(! double.TryParse(ReadLine(), out result) || result <= 0)
+    {
+        WriteLine("\tThat was not a valid number. Enter a number larger than zero");
+        Write(promptMessage);
+    }
+    return result; // A method can only explicitly return ONE thing.
+}
