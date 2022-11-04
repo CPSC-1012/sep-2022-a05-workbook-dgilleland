@@ -31,3 +31,20 @@ When I was satisfied with the way I grouped the parts of the problem, I suggeste
 2. What information will the method need to do the task (these are probably going to be parameters for the method)?
 3. What information will the method *return* as a result of accomplishing its task?
 
+The driver of my program is typically just a loop where I determine if the program should continue or exit.
+
+![driver](./Images/Driver.png)
+
+The methods I came up with from my analysis are as follows:
+
+![possible methods](./Images/Analyze-Proposed-Modularization.png)
+
+Now I just need to decide on the order in which to do those methods. 
+
+
+----
+
+## Colophon
+
+- Drawing tool is [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) by Microsoft
+
