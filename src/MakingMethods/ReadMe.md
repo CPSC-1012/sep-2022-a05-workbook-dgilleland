@@ -55,6 +55,7 @@ double GetDimension(string promptMessage)
 }
 ```
 
+> :bulb: **TIP:** It's always best to start small, and then "test" your methods to see if they can "stand on their own": Does it do what you intended it to do?
 
 ----
 
