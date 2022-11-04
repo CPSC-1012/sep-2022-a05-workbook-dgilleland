@@ -4,6 +4,6 @@ public class Die
     public int FaceValue { get; private set; }
     public void Roll()
     {
-        FaceValue = _rnd.Next(1, 6);
+        FaceValue = _rnd.Next(1, 7);
     }
 }
