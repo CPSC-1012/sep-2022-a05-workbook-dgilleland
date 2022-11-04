@@ -51,7 +51,7 @@ double GetDimension(string promptMessage)
         WriteLine("\tThat was not a valid number. Enter a number larger than zero");
         Write(promptMessage);
     }
-    return result;
+    return result; // A method can only explicitly return ONE thing.
 }
 ```
 
