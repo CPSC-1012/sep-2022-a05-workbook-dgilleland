@@ -57,6 +57,12 @@ double GetDimension(string promptMessage)
 
 > :bulb: **TIP:** It's always best to start small, and then "test" your methods to see if they can "stand on their own": Does it do what you intended it to do?
 
+To test this method, I'll just create an ultra-simple "temp" driver that will call the method and output the result.
+
+```csharp
+WriteLine($"Testing: {GetDimension("Enter the radius")}");
+```
+
 ----
 
 ## Colophon
