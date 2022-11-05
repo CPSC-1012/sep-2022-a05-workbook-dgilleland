@@ -15,7 +15,7 @@
 #region Body of Main Method
 // TEMPORARY - Replace with Driver when I'm getting closer to the end
 // Notice how I am "testing" my methods independent of each other.
-WriteLine($"Area of circle is {CalculateArea("Circle")}");
+WriteLine($"Area of circle is {CalculateArea("Square")}");
 
 // WriteLine($"Testing: {GetDimension("Enter the radius")}");
 // string firstShape, secondShape;
