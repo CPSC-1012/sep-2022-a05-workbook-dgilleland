@@ -80,7 +80,7 @@ double CalculateArea(string shape)
 string Compare(string shapeA, double areaA, string shapeB, double areaB)
 {
     // This method does NOT have any user I/O - it just does comparisons.
-    string bigger = "";
+    string bigger = "X";
 
     return bigger;
 }
