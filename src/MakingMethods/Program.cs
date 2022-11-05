@@ -76,7 +76,7 @@ double CalculateArea(string shape)
             double side = GetDimension("Enter the side length: ");
             area = side * side;
             break;
-        case "Triangle":
+        case "Triangle": // Area = 1/2 * base * height
             break;
         case "Rectangle":
             break;
