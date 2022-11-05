@@ -103,6 +103,11 @@ secondShape = GetShapeType();
 WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
 ```
 
+I'll continue on with coding the other two methods I identified (see the [Program.cs](./Program.cs) file for the details).
+
+- `double CalculateArea(string shape)`
+- `string Compare(string shapeA, double areaA, string shapeB, double areaB)`
+
 ----
 
 ## Colophon
