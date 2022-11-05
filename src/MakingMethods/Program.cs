@@ -15,13 +15,9 @@
 #region Body of Main Method
 // TEMPORARY - Replace with Driver when I'm getting closer to the end
 // Notice how I am "testing" my methods independent of each other.
-WriteLine($"Area of circle is {CalculateArea("Square")}");
+string shape = "Triangle";
+WriteLine($"Area of {shape} is {CalculateArea(shape)}");
 
-// WriteLine($"Testing: {GetDimension("Enter the radius")}");
-// string firstShape, secondShape;
-// firstShape = GetShapeType();
-// secondShape = GetShapeType();
-// WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
 #endregion
 
 #region Supporting Methods Begin Here
@@ -77,6 +73,9 @@ double CalculateArea(string shape)
             area = side * side;
             break;
         case "Triangle": // Area = 1/2 * base * height
+            double baseLength = GetDimension("Enter the base length: ");
+            double height = GetDimension("Enter the height: ");
+            area = 1.0 / 2 * baseLength * height;
             break;
         case "Rectangle":
             // TODO: Complete the Rectangle area calculation
