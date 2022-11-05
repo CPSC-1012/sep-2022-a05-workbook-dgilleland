@@ -78,7 +78,9 @@ double CalculateArea(string shape)
             area = 1.0 / 2 * baseLength * height;
             break;
         case "Rectangle":
-            // TODO: Complete the Rectangle area calculation
+            double width = GetDimension("Enter the width: ");
+            double heightRectangle = GetDimension("Enter the height");
+            area = width * heightRectangle;
             break;
     }
     return area;
