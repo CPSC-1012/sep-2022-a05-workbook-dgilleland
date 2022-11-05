@@ -14,12 +14,15 @@
 
 #region Body of Main Method
 
-
-
-
-
-
-
+string choice;
+Write("Do you want to compare shapes (Y/n)? ");
+choice = ReadLine().ToUpper();
+while(choice != "N")
+{
+    RunApp();
+    Write("Do you want to compare shapes (Y/n)? ");
+    choice = ReadLine().ToUpper();
+}
 
 #endregion
 
@@ -34,7 +37,7 @@ void RunApp()
     double areaB = CalculateArea(shapeB);
     // Compare the shapes
     string result = Compare(shapeA, areaA, shapeB, areaB); // TODO: The Compare() method is incomplete
-    
+
 }
 
 double GetDimension(string promptMessage)
