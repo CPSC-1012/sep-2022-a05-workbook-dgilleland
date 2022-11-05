@@ -68,6 +68,7 @@ I can now run my program and make sure the `GetDimension()` method is working co
 ```csharp
 string GetShapeType()
 {
+    string shape;
     do
     {
         WriteLine("A) Circle");
@@ -75,7 +76,7 @@ string GetShapeType()
         WriteLine("C) Triangle");
         WriteLine("D) Rectangle");
         Write("\nSelect a shape (A through D only): ");
-        string shape = ReadLine().ToUpper();
+        shape = ReadLine().ToUpper();
     }while(shape != "A" && shape != "B" && shape != "C" && shape != "D");
 
     if(shape == "A")
@@ -85,7 +86,7 @@ string GetShapeType()
     else if(shape == "C")
         shape = "Triangle";
     else if(shape == "D")
-        shape = Rectangle;
+        shape = "Rectangle";
 
     return shape;
 }

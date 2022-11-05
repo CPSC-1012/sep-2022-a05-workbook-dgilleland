@@ -29,4 +29,29 @@ double GetDimension(string promptMessage)
     }
     return result; // A method can only explicitly return ONE thing.
 }
+
+string GetShapeType()
+{
+    string shape;
+    do
+    {
+        WriteLine("A) Circle");
+        WriteLine("B) Square");
+        WriteLine("C) Triangle");
+        WriteLine("D) Rectangle");
+        Write("\nSelect a shape (A through D only): ");
+        shape = ReadLine().ToUpper();
+    }while(shape != "A" && shape != "B" && shape != "C" && shape != "D");
+
+    if(shape == "A")
+        shape = "Circle";
+    else if(shape == "B")
+        shape = "Square";
+    else if(shape == "C")
+        shape = "Triangle";
+    else if(shape == "D")
+        shape = "Rectangle";
+
+    return shape;
+}
 #endregion
