@@ -58,4 +58,30 @@ string GetShapeType()
 
     return shape;
 }
+
+double CalculateArea(string shape)
+{
+    // This method does NOT have any user I/O - it just does calculations
+    double area = 0;
+    switch(shape)
+    {
+        case "Circle":
+            break;
+        case "Square":
+            break;
+        case "Triangle":
+            break;
+        case "Rectangle":
+            break;
+    }
+    return area;
+}
+
+string Compare(string shapeA, double areaA, string shapeB, double areaB)
+{
+    // This method does NOT have any user I/O - it just does comparisons.
+    string bigger;
+
+    return bigger;
+}
 #endregion
