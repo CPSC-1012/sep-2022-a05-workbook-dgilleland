@@ -10,7 +10,7 @@
 // - Validate all user input
 // - Handle all dimensions as double data types
 
-
+WriteLine($"Testing: {GetDimension("Enter the radius")}");
 
 // Methods Begin Here:
 double GetDimension(string promptMessage)
