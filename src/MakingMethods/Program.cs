@@ -64,7 +64,7 @@ string GetShapeType()
 
 double CalculateArea(string shape)
 {
-    // This method does NOT have any user I/O - it just does calculations
+    // This method depends on GetDimension, which interacts with the user.
     double area = 0;
     switch(shape)
     {
