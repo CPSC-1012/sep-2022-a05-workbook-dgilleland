@@ -73,6 +73,8 @@ double CalculateArea(string shape)
             area = Math.PI * radius * radius;
             break;
         case "Square":
+            double side = GetDimension("Enter the side length: ");
+            area = side * side;
             break;
         case "Triangle":
             break;
