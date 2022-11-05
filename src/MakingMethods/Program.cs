@@ -15,6 +15,10 @@
 #region Body of Main Method
 // TEMPORARY - Replace with Driver when I'm getting closer to the end
 WriteLine($"Testing: {GetDimension("Enter the radius")}");
+string firstShape, secondShape;
+firstShape = GetShapeType();
+secondShape = GetShapeType();
+WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
 #endregion
 
 #region Supporting Methods Begin Here
