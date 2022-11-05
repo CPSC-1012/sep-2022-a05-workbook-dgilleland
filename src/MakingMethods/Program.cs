@@ -37,7 +37,6 @@ void RunApp()
     double areaB = CalculateArea(shapeB);
     // Compare the shapes
     string result = Compare(shapeA, areaA, shapeB, areaB); // TODO: The Compare() method is incomplete
-
 }
 
 double GetDimension(string promptMessage)
