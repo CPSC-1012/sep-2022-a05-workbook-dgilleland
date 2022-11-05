@@ -13,14 +13,30 @@
 #endregion
 
 #region Body of Main Method
-// TEMPORARY - Replace with Driver when I'm getting closer to the end
-// Notice how I am "testing" my methods independent of each other.
-string shape = "Triangle";
-WriteLine($"Area of {shape} is {CalculateArea(shape)}");
+
+
+
+
+
+
+
 
 #endregion
 
 #region Supporting Methods Begin Here
+void RunApp()
+{
+    // Get the first shape
+    string shapeA = GetShapeType();
+    double areaA = CalculateArea(shapeA);
+    // Get the second shape
+    string shapeB = GetShapeType();
+    double areaB = CalculateArea(shapeB);
+    // Compare the shapes
+    string result = Compare(shapeA, areaA, shapeB, areaB); // TODO: The Compare() method is incomplete
+    
+}
+
 double GetDimension(string promptMessage)
 {
     Write(promptMessage);
