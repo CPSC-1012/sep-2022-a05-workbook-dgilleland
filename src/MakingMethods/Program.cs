@@ -69,6 +69,8 @@ double CalculateArea(string shape)
     switch(shape)
     {
         case "Circle":
+            double radius = GetDimension("Enter a radius: ");
+            area = Math.PI * radius * radius;
             break;
         case "Square":
             break;
