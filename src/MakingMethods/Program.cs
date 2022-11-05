@@ -14,13 +14,14 @@
 
 #region Body of Main Method
 // TEMPORARY - Replace with Driver when I'm getting closer to the end
+// Notice how I am "testing" my methods independent of each other.
 WriteLine($"Area of circle is {CalculateArea("Circle")}");
 
-WriteLine($"Testing: {GetDimension("Enter the radius")}");
-string firstShape, secondShape;
-firstShape = GetShapeType();
-secondShape = GetShapeType();
-WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
+// WriteLine($"Testing: {GetDimension("Enter the radius")}");
+// string firstShape, secondShape;
+// firstShape = GetShapeType();
+// secondShape = GetShapeType();
+// WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
 #endregion
 
 #region Supporting Methods Begin Here
