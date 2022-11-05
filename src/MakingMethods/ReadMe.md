@@ -92,10 +92,16 @@ string GetShapeType()
 }
 ```
 
+Notice how these methods so far are *independent* of each other. The `GetShapeType()` and `GetDimension()` work separately on their own. The only connection betwee the two is my temporary driver.
 
-
-
-Notice how these methods so far are *independent* of each other.
+```csharp
+// TEMPORARY - Replace with Driver when I'm getting closer to the end
+WriteLine($"Testing: {GetDimension("Enter the radius")}");
+string firstShape, secondShape;
+firstShape = GetShapeType();
+secondShape = GetShapeType();
+WriteLine($"The two shapes to compare are {firstShape} and {secondShape}");
+```
 
 ----
 
