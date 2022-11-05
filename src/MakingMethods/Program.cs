@@ -79,6 +79,7 @@ double CalculateArea(string shape)
         case "Triangle": // Area = 1/2 * base * height
             break;
         case "Rectangle":
+            // TODO: Complete the Rectangle area calculation
             break;
     }
     return area;
