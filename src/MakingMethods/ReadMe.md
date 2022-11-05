@@ -63,6 +63,39 @@ To test this method, I'll just create an ultra-simple "temp" driver that will ca
 WriteLine($"Testing: {GetDimension("Enter the radius")}");
 ```
 
+I can now run my program and make sure the `GetDimension()` method is working correctly. When I'm satisfied that it is, I'll move on to another method. Let's do the one to get the shape type from the user.
+
+```csharp
+string GetShapeType()
+{
+    do
+    {
+        WriteLine("A) Circle");
+        WriteLine("B) Square");
+        WriteLine("C) Triangle");
+        WriteLine("D) Rectangle");
+        Write("\nSelect a shape (A through D only): ");
+        string shape = ReadLine().ToUpper();
+    }while(shape != "A" && shape != "B" && shape != "C" && shape != "D");
+
+    if(shape == "A")
+        shape = "Circle";
+    else if(shape == "B")
+        shape = "Square";
+    else if(shape == "C")
+        shape = "Triangle";
+    else if(shape == "D")
+        shape = Rectangle;
+
+    return shape;
+}
+```
+
+
+
+
+Notice how these methods so far are *independent* of each other.
+
 ----
 
 ## Colophon
