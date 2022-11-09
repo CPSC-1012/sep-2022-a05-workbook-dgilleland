@@ -411,18 +411,29 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Monday, Nov 7
 
+> *No class - instructor on sick day*
+
+## Wednesday, Nov 9
+
+- [ ] **TODO:** Review Lab 4 solution
+  - Emphasize the 3 things to understand: Your problem, your language, and your tools
+  - Separating UI concerns from Application concerns
+- [ ] Discuss Assignment 3
+
+## Monday, Nov 14
+
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**041**](./src/041/ReadMe.md) Read and Write JSON data using File I/O.
 
-## Wednesday, Nov 9
+## Wednesday, Nov 16
 
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**040**](./src/040/ReadMe.md) File I/O and Data Processing
 > - Separate UI concerns from application concerns (objects) in console applications
 
-## Monday, Nov 15
+## Friday, Nov 18
 
 > *At the end of this topic/class, you should be able to:*
 >
