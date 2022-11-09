@@ -420,6 +420,18 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
   - Separating UI concerns from Application concerns
 - [ ] Discuss Assignment 3
 
+> *At the end of this topic/class, you should be able to:*
+>
+> - Begin your [**GameLibrary**](./src/GameLibrary/ReadMe.md) solution
+>   - .NET Solution with three projects
+>     - a **console app** named `Driver.csproj`
+>     - a **class library** named `GameWorld.csproj`
+>     - an **xunit project** named `GameWorld.Specs.csproj`
+>   - Simple game object - A **`Player`** with a First Name, Last Name, and Date of Birth
+>     - Can we calculate the age of the player?
+>     - What would be an invalid date of birth?
+>     - What would be an invalid name?
+
 ## Monday, Nov 14
 
 > *At the end of this topic/class, you should be able to:*
@@ -451,7 +463,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >       1. Omnisharp can more readily make "assumptions" about the project/solution it needs to load for our intellisense, and
 >       1. We can more easily configure the project settings for debugging (`launch.json` and `tasks.json` in the .vscode folder) and we only need to do it once.
 >   - **First,** launch a new VS Code window that will open a project subfolder for "easier" development
->     - E.g.: `code -n src\001` *(Note the importance of the slash being in the correct direction - a backslash)
+>     - E.g.: `code -n src\GameLibrary` *(Note the importance of the slash being in the correct direction - a backslash)
 >   - **Second,** create the projects you need (e.g.: console driver, class library, xunit project, etc.) along with a solution file (`.sln`)
 >   - **Third,** configure your project in the *"run and debug"* view of the [Activity Bar](https://code.visualstudio.com/docs/getstarted/userinterface#_activity-bar)
 > - Explain how to assemble/connect projects, solutions and package depdendencies using the DotNet CLI
