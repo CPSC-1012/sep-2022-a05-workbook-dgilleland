@@ -34,7 +34,7 @@ For example, try the following:
 
 1. Run the program (press [[Ctrl]] + [[F5]]) and observe the output, which should look something like this:
 
-    ```shell
+    ```text
     Hello World
     The following text is output on the same line.
     Press any key to continue...
@@ -51,7 +51,7 @@ Console.WriteLine("Hello " + name);
 
 Notice what we have done in the last line. We can take our variable and concatenate it with the text `"Hello "` as we send the combined result to be displayed in the terminal.
 
-```shell
+```text
 Hello Dan
 ```
 
