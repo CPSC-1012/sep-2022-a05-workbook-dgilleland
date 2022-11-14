@@ -14,8 +14,11 @@ for(int index = 0; index < testDie.Length; index ++)
 string[] players = new string[] {"Dan", "Bob" };
 DropDeadGame myGame = new DropDeadGame(players);
 
+WriteLine("Before the call, I have:");
+ShowDie(testDie);
 int score = myGame.RollDie(testDie);
 WriteLine($"The score was {score}");
+ShowDie(testDie);
 
 // ====== Methods =====
 void ShowDie(Die[] theDice)
