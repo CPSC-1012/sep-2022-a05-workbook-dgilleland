@@ -25,6 +25,8 @@ public class DropDeadGame
     public int RollDie(Die[] dice)
     {
         int score = 0;
+        foreach(Die die in dice)
+            die.Roll();
         
     }
 }
