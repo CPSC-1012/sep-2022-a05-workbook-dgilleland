@@ -13,3 +13,6 @@ for(int index = 0; index < testDie.Length; index ++)
 // Try out my DropDeadGame
 string[] players = new string[] {"Dan", "Bob" };
 DropDeadGame myGame = new DropDeadGame(players);
+
+int score = myGame.RollDie(testDie);
+WriteLine($"The score was {score}");
