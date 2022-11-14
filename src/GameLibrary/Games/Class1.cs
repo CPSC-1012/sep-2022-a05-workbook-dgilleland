@@ -19,8 +19,12 @@ public class DropDeadGame
         // (which is zero)
     }
 
+    /// <summary>
+    /// Roll all the supplied die and return an appropriate score.
+    /// </summary>
     public int RollDie(Die[] dice)
     {
-
+        int score = 0;
+        
     }
 }
