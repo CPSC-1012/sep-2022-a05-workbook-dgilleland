@@ -36,4 +36,13 @@ public class DropDeadGame
                 score += die.FaceValue;
         return score;
     }
+
+    public int CheckRemainingDie(Die[] dice)
+    {
+        int count = 0;
+        foreach(Die die in dice)
+            if(die.FaceValue != 2 && die.FaceValue != 5)
+                count++;
+        return count;
+    }
 }
