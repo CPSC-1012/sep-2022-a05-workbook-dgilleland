@@ -18,5 +18,8 @@ public class DropDeadGame
         // (which is zero)
     }
 
-    
+    public int RollDie(Die[] dice)
+    {
+
+    }
 }
