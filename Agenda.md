@@ -431,9 +431,9 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >
 > - Begin your [**GameLibrary**](./src/GameLibrary/ReadMe.md) solution
 >   - .NET Solution with three projects
->     - a **console app** named `Driver.csproj`
->     - a **class library** named `GameWorld.csproj`
->     - an **xunit project** named `GameWorld.Specs.csproj`
+>     - a **console app** named `App.csproj` <!-- `Driver.csproj` -->
+>     - a **class library** named `Games.csproj` <!-- `GameWorld.csproj` -->
+>     - an **xunit project** named `Games.Specs.csproj`<!-- `GameWorld.Specs.csproj` -->
 >   - Simple game object
 >     - A **Die** class representing a six-sided die
 >     - A game involving dice, such as ***Drop Dead***:
