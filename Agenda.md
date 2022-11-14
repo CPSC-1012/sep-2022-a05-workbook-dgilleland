@@ -415,10 +415,17 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Wednesday, Nov 9
 
-- [ ] **TODO:** Review Lab 4 solution
+- [x] **TODO:** Review Lab 4 solution
   - Emphasize the 3 things to understand: Your problem, your language, and your tools
   - Separating UI concerns from Application concerns
 - [ ] Discuss Assignment 3
+
+## Monday, Nov 14
+
+- [ ] Discuss the specs of Assignment 3A
+- [ ] **Homework:** Read the following articles
+  - [Console I/O](./src/ConsoleIO/ReadMe.md)
+  - [Driver Evolution](./src/DriverEvolution/ReadMe.md)
 
 > *At the end of this topic/class, you should be able to:*
 >
@@ -427,25 +434,42 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >     - a **console app** named `Driver.csproj`
 >     - a **class library** named `GameWorld.csproj`
 >     - an **xunit project** named `GameWorld.Specs.csproj`
->   - Simple game object - A **`Player`** with a First Name, Last Name, and Date of Birth
->     - Can we calculate the age of the player?
->     - What would be an invalid date of birth?
->     - What would be an invalid name?
+>   - Simple game object
+>     - A **Die** class representing a six-sided die
+>     - A game involving dice, such as ***Drop Dead***:
+>       - *"Five dice and paper to record players' scores are all that is needed. A player rolls the five dice and if the throw does not include a 2 or 5, they receive the score of the total numbers added together. That player is also able to roll the dice again. When a player rolls the dice and any of them contain a 2 or 5, they score no points and the dice that includes a 2 or 5 is excluded from any future throws that they make. A player's turn does not stop until their last remaining die shows a 2 or 5. At that point, the player "drops dead" and it becomes the next player's turn. The highest total score wins."* (source: [*Drop Dead*](https://en.wikipedia.org/wiki/Drop_Dead_(dice_game)))
+>     - A **`Player`** with a First Name, Last Name, and Date of Birth
+>       - Can we calculate the age of the player?
+>       - What would be an invalid date of birth?
+>       - What would be an invalid name?
 
-## Monday, Nov 14
+
+## Wednesday, Nov 16
+
+> *Continuation of the GameLibrary Project*
+
+## Friday, Nov 18
+
+> *Continuation of the GameLibrary Project*
+
+## Monday, Nov 21
+
+> *Continuation of the GameLibrary Project*
+
+## ??day, Nov ??
 
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**041**](./src/041/ReadMe.md) Read and Write JSON data using File I/O.
 
-## Wednesday, Nov 16
+## ??day, Nov ??
 
 > *At the end of this topic/class, you should be able to:*
 >
 > - [**040**](./src/040/ReadMe.md) File I/O and Data Processing
 > - Separate UI concerns from application concerns (objects) in console applications
 
-## Friday, Nov 18
+## ??day, Nov ??
 
 > *At the end of this topic/class, you should be able to:*
 >
