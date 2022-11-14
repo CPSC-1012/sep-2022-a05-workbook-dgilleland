@@ -16,3 +16,11 @@ DropDeadGame myGame = new DropDeadGame(players);
 
 int score = myGame.RollDie(testDie);
 WriteLine($"The score was {score}");
+
+// ====== Methods =====
+void ShowDie(Die[] theDice)
+{
+    foreach(Die item in theDice)
+        Write($"{item.FaceValue, 4}");
+    WriteLine();
+}
