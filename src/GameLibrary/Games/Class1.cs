@@ -27,6 +27,13 @@ public class DropDeadGame
         int score = 0;
         foreach(Die die in dice)
             die.Roll();
-        
+        bool dropDead = false;
+        foreach(Die die in dice)
+            if(die.FaceValue == 2 || die.FaceValue == 5)
+                dropDead = true;
+        if(!dropDead)
+            foreach(Die die in dice)
+                score += die.FaceValue;
+        return score;
     }
 }
