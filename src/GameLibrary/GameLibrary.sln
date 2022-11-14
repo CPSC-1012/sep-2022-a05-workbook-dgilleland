@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{FEB9A1CF-A6D3-4EC3-B30A-579B191E6158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games", "Games\Games.csproj", "{3984BFA2-6E0B-45FC-9EC7-82B6EC58B382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Games.Specs", "Games.Specs\Games.Specs.csproj", "{C1F13F60-5BF0-41B7-96BE-158B356F7BE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB9A1CF-A6D3-4EC3-B30A-579B191E6158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB9A1CF-A6D3-4EC3-B30A-579B191E6158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB9A1CF-A6D3-4EC3-B30A-579B191E6158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB9A1CF-A6D3-4EC3-B30A-579B191E6158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3984BFA2-6E0B-45FC-9EC7-82B6EC58B382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3984BFA2-6E0B-45FC-9EC7-82B6EC58B382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3984BFA2-6E0B-45FC-9EC7-82B6EC58B382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3984BFA2-6E0B-45FC-9EC7-82B6EC58B382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F13F60-5BF0-41B7-96BE-158B356F7BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F13F60-5BF0-41B7-96BE-158B356F7BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F13F60-5BF0-41B7-96BE-158B356F7BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F13F60-5BF0-41B7-96BE-158B356F7BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
