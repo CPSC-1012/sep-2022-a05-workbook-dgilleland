@@ -19,6 +19,8 @@ ShowDie(testDie);
 int score = myGame.RollDie(testDie);
 WriteLine($"The score was {score}");
 ShowDie(testDie);
+WriteLine($"I can roll {myGame.CheckRemainingDie(testDie)}");
+
 
 // ====== Methods =====
 void ShowDie(Die[] theDice)
