@@ -64,12 +64,15 @@ public class Die
 
 As a game, *Drop Dead* will have certain characteristics.
 
-- This game is for two or more players.
-- In the game, we will need to manage the player's scores.
-- The game is *turn-based*, meaning that each player takes a turn at rolling dice.
-- The rules for each turn are fixed and do not require any decisions on the part of the players.
+- This game is for two or more **players**. (`Player.cs`)
+- In the game, we will need to manage the player's **scores** (`int[]`). 
+- The game is *turn-based*, meaning that each player takes a *turn* (`.StartTurn()`) at rolling dice.
+  - The rules for each turn are fixed and do not require any decisions on the part of the players.
+    - Loop until I have no more die left to roll
+    - `int CheckRemainingDie(Die[] dice)` - return how many die I can roll the next time
+    - `int RollDie(Die[] dice)` - returns the score from rolling the die
 - Once a player's turn is finished, the game continues on with the next player until all the players have had their turn at rolling the dice.
-- The winning condition is simply that the player with the highest score winds the game.
+- The winning condition is simply that the player with the highest score wins the game.
 - Conceivably, the game could end in a tie.
 
 Since the game ends with a simple comparison of the player's scores, it makes sense to display each player's name with their final score. It also makes sense that the game itself should be able to identify who the winner is.
