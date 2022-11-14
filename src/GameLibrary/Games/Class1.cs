@@ -1,4 +1,5 @@
 ﻿namespace Games; // New way to declare a namespace for the following types/classes.
+using Games.CommonObjects;
 public class DropDeadGame
 {
     // Have an array of strings for player names
