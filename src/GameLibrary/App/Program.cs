@@ -25,6 +25,11 @@ WriteLine($"I can roll {myGame.CheckRemainingDie(testDie)}");
 // ====== Methods =====
 void ShowDie(Die[] theDice)
 {
+    for(int index = 0; index < theDice.Length; index++)
+    {
+        Die item = theDice[index];
+        Write($"{item.FaceValue, 4}");
+    }
     foreach(Die item in theDice)
         Write($"{item.FaceValue, 4}");
     WriteLine();
