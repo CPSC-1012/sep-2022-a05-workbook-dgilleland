@@ -450,7 +450,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > 
 > - Rename `Class1` to `DropDeadGame` using <kbd>Ctrl</kbd> + <kbd>.</kbd> and *"Rename file..."*
 > - **Refactor**
->   - [ ] `RollDie()` should use `CheckRemainingDie()` to see if it should tally die for scoring
+>   - [ ] `RollDie()` should use `CheckRemainingDie()` to see if it should tally die for scoring. The rationale is that since 
 > 
 >     ```csharp
 >     public int RollDie(Die[] dice)
