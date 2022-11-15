@@ -447,6 +447,8 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 ## Wednesday, Nov 16
 
 > *Continuation of the GameLibrary Project*
+> 
+> - Rename `Class1` to `DropDeadGame` using <kbd>Ctrl</kbd> + <kbd>.</kbd> and *"Rename file..."*
 
 ## Friday, Nov 18
 

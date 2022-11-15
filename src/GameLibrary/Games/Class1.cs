@@ -1,4 +1,5 @@
-﻿namespace Games; // New way to declare a namespace for the following types/classes.
+﻿// New way to declare a namespace for the following types/classes, called "file-scoped namespace declaration".
+namespace Games;
 using Games.CommonObjects;
 public class DropDeadGame
 {
