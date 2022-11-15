@@ -448,6 +448,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 > *Continuation of the GameLibrary Project*
 > 
+> - Review [updated game instructions](./src/GameLibrary/ReadMe.md#dice-related-games) - note the sample output
 > - Rename `Class1` to `DropDeadGame` using <kbd>Ctrl</kbd> + <kbd>.</kbd> and *"Rename file..."*
 > - **Refactor**
 >   - [ ] `RollDie()` should use `CheckRemainingDie()` to see if it should tally die for scoring. The rationale is that since 
