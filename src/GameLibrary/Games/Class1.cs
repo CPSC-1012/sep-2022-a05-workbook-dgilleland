@@ -2,11 +2,14 @@
 using Games.CommonObjects;
 public class DropDeadGame
 {
+    #region Fields
     // Have an array of strings for player names
     private readonly string[] PlayerNames;
     // Have an array of integers for player scores
     private readonly int[] PlayerScores;
     // I should have a constructor that gets the players
+    #endregion
+
     public DropDeadGame(string[] players)
     {
         // TODO: Validation - if there's a problem, I'll be throwing an exception
