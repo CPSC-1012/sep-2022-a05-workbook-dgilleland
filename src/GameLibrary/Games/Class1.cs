@@ -41,6 +41,9 @@ public class DropDeadGame
         return score;
     }
 
+    /// <summary>
+    /// Determines how many die can be used in the next roll (by excluding all die with face values of 2 and 5)
+    /// </summary>
     public int CheckRemainingDie(Die[] dice)
     {
         int count = 0;
