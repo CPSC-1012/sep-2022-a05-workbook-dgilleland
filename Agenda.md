@@ -449,6 +449,21 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > *Continuation of the GameLibrary Project*
 > 
 > - Rename `Class1` to `DropDeadGame` using <kbd>Ctrl</kbd> + <kbd>.</kbd> and *"Rename file..."*
+> - **Refactor**
+>   - [ ] `RollDie()` should use `CheckRemainingDie()` to see if it should tally die for scoring
+> 
+>     ```csharp
+>     public int RollDie(Die[] dice)
+>     {
+>         int score = 0;
+>         foreach(Die die in dice)
+>             die.Roll();
+>         if(CheckRemainingDie(dice) == dice.Length)
+>             foreach(Die die in dice)
+>                 score += die.FaceValue;
+>         return score;
+>     }
+>     ```
 
 ## Friday, Nov 18
 
