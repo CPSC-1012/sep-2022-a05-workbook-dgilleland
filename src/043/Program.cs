@@ -1,7 +1,21 @@
 ﻿using static System.Console;
 Clear();
 WriteLine("Assorted Useful Things...\n");
+WriteLine("=========================");
 
+// Make use of my generic class Labeled Item
+string fullName = "Dan Gilleland";
+int yearsExperience = 40;
+decimal salary = 110000m;
+double savings = 10.95;
+bool isMarried = true;
+
+LabeledItem<string> displayName = new LabeledItem<string>("Full name", fullName);
+LabeledItem<int> displayYears = new LabeledItem<int>("Years coding", yearsExperience);
+WriteLine(displayName);
+WriteLine(displayYears);
+
+WriteLine("=========================");
 string[] languages = new string[] {"C#", "SQL", "HTML", "JavaScript", "CSS"};
 // Traditional for loop to go through the array
 for(int index = 0; index < languages.Length; index++)
