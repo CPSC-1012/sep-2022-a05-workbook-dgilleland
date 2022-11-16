@@ -23,6 +23,13 @@ public class DropDeadGame
         // (which is zero)
     }
 
+    public void Play()
+    {
+        // Each player runs their turn for rolling the die
+        // Game ends when the players have finished their turns
+        // Then I will know the scores and can determine the winner
+    }
+
     /// <summary>
     /// Roll all the supplied die and return an appropriate score.
     /// </summary>
