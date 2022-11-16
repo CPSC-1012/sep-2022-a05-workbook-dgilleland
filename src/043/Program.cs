@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using static System.Console;
+Clear();
+WriteLine("Assorted Useful Things...\n");
