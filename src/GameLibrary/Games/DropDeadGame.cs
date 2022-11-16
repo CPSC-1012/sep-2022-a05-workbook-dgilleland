@@ -27,23 +27,33 @@ public class DropDeadGame
     {
         // Each player runs their turn for rolling the die
         for(int index = 0; index < PlayerNames.Length; index++)
-        {
-            // Game ends when the players have finished their turns
-            int numberOfDie = 5;
-            Die[] dice;
-            do
-            {
-                // Create an array of die objects
-                dice = new Die[numberOfDie]; // Create an array with 5 empty slots
-                // Put a new die in each slot of the array
-                for(int count = 0; count < dice.Length; count++)
-                    dice[count] = new Die();
-                
-                PlayerScores[index] += RollDie(dice);
-                numberOfDie = CheckRemainingDie(dice);
-            }while(numberOfDie > 0);
-        }
+            TakeTurn(index);
         // Then I will know the scores and can determine the winner
+    }
+
+    private void TakeTurn(int index)
+    {
+        // Game ends when the players have finished their turns
+        int numberOfDie = 5;
+        Die[] dice;
+        do
+        {
+            dice = CreateDice(numberOfDie);
+
+            PlayerScores[index] += RollDie(dice);
+            numberOfDie = CheckRemainingDie(dice);
+        } while (numberOfDie > 0);
+    }
+
+    private static Die[] CreateDice(int numberOfDie)
+    {
+        Die[] dice;
+        // Create an array of die objects
+        dice = new Die[numberOfDie]; // Create an array with 5 empty slots
+                                     // Put a new die in each slot of the array
+        for (int count = 0; count < dice.Length; count++)
+            dice[count] = new Die();
+        return dice;
     }
 
     /// <summary>
