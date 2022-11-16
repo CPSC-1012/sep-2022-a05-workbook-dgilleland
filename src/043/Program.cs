@@ -14,5 +14,6 @@ for(int index = 0; index < languages.Length; index++)
 // Looping using the foreach statement
 foreach(string programmingLanguage in languages)
 {
-    WriteLine($"I know {programmingLanguage.Reverse()} backwards!");
+    string inReverse = new string(programmingLanguage.Reverse().ToString());
+    WriteLine($"I know {inReverse} backwards!");
 }
