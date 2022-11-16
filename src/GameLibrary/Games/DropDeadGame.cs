@@ -30,12 +30,15 @@ public class DropDeadGame
         {
             // Game ends when the players have finished their turns
             int numberOfDie = 5;
-            Die[] dice = new Die[numberOfDie]; // Create an array with 5 empty slots
-            // Put a new die in each slot of the array
-            for(int count = 0; count < dice.Length; count++)
-                dice[count] = new Die();
+            Die[] dice;
             do
             {
+                // Create an array of die objects
+                dice = new Die[numberOfDie]; // Create an array with 5 empty slots
+                // Put a new die in each slot of the array
+                for(int count = 0; count < dice.Length; count++)
+                    dice[count] = new Die();
+                
                 PlayerScores[index] += RollDie(dice);
                 numberOfDie = CheckRemainingDie(dice);
             }while(numberOfDie > 0);
