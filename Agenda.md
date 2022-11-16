@@ -446,8 +446,15 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Wednesday, Nov 16
 
+> *At the end of this topic/class, you should be able to:*
+>
+> - Describe the workings (and limitations) of the `foreach` statement in C#
+>   - Compare against `for` with a collection
+> - Describe the usage of the `List<T>` data type in .NET
+> - Define the term "Generics" in CE
+>
 > *Continuation of the GameLibrary Project*
-> 
+>
 > - Review [updated game instructions](./src/GameLibrary/ReadMe.md#dice-related-games) - note the sample output
 > - Rename `Class1` to `DropDeadGame` using <kbd>Ctrl</kbd> + <kbd>.</kbd> and *"Rename file..."*
 > - **Refactor**
