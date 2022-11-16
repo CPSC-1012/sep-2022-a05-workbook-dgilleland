@@ -14,6 +14,14 @@ LabeledItem<string> displayName = new LabeledItem<string>("Full name", fullName)
 LabeledItem<int> displayYears = new LabeledItem<int>("Years coding", yearsExperience);
 WriteLine(displayName);
 WriteLine(displayYears);
+// The var keyword can be used when you initialize a variable as you declare it.
+var displaySalary = new LabeledItem<decimal>("Yearly Salary", salary);
+// Any idea what the nameof() function will do below??
+var cashOnHand = new LabeledItem<double>(nameof(savings), savings);
+LabeledItem<bool> maritalStatus = new("Happy", isMarried);
+WriteLine(displaySalary);
+WriteLine(cashOnHand);
+WriteLine(maritalStatus);
 
 WriteLine("=========================");
 string[] languages = new string[] {"C#", "SQL", "HTML", "JavaScript", "CSS"};
