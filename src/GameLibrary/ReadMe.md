@@ -102,7 +102,7 @@ Dan is the winner with 22 points.
 As a game, *Drop Dead* will have certain characteristics.
 
 - This game is for two or more **players**. (`Player.cs`)
-- In the game, we will need to manage the player's **scores** (`int[]`). 
+- In the game, we will need to manage the player's **scores** (perhaps an array like `int[]`). 
 - The game is *turn-based*, meaning that each player takes a *turn* (`.StartTurn()`) at rolling dice.
   - The rules for each turn are fixed and do not require any decisions on the part of the players.
     - Loop until I have no more die left to roll
