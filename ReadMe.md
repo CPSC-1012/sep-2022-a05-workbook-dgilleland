@@ -1,5 +1,6 @@
 # CPSC-1012 - **Instructor Workbook** (Sep 2022 | A05)
 
+- [Learn C# for beginners](https://www.youtube.com/watch?v=EtNd4eH9Wrk&list=PLhq7kqloVlM95ROEbGpJEdpadDmtrC343) - 65 short-and-to-the-point videos on learning C#
 - [C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
 - [Learn C# BASICS in 10 MINUTES!](https://youtu.be/IFayQioG71A)
 - [Top 10 C# Best Practices (plus bonuses)](https://youtu.be/-9b8NRqjUFM)
