@@ -448,10 +448,11 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 > *At the end of this topic/class, you should be able to:*
 >
+> - Describe the concept of a **collection** in computer programming
+> - Define the term "Generics" in C#
 > - Describe the workings (and limitations) of the `foreach` statement in C#
 >   - Compare against `for` with a collection
 > - Describe the usage of the `List<T>` data type in .NET
-> - Define the term "Generics" in CE
 >
 > *Continuation of the GameLibrary Project*
 >
