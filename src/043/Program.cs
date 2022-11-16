@@ -14,7 +14,10 @@ for(int index = 0; index < languages.Length; index++)
 // Looping using the foreach statement
 foreach(string programmingLanguage in languages)
 {
-    
+    // Each time through the loop, the value of programmingLanguage
+    // will be the next string in the languages array
+    // I can do whatever I want with that item in the array
+    // (except replace that item with some other value)
     string inReverse = new string(programmingLanguage.Reverse().ToArray());
     WriteLine($"I know {inReverse} backwards!");
 }
