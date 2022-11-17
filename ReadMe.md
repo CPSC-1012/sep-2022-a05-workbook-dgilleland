@@ -1,5 +1,6 @@
 # CPSC-1012 - **Instructor Workbook** (Sep 2022 | A05)
 
+- [Visual Studio Code for C# Developers | .NET Conf 2022](https://youtu.be/fuBi4d7k1-M)
 - [Getting Started as a C# Developer](https://www.linkedin.com/learning/paths/getting-started-as-a-c-sharp-developer?u=2109516) on Linked-In Learning - 20h 22m series of 9 videos
 - [Learn C# for beginners](https://www.youtube.com/watch?v=EtNd4eH9Wrk&list=PLhq7kqloVlM95ROEbGpJEdpadDmtrC343) - 65 short-and-to-the-point videos on learning C#
 - [C# Fundamentals for Beginners](https://youtu.be/0QUgvfuKvWU) - 8 hr video for absolute beginners
