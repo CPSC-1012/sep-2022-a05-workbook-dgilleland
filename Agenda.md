@@ -550,3 +550,17 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
   - [**D-Bugging**](./src/D-Bugging/ReadMe.md)
   - [**E-to-M**](./src/E-to-M/ReadMe.md)
 
+----
+
+### Other ideas
+
+- [ ] Game of Ur (dice game)
+- [ ] Game of Sorry
+- [ ] Chess move logic
+  - `p` - **P**awn
+  - `B` - **B**ishop
+  - `C` - **C**astle
+  - `Q` - **Q**ueen
+  - `K` - **K**ing
+  - `N` - k**N**ight
+
