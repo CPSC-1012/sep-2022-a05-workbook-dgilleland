@@ -63,7 +63,7 @@ public class DropDeadGame
         // Each player runs their turn for rolling the die
         for(int index = 0; index < PlayerNames.Length; index++)
         {
-            RaiseTurnStarted(PlayerNames[index]);
+            RaiseTurnStarted(PlayerNames[index]); // Let the world know who's turn it is
             TakeTurn(index);
         }
         // Then I will know the scores and can determine the winner
