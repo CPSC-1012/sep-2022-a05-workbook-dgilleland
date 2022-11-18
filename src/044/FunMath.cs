@@ -1,5 +1,7 @@
 public class FunMath
 {
+    public record PrimeNumber(ulong Number, int Position);
+    public event EventHandler<PrimeNumber> FoundPrime;
     public void FindPrimeNumbers()
     {
         // A prime number is a number that is divisible only by itself and 1.
