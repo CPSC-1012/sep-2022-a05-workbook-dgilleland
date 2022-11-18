@@ -21,7 +21,7 @@ public class FunMath
         {
             bool isPrime = true;
             ulong midway = (ulong) Math.Sqrt(num);
-            for(ulong divisor = 2; isPrime && divisor <= midway; divisor++)
+            for(ulong divisor = 2; isPrime && divisor <= midway; divisor+=2)
             {
                 if(num % divisor == 0)
                 {
