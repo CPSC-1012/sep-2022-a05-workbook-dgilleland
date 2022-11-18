@@ -1,13 +1,16 @@
 public class FunMath
 {
+    // PrimeNumber is the "payload" data type for the event
     public record PrimeNumber(ulong Number, int Position);
+    // FoundPrime is the name of the event
     public event EventHandler<PrimeNumber> FoundPrime;
+    // RaiseFoundPrimeEvent notifies all subscribers
     private void RaiseFoundPrimeEvent(PrimeNumber info)
     {
         if(FoundPrime != null)
             FoundPrime.Invoke(this, info);
     }
-    
+
     public void FindPrimeNumbers()
     {
         // A prime number is a number that is divisible only by itself and 1.
