@@ -3,6 +3,34 @@ namespace Games;
 using Games.CommonObjects;
 public class DropDeadGame
 {
+    #region Event-Driven Functionality
+    public event EventHandler<string> TurnStarted;
+    public event EventHandler<DropDeadTurnResult> RollFinished;
+
+    private void RaiseTurnStarted(string playerName)
+    {
+        if(TurnStarted != null)
+            TurnStarted.Invoke(this, playerName);
+    }
+    private void RaiseRollFinished(string name, int score, int numberOfDie, Die[] dice)
+    {
+        if(RollFinished != null)
+        {
+            TurnStatus status;
+            if(numberOfDie == 0)
+                status = TurnStatus.Finished;
+            else
+                status = TurnStatus.InProcess;
+            List<int> rollResults = new List<int>();
+            foreach(var die in dice)
+                rollResults.Add(die.FaceValue);
+            DropDeadTurnResult details = new(name, score, status, rollResults.ToArray());
+
+            RollFinished.Invoke(this, details);
+        }
+    }
+    #endregion
+
     #region Fields
     // Have an array of strings for player names
     private readonly string[] PlayerNames;
@@ -27,7 +55,10 @@ public class DropDeadGame
     {
         // Each player runs their turn for rolling the die
         for(int index = 0; index < PlayerNames.Length; index++)
+        {
+            RaiseTurnStarted(PlayerNames[index]);
             TakeTurn(index);
+        }
         // Then I will know the scores and can determine the winner
     }
 
@@ -42,6 +73,7 @@ public class DropDeadGame
 
             PlayerScores[index] += RollDie(dice);
             numberOfDie = CheckRemainingDie(dice);
+            RaiseRollFinished(PlayerNames[index], PlayerScores[index], numberOfDie, dice);
         } while (numberOfDie > 0);
     }
 
