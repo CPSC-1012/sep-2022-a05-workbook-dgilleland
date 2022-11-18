@@ -1,6 +1,6 @@
 ﻿using static System.Console;
 using static ConsoleIO; // I made some static methods in this class to help with user I/O
-using Games; // DropDeadGame
+using Games; // I will need the DropDeadGame class
 
 Clear();
 Title = "Game Library";
