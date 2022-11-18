@@ -3,6 +3,4 @@ namespace Games;
 
 public record DropDeadTurnResult(string PlayerName, int CurrentScore, TurnStatus TurnStatus, int[] DieRolls);
 
-public enum TurnStatus { Unknown, Finished, Waiting,
-    InProcess
-}
+public enum TurnStatus { Unknown, Finished, Waiting, InProcess }
