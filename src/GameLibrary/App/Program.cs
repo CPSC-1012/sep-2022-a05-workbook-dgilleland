@@ -1,7 +1,6 @@
 ﻿using static System.Console;
-using static ConsoleIO;
+using static ConsoleIO; // I made some static methods in this class to help with user I/O
 using Games; // DropDeadGame
-using Games.CommonObjects; // Die
 
 Clear();
 Title = "Game Library";
@@ -27,6 +26,7 @@ void DropDeadDriver()
     WriteLine("----------------------");
     game.Play();
 }
+
 void DisplayTurnStart(object? sender, string e)
 {
     WriteLine($"{e}'s rolls:");
