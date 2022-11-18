@@ -4,6 +4,9 @@ using Games.CommonObjects;
 public class DropDeadGame
 {
     #region Event-Driven Functionality
+    // My class will publish two events: TurnStarted and RollFinished.
+    // Anyone using an instance of DropDeadGame can subscribe to these events
+    // and they will be notified whenever they occur.
     public event EventHandler<string> TurnStarted;
     public event EventHandler<DropDeadTurnResult> RollFinished;
 
