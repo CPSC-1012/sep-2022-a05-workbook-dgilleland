@@ -80,6 +80,7 @@ public class DropDeadGame
 
             PlayerScores[index] += RollDie(dice);
             numberOfDie = CheckRemainingDie(dice);
+            // Let the world know that this roll in the player's turn is complete
             RaiseRollFinished(PlayerNames[index], PlayerScores[index], numberOfDie, dice);
         } while (numberOfDie > 0);
     }
