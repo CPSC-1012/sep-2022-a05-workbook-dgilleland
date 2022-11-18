@@ -3,6 +3,8 @@ using static ConsoleIO;
 using Games; // DropDeadGame
 using Games.CommonObjects; // Die
 
+Clear();
+WriteRule("Drop-Dead Game Demo");
 List<string> players = new();
 string input;
 do

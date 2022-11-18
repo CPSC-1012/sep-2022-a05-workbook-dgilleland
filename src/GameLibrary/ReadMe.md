@@ -127,4 +127,23 @@ The user interface will be terminal-based. To allow the terminal to access the g
 dotnet add reference ../Games/Games.csproj
 ```
 
+So, how do we provide a way for our `DropDeadGame` to support user interaction? More specifically, how can we make it work without littering our application with a dependency on console I/O? Essentially, there are three possibilities available to us: Act passively, make use of "CallBack" actions or functions, or raise events.
+
+
+----
+
+- [ ] TODO: Finish write-up of the options (see issue 9)
+
+### Raise Events
+
+
+
+### Act Passively
+
+In this approach, you design your game so that it exposes methods with parameters for the  for each UI dependent activity to run as much as it can without 
+
+### Required Callbacks
+
+Callback methods 
+
 
