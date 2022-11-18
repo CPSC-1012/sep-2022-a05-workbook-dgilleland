@@ -15,6 +15,9 @@ public class DropDeadGame
     {
         if(TurnStarted != null) // The if is needed because it's possible that nobody is listening
             TurnStarted.Invoke(this, playerName);
+            //                 this is a reference to the instance of DropDeadGame which is sending
+            //                  the message
+            //                       playerName is the "payload" of the message
     }
     private void RaiseRollFinished(string name, int score, int numberOfDie, Die[] dice)
     {
