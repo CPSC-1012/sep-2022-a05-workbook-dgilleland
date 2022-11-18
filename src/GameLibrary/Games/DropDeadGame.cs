@@ -10,9 +10,10 @@ public class DropDeadGame
     public event EventHandler<string> TurnStarted;
     public event EventHandler<DropDeadTurnResult> RollFinished;
 
+    /// <summary>Notifies subscribers of the TurnStarted event that a player has started their turn.</summary>
     private void RaiseTurnStarted(string playerName)
     {
-        if(TurnStarted != null)
+        if(TurnStarted != null) // The if is needed because it's possible that nobody is listening
             TurnStarted.Invoke(this, playerName);
     }
     private void RaiseRollFinished(string name, int score, int numberOfDie, Die[] dice)
