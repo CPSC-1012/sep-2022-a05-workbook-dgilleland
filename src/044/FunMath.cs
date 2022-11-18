@@ -31,6 +31,8 @@ public class FunMath
             if(isPrime)
             {
                 // here is where I will invoke my event
+                RaiseFoundPrimeEvent(new(num, position));
+                position++; // for the next time I find one
             }
         }
     }
