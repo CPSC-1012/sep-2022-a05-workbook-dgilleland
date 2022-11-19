@@ -2,18 +2,31 @@ using static System.Console;
 
 public class ConsoleIO
 {
+    /// <summary>Display a message and get the string input from the user</summary>
     public static string Prompt(string message)
     {
         Write($"{message} ");
         return ReadLine();
     }
 
+    /// <summary>Write a line of text filling the screen width and centering the text withing dashed lines.</summary>
     public static void WriteRule(string text)
     {
+        text = $" {text} "; // Add a single space padding
         int len = WindowWidth - 1;
-        text = $" {text} ";
+        len = len + text.Length;
         text = text.PadLeft(len / 2, '-');
-        text = text.PadRight(len, '-');
+        text = text.PadRight(WindowWidth - 1, '-');
         WriteLine(text);
+    }
+
+    /// <summary>A method whose parameter has a default value</summary>
+    public static void Pause(ConsoleColor color = ConsoleColor.DarkYellow)
+    {
+        ForegroundColor = color;
+        Write("Press [Enter] to continue...");
+        ResetColor();
+        ReadLine();
+        WriteLine();
     }
 }
