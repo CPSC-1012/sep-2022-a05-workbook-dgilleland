@@ -4,13 +4,20 @@ using Games.CommonObjects;
 public class DropDeadGame
 {
     #region Event-Driven Functionality
+    // My class will publish two events: TurnStarted and RollFinished.
+    // Anyone using an instance of DropDeadGame can subscribe to these events
+    // and they will be notified whenever they occur.
     public event EventHandler<string> TurnStarted;
     public event EventHandler<DropDeadTurnResult> RollFinished;
 
+    /// <summary>Notifies subscribers of the TurnStarted event that a player has started their turn.</summary>
     private void RaiseTurnStarted(string playerName)
     {
-        if(TurnStarted != null)
+        if(TurnStarted != null) // The if is needed because it's possible that nobody is listening
             TurnStarted.Invoke(this, playerName);
+            //                 this is a reference to the instance of DropDeadGame which is sending
+            //                  the message
+            //                       playerName is the "payload" of the message
     }
     private void RaiseRollFinished(string name, int score, int numberOfDie, Die[] dice)
     {
@@ -56,7 +63,7 @@ public class DropDeadGame
         // Each player runs their turn for rolling the die
         for(int index = 0; index < PlayerNames.Length; index++)
         {
-            RaiseTurnStarted(PlayerNames[index]);
+            RaiseTurnStarted(PlayerNames[index]); // Let the world know who's turn it is
             TakeTurn(index);
         }
         // Then I will know the scores and can determine the winner
@@ -73,6 +80,7 @@ public class DropDeadGame
 
             PlayerScores[index] += RollDie(dice);
             numberOfDie = CheckRemainingDie(dice);
+            // Let the world know that this roll in the player's turn is complete
             RaiseRollFinished(PlayerNames[index], PlayerScores[index], numberOfDie, dice);
         } while (numberOfDie > 0);
     }
