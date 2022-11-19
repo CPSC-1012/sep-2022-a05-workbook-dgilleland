@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Project Demos",
+  "steps": [
+    {
+      "file": "src/000/ReadMe.md",
+      "description": "001\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/000/",
+      "line": 1
+    }
+  ]
+}
