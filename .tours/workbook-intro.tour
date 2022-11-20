@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Workbook Intro",
+  "title": "1 - Workbook Intro",
   "steps": [
     {
       "file": "ReadMe.md",

@@ -1,10 +1,25 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Project Demos",
+  "title": "2 - Project Demos",
   "steps": [
     {
       "file": "src/001/ReadMe.md",
       "description": "001\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/001/",
+      "line": 1
+    },
+    {
+      "file": "src/037/ReadMe.md",
+      "description": "037\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/037/",
+      "line": 1
+    },
+    {
+      "file": "src/038/ReadMe.md",
+      "description": "038\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/038/",
+      "line": 1
+    },
+    {
+      "file": "src/039/ReadMe.md",
+      "description": "039\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/039/",
       "line": 1
     },
     {
