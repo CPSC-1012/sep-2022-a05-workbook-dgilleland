@@ -8,6 +8,8 @@ Read the following articles:
 - [C# - Stream](https://www.tutorialsteacher.com/csharp/csharp-stream-io)
 - [C# FileStream Tutorial With Programming Example](https://www.completecsharptutorial.com/basic/c-filestream-tutorial-with-programming-example.php)
 
+## Hands-On-Tutorial
+
 Modify the existing Program.cs from a Top-Level Program to a traditional Program.Main by opening the file and pressing <kbd>Ctrl</kbd> + <kbd>.</kbd>.
 
 ![Convert File](./images/ConvertToProgramMain.png)

@@ -3,8 +3,18 @@
   "title": "Project Demos",
   "steps": [
     {
-      "file": "src/000/ReadMe.md",
-      "description": "001\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/000/",
+      "file": "src/001/ReadMe.md",
+      "description": "001\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/001/",
+      "line": 1
+    },
+    {
+      "file": "src/040/ReadMe.md",
+      "description": "040\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/040/",
+      "line": 1
+    },
+    {
+      "file": "src/041/ReadMe.md",
+      "description": "041\r\n\r\nOpen this folder in a new VS Code instance by clicking the code link below.\r\n\r\n>> code -n ./src/041/",
       "line": 1
     }
   ]
