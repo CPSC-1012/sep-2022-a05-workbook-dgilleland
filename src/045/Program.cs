@@ -8,6 +8,7 @@ try
     // (and hope is working correctly) is executed.
     MyDriver driver = new();
     driver.Run();
+    AdHoc();
 }
 // Catch blocks are where we can intercept a thrown exception (problem)
 // and deal with appropriately.
@@ -25,4 +26,13 @@ finally
     // The finally block is where we can do some "clean-up" for our program.
     // The finally block will always run, whether or not there is an exception.
     ResetColor();
+}
+
+
+void AdHoc()
+{
+    // Create some rooms.
+    Opening opening = Opening.Parse("1.4,2.4");
+    WriteLine(opening);
+    opening = Opening.Parse("Bob");
 }
