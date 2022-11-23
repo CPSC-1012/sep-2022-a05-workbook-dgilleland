@@ -480,7 +480,31 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 
 ## Monday, Nov 21
 
-> *Continuation of the GameLibrary Project*
+> *No Class - Instructor on sick day*
+
+
+## Wednesday, Nov 23
+
+- TODO:
+  - [ ] Lab 5 Date (Nov 25) + Preview
+  - [ ] Lab 3B Announcement
+  - [ ] Lab 4 Announcement
+  - [ ] Lab 6 Date (Dec 2)
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - [ ] Recall important concepts related to working with arrays (see [026](./src/026/ReadMe.md))
+> - [ ] Describe fundamental File I/O processing tasks
+>   - Parsing File Input
+>     - Simple CSV Parsing using `.Split(',')`) (and its limitations)
+>   - Writing Structured File Output
+>     - Simple CSV Output
+>   - Make File I/O friendly classes by coding your own `.Parse()` and `.TryParse()` and `.ToString()` methods
+> - [ ] Explain what is meant by **Throwing and Handling Exceptions**
+>   - Following the principle of "separation of concerns" (or *"Stay in your own lane"*), any given method that is asked to do a task but is provided information that is "unusable" (for whatever reason) should **throw an exception** explaining what is wrong.
+>   - Exceptions should be **handled in an appropriate location** (typically near the "front end" of the application). How an exception is handled depends on the type of exception and whether or not it can be classified as "recoverable" or "non-recoverable"
+>     - "Recoverable" exceptions means that your application could provide a way to re-attempt the task (usually with "better" data) or to otherwise "move on" without doing the task.
+>     - "Non-Recoverable" exceptions are ones where the exception is due to some huge problem that your program isn't designed to deal with. In these cases, the standard "best-practice" is to log as much useful information about the problem so that some (human) developer can come in later and triage what went wrong. Part of what might need to be logged includes information that may need to be "preserved" for later "manual re-entry" so that it doesn't "get lost" because the program essentially failed.
 
 ## ??day, Nov ??
 
