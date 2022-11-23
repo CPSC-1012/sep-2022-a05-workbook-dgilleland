@@ -23,4 +23,14 @@ public class Room
         double high = double.Parse(dimensions[2]);
         return new Room(width, high, len);
     }
+
+    private Opening[] _Openings = new Opening[10]; // Presume 10 openings max to begin with
+    private int _LogicalSize = 0;
+
+    public void AddOpening(Opening holeInWall)
+    {
+        // TODO: Things could go wrong, but we'll figure out validation later...
+        _Openings[_LogicalSize] = holeInWall;
+        _LogicalSize++;
+    }
 }
