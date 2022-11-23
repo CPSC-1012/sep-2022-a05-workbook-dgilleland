@@ -501,6 +501,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
       - [How to use specific exceptions in a catch block](https://learn.microsoft.com/dotnet/standard/exceptions/how-to-use-specific-exceptions-in-a-catch-block)
       - [Creating and Throwing Exceptions](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions?source=recommendations)
       - [Compiler Generated Exceptions](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/compiler-generated-exceptions)
+      - [Where Should You Put Try...Catch Statements in Your Code?](https://nimblegecko.com/where-should-you-put-try-catch-statements-in-your-code/)
 
 > *At the end of this topic/class, you should be able to:*
 >
