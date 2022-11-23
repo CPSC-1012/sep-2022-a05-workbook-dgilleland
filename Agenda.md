@@ -500,7 +500,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >     - Simple CSV Parsing using `.Split(',')`) (and its limitations)
 >   - Writing Structured File Output
 >     - Simple CSV Output
->   - Make File I/O friendly classes by coding your own `.Parse()` and `.TryParse()` and `.ToString()` methods
+>   - Make File I/O friendly **classes** by coding your own `.Parse()` and `.TryParse()` and `.ToString()` methods
 > - [ ] Explain what is meant by **Throwing and Handling Exceptions**
 >   - Following the principle of "separation of concerns" (or *"Stay in your own lane"*), any given method that is asked to do a task but is provided information that is "unusable" (for whatever reason) should **throw an exception** explaining what is wrong.
 >   - Exceptions should be **handled in an appropriate location** (typically near the "front end" of the application). How an exception is handled depends on the type of exception and whether or not it can be classified as "recoverable" or "non-recoverable"
