@@ -1,6 +1,7 @@
 namespace Demo_045;
 using static System.Console;
 
+// This is a static class because it only contains "utility" methods.
 public static class ConsoleHelper
 {
     // Add whatever static console I/O helper methods you might need here
