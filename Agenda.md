@@ -495,6 +495,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >
 > - [ ] Recall important concepts related to working with arrays (see [026](./src/026/ReadMe.md))
 > - [ ] Describe fundamental File I/O processing tasks
+>   - It is vital to understand what your **file format** requirements are for your text files.
 >   - Parsing File Input
 >     - Simple CSV Parsing using `.Split(',')`) (and its limitations)
 >   - Writing Structured File Output
