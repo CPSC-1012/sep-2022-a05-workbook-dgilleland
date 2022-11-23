@@ -20,7 +20,9 @@ for(int index = 0; index < parts.Length - 1; index++)
 // There is also a class called Path that is used to create paths
 string parentFolder = Path.Combine(path, "..");
 WriteLine($"The parent of {path} is \n\t{parentFolder}");
-
+// Resolves the relative path portions to generate the final absolute path
+parentFolder = Path.GetFullPath(parentFolder);
+WriteLine($"Using the .GetFullPath() method, I get\n\t{parentFolder}");
 
 path = Directory.GetDirectoryRoot(path);
 WriteLine($"The directory root is {path}");
