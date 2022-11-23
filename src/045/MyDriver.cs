@@ -27,6 +27,15 @@ public class MyDriver
         // as many catch blocks as needed 
         // and/or a finally block for any cleanup
         // Focus here on recoverable exceptions, and plan how you will "recover"
+
+        // App Plan
+        /*
+            - Open a file
+            - Read contents into a collection of rooms
+              - Rooms should be able to calculate their own area
+            - Output the results of the areas of each room
+              - Maybe to a file, maybe to screen...
+        */
     }
 
     // TODO: Add private helper methods as needed to modularize
