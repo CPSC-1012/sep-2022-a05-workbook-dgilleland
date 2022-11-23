@@ -245,12 +245,12 @@ $$
 
 Extra Resources:
 
-- [String Interpolation Tutorial](https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings) (20 minutes)
+- [String Interpolation Tutorial](https://learn.microsoft.com/dotnet/csharp/tutorials/exploration/interpolated-strings) (20 minutes)
 - C# Reference Material
-  - [`$` - String Interpolation](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/interpolated)
-  - [`@` - Verbatim Identifier](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/verbatim)
-  - [How to format numbers, dates, enums, and other types in .NET](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)
-  - [Alignment Formatting](https://learn.microsoft.com/en-us/dotnet/standard/base-types/composite-formatting#alignment-component)
+  - [`$` - String Interpolation](https://learn.microsoft.com/dotnet/csharp/language-reference/tokens/interpolated)
+  - [`@` - Verbatim Identifier](https://learn.microsoft.com/dotnet/csharp/language-reference/tokens/verbatim)
+  - [How to format numbers, dates, enums, and other types in .NET](https://learn.microsoft.com/dotnet/standard/base-types/formatting-types)
+  - [Alignment Formatting](https://learn.microsoft.com/dotnet/standard/base-types/composite-formatting#alignment-component)
 - C# Slideshows
   - [Foundational Concepts](https://programming-0101.github.io/slides/OOP-Ramp-Up/00-FoundationalConcepts.html) (good to review once again :+1:)
   - [Grammar](https://programming-0101.github.io/slides/OOP-Ramp-Up/01-Grammar.html)
@@ -264,7 +264,7 @@ Extra Resources:
 > - Add a little console "bling"
 >   - [**025**](./src/025/ReadMe.md) Console Explorations
 >     - :mortar_board: - Copy into your own workbook
->     - *Topic Note:* the data type returned from the `.GetPosition()` method is a [Tuple](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples).
+>     - *Topic Note:* the data type returned from the `.GetPosition()` method is a [Tuple](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/value-tuples).
 > - [*An Intro to Arrays*](https://programming-0101.github.io/slides/OOP-Ramp-Up/05-Arrays.html) Slideshow
 >   - [**026**](./src/026/ReadMe.md) Formatting Output (with array data)
 >     - :mortar_board: - Copy into your own workbook
@@ -287,7 +287,7 @@ Extra Resources:
 
 > Lab Time
 
-Are you wanting a good step-by-step refresher that starts at the beginning? Then try the [**Learn C#**](https://learn.microsoft.com/en-us/users/dotnet/collections/yz26f8y64n7k07) tutorials which will walk you through all of the basics beginning with the "Hello World".
+Are you wanting a good step-by-step refresher that starts at the beginning? Then try the [**Learn C#**](https://learn.microsoft.com/users/dotnet/collections/yz26f8y64n7k07) tutorials which will walk you through all of the basics beginning with the "Hello World".
 
 ----
 
@@ -296,7 +296,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 **Homework:** 
 
 - ***Read***
-  - The overviews of [Value Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types).
+  - The overviews of [Value Types](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/value-types) and [Reference Types](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/reference-types).
   - [The ABCs of Classes and Objects](https://programming-0101.github.io/TheBook/Teach/chapter2.html)
   - [Starting With Classes](https://programming-0101.github.io/TheBook/Topic/A/)
 - ***Preview*** my slideshow on [Simple Objects](https://programming-0101.github.io/slides/OOP-Ramp-Up/03-Objects.html)
@@ -391,7 +391,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 > *At the end of this topic/class, you should be able to:*
 >
 > - List the primary classes used for file input/output
->   - [File](https://learn.microsoft.com/en-us/dotnet/api/system.io.file?view=net-6.0) and [Directory](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory?view=net-6.0)
+>   - [File](https://learn.microsoft.com/dotnet/api/system.io.file?view=net-6.0) and [Directory](https://learn.microsoft.com/dotnet/api/system.io.directory?view=net-6.0)
 > - Compare and contrast File I/O with console-based User I/O
 > - [**037**](./src/037/ReadMe.md) Display a list of files in a directory and determine whether or not a file exists
 > - [**038**](./src/038/ReadMe.md) Read text files using `.ReadAllText()` and `.ReadAllLines()`
@@ -490,6 +490,17 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
   - [ ] Lab 3B Announcement
   - [ ] Lab 4 Announcement
   - [ ] Lab 6 Date (Dec 2)
+  - [ ] [**Driver Education**](./src/045/ReadMe.md)
+  - [ ] **Homework**:
+    - [ ] Read 
+      - [Exceptions (Overview)](https://learn.microsoft.com/dotnet/standard/exceptions/)
+      - [Another Overview of Exceptions](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/)
+      - [Exception Class and Properties](https://learn.microsoft.com/dotnet/standard/exceptions/exception-class-and-properties)
+      - [Exception Handling](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/exception-handling)
+      - [How to use the try/catch block to catch exceptions](https://learn.microsoft.com/dotnet/standard/exceptions/how-to-use-the-try-catch-block-to-catch-exceptions)
+      - [How to use specific exceptions in a catch block](https://learn.microsoft.com/dotnet/standard/exceptions/how-to-use-specific-exceptions-in-a-catch-block)
+      - [Creating and Throwing Exceptions](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/creating-and-throwing-exceptions?source=recommendations)
+      - [Compiler Generated Exceptions](https://learn.microsoft.com/dotnet/csharp/fundamentals/exceptions/compiler-generated-exceptions)
 
 > *At the end of this topic/class, you should be able to:*
 >
@@ -499,11 +510,12 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >   - Parsing File Input
 >     - Simple CSV Parsing using `.Split(',')`) (and its limitations)
 >   - Writing Structured File Output
->     - Simple CSV Output
+>     - Simple CSV Output using `String.Join(',', yourArray)`
 >   - Make File I/O friendly **classes** by coding your own `.Parse()` and `.TryParse()` and `.ToString()` methods
-> - [ ] Explain what is meant by **Throwing and Handling Exceptions**
+> - [ ] Explain what is meant by **Throwing and Handling Exceptions** ([Demo 045](./src/045/ReadMe.md))
 >   - Following the principle of "separation of concerns" (or *"Stay in your own lane"*), any given method that is asked to do a task but is provided information that is "unusable" (for whatever reason) should **throw an exception** explaining what is wrong.
->   - Exceptions should be **handled in an appropriate location** (typically near the "front end" of the application). How an exception is handled depends on the type of exception and whether or not it can be classified as "recoverable" or "non-recoverable"
+>   - Exceptions should be **handled in an appropriate location** (typically near the "front end" of the application). That means your `try-catch-finally` block should be either in and/or "around" your driver. (see the [`Main()` method of my `ABCs\Topic\Program.cs` class](./src/ABCs/Topic/Program.cs))
+>   - How an exception is handled depends on the type of exception and whether or not it can be classified as "recoverable" or "non-recoverable":
 >     - "Recoverable" exceptions means that your application could provide a way to re-attempt the task (usually with "better" data) or to otherwise "move on" without doing the task.
 >     - "Non-Recoverable" exceptions are ones where the exception is due to some huge problem that your program isn't designed to deal with. In these cases, the standard "best-practice" is to log as much useful information about the problem so that some (human) developer can come in later and triage what went wrong. Part of what might need to be logged includes information that may need to be "preserved" for later "manual re-entry" so that it doesn't "get lost" because the program essentially failed.
 
@@ -576,7 +588,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
   - **Unfold Code Block** - <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>
 - Writing Unit Tests
 - OOP
-  - *Homework*: Read [Default values of C# types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/default-values)
+  - *Homework*: Read [Default values of C# types](https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/default-values)
   - [**D-Bugging**](./src/D-Bugging/ReadMe.md)
   - [**E-to-M**](./src/E-to-M/ReadMe.md)
 
