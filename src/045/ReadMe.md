@@ -14,3 +14,7 @@ Opening:Living Room, 1.4, 2.4
 ```
 
 The file contains information on the dimensions of a room and of the openings to the room (an opening can be a door, window, missing wall because the room is adjacent to another room, etc.).
+
+### Analysis
+
+Key to my program is the ability to calculate areas of rooms so that I can punch that into whatever other software I have to manage the painting jobs I have.
