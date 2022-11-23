@@ -28,4 +28,9 @@ public class Opening
             throw new FormatException("Invalid opening data: Expected numeric information for the opening's dimensions (width, height)");
         return new Opening(width, height);
     }
+
+    public override string ToString()
+    {
+        return $"{Width} meters X {Height} meters";
+    }
 }
