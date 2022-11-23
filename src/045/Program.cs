@@ -10,7 +10,10 @@ try
     driver.Run();
 }
 // Catch blocks are where we can intercept a thrown exception (problem)
-// and deal with appropriately
+// and deal with appropriately.
+// You should arrange your catch blocks from the more specific types
+// of exceptions to the least-specific types of exceptions
+// System.Exception is the most general (least-specific) type of exception.
 catch (System.Exception ex) // I can have from zero to many catch blocks
 {
     ForegroundColor = ConsoleColor.DarkRed;
