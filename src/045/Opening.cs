@@ -12,7 +12,7 @@ public class Opening
         Height = height;
     }
 
-    public double area
+    public double Area
     {
         get { return Width * Height; }
     }

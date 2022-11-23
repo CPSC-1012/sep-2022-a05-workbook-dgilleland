@@ -33,4 +33,17 @@ public class Room
         _Openings[_LogicalSize] = holeInWall;
         _LogicalSize++;
     }
+
+    public double Area
+    {
+        get
+        {
+            double roomArea = Width * Height * 2 + Length * Height * 2;
+            double totalOpeningArea = 0;
+            for(int index = 0; index < _LogicalSize; index++)
+                totalOpeningArea += _Openings[index].Area;
+            double result = roomArea - totalOpeningArea;
+            return result;
+        }
+    }
 }
