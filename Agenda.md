@@ -507,6 +507,11 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 >     - "Recoverable" exceptions means that your application could provide a way to re-attempt the task (usually with "better" data) or to otherwise "move on" without doing the task.
 >     - "Non-Recoverable" exceptions are ones where the exception is due to some huge problem that your program isn't designed to deal with. In these cases, the standard "best-practice" is to log as much useful information about the problem so that some (human) developer can come in later and triage what went wrong. Part of what might need to be logged includes information that may need to be "preserved" for later "manual re-entry" so that it doesn't "get lost" because the program essentially failed.
 
+## Friday, Nov 25
+
+- [ ] Class Time to work on Lab 5
+- [ ] Demo Lab 4 to instructor
+
 ## ??day, Nov ??
 
 > *At the end of this topic/class, you should be able to:*
