@@ -79,9 +79,7 @@ public class MyDriver
         WriteLine($"The total paintable area is {totalArea} square meters");
     }
 
-    // TODO: Add private helper methods as needed to modularize
-    // your Run() method's code
-
+    // TODO: Add private helper methods below as needed to modularize your Run() method's code
     private void WelcomeMessage()
     {
         Clear();
