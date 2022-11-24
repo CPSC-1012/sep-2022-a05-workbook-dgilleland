@@ -523,7 +523,7 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 ## Friday, Nov 25
 
 - [ ] Class Time to work on Lab 5
-- [ ] Demo Lab 4 to instructor
+- [ ] Demo Lab 4, Assignment 2, Assignment 3a to instructor
 
 ## ??day, Nov ??
 
