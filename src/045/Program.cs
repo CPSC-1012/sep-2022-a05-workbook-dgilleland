@@ -32,7 +32,14 @@ finally
 void AdHoc()
 {
     // Create some rooms.
+    string info = "10,12,4";
+    Room myRoom;
+    myRoom = Room.Parse(info);
+
     Opening opening = Opening.Parse("1.4,2.4");
+    myRoom.AddOpening(opening);
     WriteLine(opening);
-    opening = Opening.Parse("Bob");
+    opening = Opening.Parse("1.3, 1.1");
+    myRoom.AddOpening(opening);
+    WriteLine($"The area of my room is {myRoom.Area}. My room is {myRoom}");
 }
