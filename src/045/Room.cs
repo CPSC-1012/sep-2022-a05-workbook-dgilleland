@@ -46,4 +46,9 @@ public class Room
             return result;
         }
     }
+
+    public override string ToString()
+    {
+        return $"{Width} meters X {Length} meters X {Height} meters with {_LogicalSize} openings";
+    }
 }
