@@ -7,7 +7,13 @@ public class Room
     public readonly double Length;
     public Room(double width, double height, double length)
     {
-        // TODO: Validate dimensions
+        // Validate dimensions
+        if(width <= 0)
+            throw new ArgumentOutOfRangeException(nameof(width), width, "Distance values must be greater than zero");
+        if(height <= 0)
+            throw new ArgumentOutOfRangeException(nameof(height), height, "Distance values must be greater than zero");
+        if(length <= 0)
+            throw new ArgumentOutOfRangeException(nameof(length), length, "Distance values must be greater than zero");
         Width = width;
         Height = height;
         Length = length;
@@ -15,8 +21,12 @@ public class Room
 
     public static Room Parse(string data)
     {
-        // TODO: Validation....
+        // Validation
+        if(string.IsNullOrWhiteSpace(data))
+            throw new FormatException("Cannot parse an empty string into a Room object");
         string[] dimensions = data.Split(',');
+        if(dimensions.Length != 3)
+            throw new FormatException("String data must have three numeric values in order to successfully parse into a Room object");
         // Expect as width, length, height
         double width = double.Parse(dimensions[0]);
         double len = double.Parse(dimensions[1]);

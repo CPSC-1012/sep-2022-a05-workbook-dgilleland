@@ -7,7 +7,10 @@ public class Opening
 
     public Opening(double width, double height)
     {
-        // TODO: Validate the dimensions - must be greater than zero
+        if(width <= 0)
+            throw new ArgumentOutOfRangeException(nameof(width), width, "Distance values must be greater than zero");
+        if(height <= 0)
+            throw new ArgumentOutOfRangeException(nameof(height), height, "Distance values must be greater than zero");
         Width = width;
         Height = height;
     }

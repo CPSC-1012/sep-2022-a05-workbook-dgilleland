@@ -7,13 +7,15 @@ using static ConsoleHelper;
 public class MyDriver
 {
     #region Fields / Properties
-    // TODO: Add as you see ncecessary
+    // TODO: Add as you see necessary
+    private readonly Dictionary<string, Room> Rooms;
     #endregion
 
     #region Constructor(s)
     public MyDriver() // Add any parameters you think necessary
     {
         // Whatever "setup" needed for field/property values
+        Rooms = new(); // Setup an empty dictionary of rooms
     }
     #endregion
 
@@ -28,14 +30,53 @@ public class MyDriver
         // and/or a finally block for any cleanup
         // Focus here on recoverable exceptions, and plan how you will "recover"
 
-        // App Plan
-        /*
-            - Open a file
-            - Read contents into a collection of rooms
-              - Rooms should be able to calculate their own area
-            - Output the results of the areas of each room
-              - Maybe to a file, maybe to screen...
-        */
+        // TODO: Can you refactor the program by making steps A, B, and C into private methods?
+        // A) Open a file
+        string fileName = Prompt("Enter a file path (e.g.: Building.dat):");
+        string[] lines = File.ReadAllLines(fileName);
+        // B) Process each line in the file
+        foreach(string lineOfData in lines)
+        {
+            // Expect each line of data to follow this kind of format:
+            // Room:Living Room, 10.5, 12.5, 4.2
+            // Opening:Living Room, 1.4, 2.4
+
+            // TODO: Play the role of the computer:
+            //       Can you see what numeric values get generated as each line is processed?
+            //          1. Get a piece of paper,
+            //          2. Examine the sample data in Building.dat
+            //          3. Calculate the values of the next 5 variables for each line in the data file
+            //             Remember that a string is an array of characters. That fact will have
+            //             meaning in terms of the results of the .IndexOf() and .Substring() methods.
+            int startPosition = lineOfData.IndexOf(':') + 1;
+            int endPosition = lineOfData.IndexOf(',');
+            int textLength = endPosition - startPosition;
+            string roomName = lineOfData.Substring(startPosition, textLength);
+            string dimensionData = lineOfData.Substring(endPosition + 1);
+
+            if(lineOfData.StartsWith("Room"))
+            {
+                Room place = Room.Parse(dimensionData);
+                Rooms.Add(roomName, place);
+            }
+            if(lineOfData.StartsWith("Opening"))
+            {
+                Opening gap = Opening.Parse(dimensionData);
+                Room found = Rooms[roomName];
+                found.AddOpening(gap);
+            }
+        }
+
+        // C) Display the area of each room
+        WriteLine($"There are {Rooms.Count} rooms.");
+        double totalArea = 0;
+        foreach(var location in Rooms)
+        {
+            WriteLine($"\t{location.Key}: {location.Value}");
+            totalArea += location.Value.Area;
+        }
+        WriteLine();
+        WriteLine($"The total paintable area is {totalArea} square meters");
     }
 
     // TODO: Add private helper methods as needed to modularize
