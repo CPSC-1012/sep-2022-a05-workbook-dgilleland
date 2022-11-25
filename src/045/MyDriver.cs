@@ -77,6 +77,23 @@ public class MyDriver
         }
         WriteLine();
         WriteLine($"The total paintable area is {totalArea} square meters");
+
+        // D) Option to output to file
+        Write("Do you want to output these results to a file (y/N)? ");
+        string feedback = ReadLine().ToUpper();
+        if(feedback.StartsWith("Y"))
+        {
+            string outFile = fileName + ".log"; // Choosing a .log extension because .log files are ignored by git (see my .gitignore file at the repo root)
+            File.WriteAllText(outFile, $"There are {Rooms.Count} rooms.");
+            string[] linesOfText = new string[Rooms.Count];
+            int index = 0;
+            foreach(var location in Rooms)
+            {
+                linesOfText[index] = $"\t{location.Key}: {location.Value}";
+                index ++;
+            }
+            File.AppendAllLines(outFile, linesOfText);
+        }
     }
 
     // TODO: Add private helper methods below as needed to modularize your Run() method's code
