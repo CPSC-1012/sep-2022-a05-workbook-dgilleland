@@ -84,7 +84,7 @@ public class MyDriver
         if(feedback.StartsWith("Y"))
         {
             string outFile = fileName + ".log"; // Choosing a .log extension because .log files are ignored by git (see my .gitignore file at the repo root)
-            File.WriteAllText(outFile, $"There are {Rooms.Count} rooms.");
+            File.WriteAllText(outFile, $"There are {Rooms.Count} rooms.\n");
             string[] linesOfText = new string[Rooms.Count];
             int index = 0;
             foreach(var location in Rooms)
