@@ -6,3 +6,5 @@ This is a good day to (do a lab).
 Today is {DateTime.Today.ToLongDateString()}.
 ";
 File.WriteAllText("AdHoc.log", message);
+
+File.AppendAllText("AdHoc.log", "Here are the words in the string:\n");
