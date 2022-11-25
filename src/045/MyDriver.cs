@@ -35,7 +35,7 @@ public class MyDriver
         string fileName = Prompt("Enter a file path (e.g.: Building.dat):");
         string[] lines = File.ReadAllLines(fileName);
         // B) Process each line in the file
-        foreach(string lineOfData in lines)
+        foreach (string lineOfData in lines)
         {
             // Expect each line of data to follow this kind of format:
             // Room:Living Room, 10.5, 12.5, 4.2
@@ -48,52 +48,74 @@ public class MyDriver
             //          3. Calculate the values of the next 5 variables for each line in the data file
             //             Remember that a string is an array of characters. That fact will have
             //             meaning in terms of the results of the .IndexOf() and .Substring() methods.
-            int startPosition = lineOfData.IndexOf(':') + 1;
-            int endPosition = lineOfData.IndexOf(',');
-            int textLength = endPosition - startPosition;
-            string roomName = lineOfData.Substring(startPosition, textLength);
-            string dimensionData = lineOfData.Substring(endPosition + 1);
-
-            if(lineOfData.StartsWith("Room"))
-            {
-                Room place = Room.Parse(dimensionData);
-                Rooms.Add(roomName, place);
-            }
-            if(lineOfData.StartsWith("Opening"))
-            {
-                Opening gap = Opening.Parse(dimensionData);
-                Room found = Rooms[roomName];
-                found.AddOpening(gap);
-            }
+            ProcessLineOfData(lineOfData);
         }
 
+        DisplayRooms();
+
+        OutputToFile(fileName);
+    }
+
+    private void ProcessLineOfData(string lineOfData)
+    {
+        int startPosition = lineOfData.IndexOf(':') + 1;
+        int endPosition = lineOfData.IndexOf(',');
+        int textLength = endPosition - startPosition;
+        string roomName = lineOfData.Substring(startPosition, textLength);
+        string dimensionData = lineOfData.Substring(endPosition + 1);
+
+        if (lineOfData.StartsWith("Room"))
+        {
+            Room place = Room.Parse(dimensionData);
+            Rooms.Add(roomName, place);
+        }
+        if (lineOfData.StartsWith("Opening"))
+        {
+            Opening gap = Opening.Parse(dimensionData);
+            Room found = Rooms[roomName];
+            found.AddOpening(gap);
+        }
+    }
+
+    private void OutputToFile(string fileName)
+    {
+        // D) Option to output to file
+        Write("Do you want to output these results to a file (y/N)? ");
+        string feedback = ReadLine().ToUpper();
+        if (feedback.StartsWith("Y"))
+        {
+            string outFile = fileName + ".log"; // Choosing a .log extension because .log files are ignored by git (see my .gitignore file at the repo root)
+            File.WriteAllText(outFile, $"There are {Rooms.Count} rooms.\n");
+            string[] linesOfText = BuildRoomDetails();
+            File.AppendAllLines(outFile, linesOfText);
+        }
+    }
+
+    private string[] BuildRoomDetails()
+    {
+        string[] linesOfText = new string[Rooms.Count];
+        int index = 0;
+        foreach (var location in Rooms)
+        {
+            linesOfText[index] = $"\t{location.Key}: {location.Value}";
+            index++;
+        }
+
+        return linesOfText;
+    }
+
+    private void DisplayRooms()
+    {
         // C) Display the area of each room
         WriteLine($"There are {Rooms.Count} rooms.");
         double totalArea = 0;
-        foreach(var location in Rooms)
+        foreach (var location in Rooms)
         {
             WriteLine($"\t{location.Key}: {location.Value}");
             totalArea += location.Value.Area;
         }
         WriteLine();
         WriteLine($"The total paintable area is {totalArea} square meters");
-
-        // D) Option to output to file
-        Write("Do you want to output these results to a file (y/N)? ");
-        string feedback = ReadLine().ToUpper();
-        if(feedback.StartsWith("Y"))
-        {
-            string outFile = fileName + ".log"; // Choosing a .log extension because .log files are ignored by git (see my .gitignore file at the repo root)
-            File.WriteAllText(outFile, $"There are {Rooms.Count} rooms.\n");
-            string[] linesOfText = new string[Rooms.Count];
-            int index = 0;
-            foreach(var location in Rooms)
-            {
-                linesOfText[index] = $"\t{location.Key}: {location.Value}";
-                index ++;
-            }
-            File.AppendAllLines(outFile, linesOfText);
-        }
     }
 
     // TODO: Add private helper methods below as needed to modularize your Run() method's code
