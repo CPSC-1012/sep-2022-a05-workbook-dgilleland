@@ -8,3 +8,5 @@ Today is {DateTime.Today.ToLongDateString()}.
 File.WriteAllText("AdHoc.log", message);
 
 File.AppendAllText("AdHoc.log", "Here are the words in the string:\n");
+string[] words = message.Split(" ");
+File.AppendAllLines("AdHoc.log", words);
