@@ -23,7 +23,7 @@
         bool isInstructor = name.EndsWith("Gilleland");
         //                      ^----- Method -------^  Calling the method of my variable/object
 
-        // ******************* //
+        // ************************************* //
 
         MyString friendName;
         //           v----- Intantiate ------v
@@ -33,5 +33,10 @@
         characterCount = friendName.Length;
         //                         ^Field^
         
+        // When I call the .EndsWith() method on my
+        // friendName object, it will return a
+        // boolean value
+        isInstructor = friendName.EndsWith("Gilleland");
+        //                       ^----- Method -------^
     }
 }
