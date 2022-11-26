@@ -8,7 +8,8 @@
         
         // Take an OOP-view of my primitive string data type
         string name; // The terms "variable" and "object" are essentially the same thing
-        name = new string("Dan Gilleland");
+        name = new String("Dan Gilleland");
+        //         ^--- Constructor -----^
 
         // Initialization Statement: declare my variable AND give it a value
         int characterCount = name.Length;
