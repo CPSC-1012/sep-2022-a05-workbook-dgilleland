@@ -8,7 +8,15 @@ public class Driver
         string repoRoot = Path.Combine("..", "..");
         string[] folderContents = Directory.GetDirectories(repoRoot);
         WriteLine($"There are {folderContents.Length} directories in the current directory.");
-        for(int index = 0; index < folderContents.Length; index ++)
+        DisplayDetails(folderContents);
+        // B) Open a file to read the contents
+
+        // C) Output the contents to the console.
+    }
+
+    private static void DisplayDetails(string[] folderContents)
+    {
+        for (int index = 0; index < folderContents.Length; index++)
         //      ^-start-^  ^--go until the end of array-^
         {
             // Get the item in the array
@@ -19,7 +27,5 @@ public class Driver
             int count = temp.Length;
             WriteLine($"\t{count} items in the folder `{item}`");
         }
-        // B) Open a file to read the contents
-        // C) Output the contents to the console.
     }
 }
