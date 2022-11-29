@@ -5,7 +5,8 @@ public class Driver
     internal void Run()
     {
         // A) List the contents of this directory
-        string[] folderContents = Directory.GetDirectories(".");
+        string repoRoot = Path.Combine("..", "..");
+        string[] folderContents = Directory.GetDirectories(repoRoot);
         WriteLine($"There are {folderContents.Length} directories in the current directory.");
         for(int index = 0; index < folderContents.Length; index ++)
         //      ^-start-^  ^--go until the end of array-^
