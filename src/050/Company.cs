@@ -19,5 +19,15 @@ public class Company
     #endregion
 
     #region Methods
+    public void ReportNewEarnings(decimal earnings)
+    {
+        // I will store this in the Gross Income to date
+        // NOTE: my property is a "nullable" type - decimal?
+        //       All nullable types have the property .HasValue
+        if(GrossIncomeToDate.HasValue)
+            GrossIncomeToDate += earnings;
+        else
+            GrossIncomeToDate = earnings;
+    }
     #endregion
 }
