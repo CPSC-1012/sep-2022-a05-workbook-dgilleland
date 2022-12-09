@@ -29,5 +29,10 @@ public class Company
         else
             GrossIncomeToDate = earnings;
     }
+
+    public override string ToString()
+    {
+        return $"{Name} (located in {City}) was founded in {BusinessStartDate.ToShortDateString()}";
+    }
     #endregion
 }
