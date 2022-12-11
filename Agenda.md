@@ -525,6 +525,18 @@ Are you wanting a good step-by-step refresher that starts at the beginning? Then
 - [ ] Class Time to work on Lab 5
 - [ ] Demo Lab 4, Assignment 2, Assignment 3a to instructor
 
+## Monday, Dec 12
+
+> *At the end of this topic/class, you should be able to:*
+>
+> - Explain the concept of "extension methods" in C#
+> - [**049**](./src/049/ReadMe.md) Create and use simple extension methods
+
+
+----
+
+<div style='page-break-after: always;'></div>
+
 ## ??day, Nov ??
 
 > *At the end of this topic/class, you should be able to:*
